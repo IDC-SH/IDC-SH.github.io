@@ -1,5 +1,7 @@
 import * as React from "react";
-import { Container, Typography } from "@mui/material";
+
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
 
 import ElevateAppBar from "../components/ElevateAppbar";
 
