@@ -1,9 +1,7 @@
 import React from "react";
 import Carousel from "react-material-ui-carousel";
-import { Grid, Paper, Button, Typography } from "@mui/material";
-import CardMedia from "@mui/material/CardMedia";
+import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import Container from "@mui/material/Container";
 import Highlights from "../data/highlight.json";
 
 export default function HightlightItems(props) {

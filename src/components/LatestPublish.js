@@ -1,11 +1,7 @@
 import * as React from "react";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
-import { Divider, Grid, Paper } from "@mui/material";
-import Button from "@mui/material/Button";
-import Avatar from "@mui/material/Avatar";
+import { Divider, Grid } from "@mui/material";
 import newpublishs from "../data/newpublic.json";
 
 export default function LatestPublish() {
