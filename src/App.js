@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import HomePage from "./page/Home";
 import PublicationPage from "./page/Publications";
@@ -11,7 +11,7 @@ import NavigationBar from "./components/NavigationBar";
 class App extends React.Component {
   render() {
     return (
-      <HashRouter basename="/idcgroup">
+      <BrowserRouter>
         <NavigationBar />
         <Switch>
           <Route exact path="/" component={HomePage} />
@@ -19,7 +19,7 @@ class App extends React.Component {
           <Route exact path="/news" component={NewsPage} />
           <Route exact path="/joinus" component={JoinUsPage} />
         </Switch>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
