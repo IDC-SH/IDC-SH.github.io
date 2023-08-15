@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import MediaQuery from "react-responsive";
 
 import CssBaseline from "@mui/material/CssBaseline";
@@ -17,7 +17,7 @@ import JoinUsPage from "./page/JoinUs";
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter basename="/idcgroup">
         <CssBaseline />
         <div>
           <MediaQuery maxWidth={996}>
@@ -33,7 +33,7 @@ class App extends React.Component {
           <Route exact path="/news" component={NewsPage} />
           <Route exact path="/joinus" component={JoinUsPage} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
