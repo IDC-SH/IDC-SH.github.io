@@ -6,10 +6,13 @@ import PublicationPage from "./page/Publications";
 import NewsPage from "./page/News";
 import JoinUsPage from "./page/JoinUs";
 
+import ElevateAppBar from "./components/ElevateAppbar";
+
 class App extends React.Component {
   render() {
     return (
       <HashRouter basename="/idcgroup">
+        <ElevateAppBar />
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/publication" component={PublicationPage} />

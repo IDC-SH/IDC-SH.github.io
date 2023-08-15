@@ -3,13 +3,10 @@ import * as React from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 
-import ElevateAppBar from "../components/ElevateAppbar";
-
 class JoinUsPage extends React.Component {
   render() {
     return (
       <div>
-        <ElevateAppBar />
         <Container maxWidth="sm">
           <Typography variant="h6" sx={{ marginTop: 10, textAlign: "justify" }}>
             In IDC group@Shanghai AI Laboratory, we are devoted to advance the

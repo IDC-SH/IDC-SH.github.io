@@ -2,7 +2,6 @@ import * as React from "react";
 import Container from "@mui/material/Container";
 import Divider from "@mui/material/Divider";
 
-import ElevateAppBar from "../components/ElevateAppbar";
 import { Box } from "@mui/system";
 
 import HightlightItems from "../components/HightlightItems";
@@ -16,7 +15,6 @@ class HomePage extends React.Component {
     return (
       <div>
         <Box>
-          <ElevateAppBar />
           <Box component="div" className="container" height={900}>
             <Container maxWidth="lg">
               <Box
