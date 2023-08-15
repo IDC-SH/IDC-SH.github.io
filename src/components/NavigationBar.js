@@ -7,6 +7,8 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 
+import linksData from "../data/links.json";
+
 function LinkItem({ title, destination }) {
   return (
     <Grid item xs={2}>
@@ -40,10 +42,9 @@ export default function NavigationBar(props) {
             justifyContent="center"
             alignItems="center"
           >
-            <LinkItem title={"Home"} destination={"/"} />
-            <LinkItem title={"Publications"} destination={"/publication"} />
-            <LinkItem title={"News"} destination={"/news"} />
-            <LinkItem title={"Join Us"} destination={"/joinus"} />
+            {linksData.map((item) => (
+              <LinkItem title={item.name} destination={item.link} />
+            ))}
           </Grid>
         </Container>
       </Toolbar>

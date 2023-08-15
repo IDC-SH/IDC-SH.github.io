@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Home",
+    "link": "/"
+  },
+  {
+    "name": "Publications",
+    "link": "/publication"
+  },
+  {
+    "name": "News",
+    "link": "/news"
+  },
+  {
+    "name": "Join Us",
+    "link": "/joinus"
+  }
+]

@@ -5,6 +5,7 @@ import MediaQuery from "react-responsive";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import NavigationBar from "./components/NavigationBar";
+import NavigationDrawer from "./components/NavigationDrawer";
 import HomePage from "./page/Home";
 import PublicationPage from "./page/Publications";
 import NewsPage from "./page/News";
@@ -17,7 +18,7 @@ class App extends React.Component {
         <CssBaseline />
         <div>
           <MediaQuery maxWidth={996}>
-            <h1>还没适配移动端</h1>
+            <NavigationDrawer />
           </MediaQuery>
           <MediaQuery minWidth={996}>
             <NavigationBar />
