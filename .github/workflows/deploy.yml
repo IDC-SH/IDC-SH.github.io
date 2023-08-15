@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 18.x
       - name: npm build
-        run: npm install . && CI=false npm run build
+        run: npm install . && npm run build
       - name: deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
