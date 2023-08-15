@@ -1,0 +1,18 @@
+[
+    {
+        "img": "https://city-super.github.io/citynerf/img/teaser.png",
+        "title":"BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering",
+        "description": "In this work, we focus on multi-scale cases where large changes in imagery are observed at drastically different scales. We introduce BungeeNeRF, a progressive neural radiance field that achieves level-of-detail rendering across drastically varied scales. The strategy progressively activates high-frequency channels in NeRF's positional encoding inputs and successively unfolds more complex details as the training proceeds. We demonstrate the superiority of BungeeNeRF in modeling diverse multi-scale scenes with drastically varying views on multiple data sources (city models, synthetic, and drone captured data) and its support for high-quality rendering in different levels of detail."
+    },
+    {
+        "img": "https://city-super.github.io/gridnerf/img/teaser.png",
+        "title":"Grid-guided Neural Radiance Fields for Large Urban Scenes",
+        "description": "In this work, we present a new framework that realizes high-fidelity rendering on large urban scenes while being computationally efficient. We propose to use a compact multiresolution ground feature plane representation to coarsely capture the scene, and complement it with positional encoding inputs through another NeRF branch for rendering in a joint learning fashion. We show that such an integration can utilize the advantages of two alternative solutions: a light-weighted NeRF is sufficient, under the guidance of the feature grid representation, to render photorealistic novel views with fine details; and the jointly optimized ground feature planes, can meanwhile gain further refinements, forming a more accurate and compact feature space and output much more natural rendering results."
+    },
+    {
+        "img": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/SLIDE-3D.png",
+        "title":"Controllable Mesh Generation Through Sparse Latent Point Diffusion Models",
+        "description": "In this work, we design a novel sparse latent point diffusion model for mesh generation. Our key insight is to regard point clouds as an intermediate representation of meshes, and model the distribution of point clouds instead. While meshes can be generated from point clouds via techniques like Shape as Points (SAP), the challenges of directly generating meshes can be effectively avoided. To boost the efficiency and controllability of our mesh generation method, we propose to further encode point clouds to a set of sparse latent points with point-wise semantic meaningful features, where two DDPMs are trained in the space of sparse latent points to respectively model the distribution of the latent point positions and features at these latent points. We find that sampling in this latent space is faster than directly sampling dense point clouds. Moreover, the sparse latent points also enable us to explicitly control both the overall structures and local details of the generated meshes. "
+    }
+
+]

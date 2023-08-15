@@ -1,0 +1,20 @@
+[
+  {
+    "img": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/task-oriented.png",
+    "tile": "Task-Oriented Human-Object Interactions Generation with Implicit Neural Representations",
+    "author": "Quanzhou Li, Jingbo Wang, Chen Change Loy, Bo Dai",
+    "publish": "Arixv"
+  },
+  {
+    "img" : "https://virtualfilmstudio.github.io/src/imgs/banner.png",
+    "tile" : "Dynamic Storyboard Generation in an Engine-based Virtual Environment for Video Production",
+    "author" : "Anyi Rao, Xuekun Jiang, Yuwei Guo, Linning Xu, Lei Yang, Libiao Jin, Dahua Lin, Bo Dai",
+    "publish" : "Arxiv"
+  },
+  {
+      "img" : "https://city-super.github.io/assetfield/img/teaser.png",
+      "tile" : "AssetField: Assets Mining and Reconfiguration in Ground Feature Plane Representation",
+      "author" : "Yuanbo Xiangli, Linning Xu, Xingang Pan, Nanxuan Zhao, Bo Dai, Dahua Lin",
+      "publish" : "Arxiv"
+  }
+]

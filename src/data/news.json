@@ -1,0 +1,15 @@
+[
+    {
+        "year": 2023,
+        "items": [
+            "07/2023 AnimateDiff Released:Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
+            "07/2023 LandMark\uff08\u4e66\u751f\u00b7\u5929\u9645\uff09 Released:The world's first city-level NeRF real-life 3D large-scale model",
+            "02/2023: Four papers are accepted to CVPR 2023"
+        ],
+        "links": [
+            "https://animatediff.github.io/",
+            "https://landmark.intern-ai.org.cn/",
+            ""
+        ]
+    }
+]
