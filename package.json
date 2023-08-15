@@ -1,7 +1,7 @@
 {
-  "name": "shlab_web",
-  "version": "0.1.0",
-  "homepage": ".",
+  "name": "idc-sh-site",
+  "version": "0.2.0",
+  "homepage": "https://idc-sh.github.io/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
