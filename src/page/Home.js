@@ -1,9 +1,7 @@
 import * as React from "react";
 import Container from "@mui/material/Container";
 import Divider from "@mui/material/Divider";
-import Chip from "@mui/material/Chip";
 
-import MyAppBar from "../components/Appbar";
 import ElevateAppBar from "../components/ElevateAppbar";
 import { Box } from "@mui/system";
 
@@ -18,7 +16,6 @@ class HomePage extends React.Component {
     return (
       <div>
         <Box>
-          {/* <MyAppBar/> */}
           <ElevateAppBar />
           <Box component="div" className="container" height={900}>
             <Container maxWidth="lg">

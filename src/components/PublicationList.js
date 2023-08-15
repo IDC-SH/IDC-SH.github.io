@@ -1,21 +1,17 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
-import { Grid, Paper } from "@mui/material";
+import { Grid } from "@mui/material";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import { grey } from "@mui/material/colors";
-import papersJson from "../data/papers.json";
+
+import papersData from "../data/papers.json";
 
 export default function PublicationList() {
-  var papers = papersJson;
-
   return (
     <div>
-      {/* <ResearchItem/> */}
-      {papers.map((item, i) => (
+      {papersData.map((item, i) => (
         <PaperItem key={i} item={item} />
       ))}
     </div>
@@ -25,6 +21,7 @@ export default function PublicationList() {
 const ColorButton = styled(Button)(({ theme }) => ({
   color: theme.palette.getContrastText(grey[800]),
   backgroundColor: grey[800],
+  "white-space": "nowrap",
   "&:hover": {
     backgroundColor: grey[700],
   },
@@ -74,43 +71,40 @@ function PaperItem(props) {
             </Typography>
           </Grid>
 
-          <Grid>
-            <Box
-              sx={{
-                mt: 1,
-                ml: 2,
-                mb: 1,
-                display: "grid",
-                gridTemplateColumns: "repeat(3, 70px)",
-              }}
-            >
-              {props.item.button1 && (
-                <Box sx={{ gridRow: "1" }}>
-                  <ColorButton href={props.item.paper_link}>Paper</ColorButton>
-                  {/* <Button variant="contained" size="small" >Paper</Button> */}
-                </Box>
-              )}
-              {props.item.button2 && (
-                <Box sx={{ gridRow: "1" }}>
-                  <ColorButton href={props.item.code_link}>Code</ColorButton>
-                  {/* <Button variant="outlined" size="small">Code</Button> */}
-                </Box>
-              )}
-              {props.item.button4 && (
-                <Box sx={{ gridRow: "1", width: "small" }}>
-                  <ColorButton href={props.item.video_link}>Video</ColorButton>
-                  {/* <Button variant="outlined" size="small">Video</Button> */}
-                </Box>
-              )}
-              {props.item.button3 && (
-                <Box sx={{ gridRow: "1", width: 150 }}>
-                  <ColorButton href={props.item.page_link}>
-                    Project page
-                  </ColorButton>
-                  {/* <Button variant="outlined" size="small">Project page</Button> */}
-                </Box>
-              )}
-            </Box>
+          <Grid
+            container
+            direction="row"
+            justifyContent="flex-start"
+            alignItems="flex-start"
+            sx={{
+              mt: 1,
+              ml: 2,
+              mb: 1,
+              display: "grid",
+            }}
+          >
+            {props.item.button1 && (
+              <Box sx={{ gridRow: "1", mr: 1 }}>
+                <ColorButton href={props.item.paper_link}>Paper</ColorButton>
+              </Box>
+            )}
+            {props.item.button2 && (
+              <Box sx={{ gridRow: "1", mr: 1 }}>
+                <ColorButton href={props.item.code_link}>Code</ColorButton>
+              </Box>
+            )}
+            {props.item.button3 && (
+              <Box sx={{ gridRow: "1", mr: 1 }}>
+                <ColorButton href={props.item.page_link}>
+                  Project page
+                </ColorButton>
+              </Box>
+            )}
+            {props.item.button4 && (
+              <Box sx={{ gridRow: "1", mr: 1 }}>
+                <ColorButton href={props.item.video_link}>Video</ColorButton>
+              </Box>
+            )}
           </Grid>
         </Grid>
       </Grid>
