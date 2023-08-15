@@ -17,7 +17,7 @@ import JoinUsPage from "./page/JoinUs";
 class App extends React.Component {
   render() {
     return (
-      <HashRouter basename="/idcgroup">
+      <HashRouter>
         <CssBaseline />
         <div>
           <MediaQuery maxWidth={996}>

@@ -1,11 +1,11 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -45,10 +45,10 @@ export default function NavigationDrawer() {
     >
       <List>
         {linksData.map((item) => (
-          <ListItem key={item.name} disablePadding>
-            <ListItemButton href={item.link}>
+          <ListItem key={item.name}>
+            <Link to={item.link}>
               <ListItemText primary={item.name} />
-            </ListItemButton>
+            </Link>
           </ListItem>
         ))}
       </List>
