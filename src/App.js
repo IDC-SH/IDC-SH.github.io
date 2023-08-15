@@ -11,6 +11,9 @@ import PublicationPage from "./page/Publications";
 import NewsPage from "./page/News";
 import JoinUsPage from "./page/JoinUs";
 
+// Reference
+// https://stackoverflow.com/questions/51054431/material-ui-appbar-doesnt-scale-down-when-on-mobile
+
 class App extends React.Component {
   render() {
     return (

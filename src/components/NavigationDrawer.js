@@ -2,14 +2,20 @@ import * as React from "react";
 
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import DehazeIcon from "@mui/icons-material/Dehaze";
 
 import linksData from "../data/links.json";
+
+// Reference
+// https://mui.com/material-ui/react-drawer/#system-TemporaryDrawer.js
 
 export default function NavigationDrawer() {
   const [state, setState] = React.useState({
@@ -52,9 +58,19 @@ export default function NavigationDrawer() {
 
   return (
     <div>
-      {["left", "right", "top", "bottom"].map((anchor) => (
+      {["top"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <AppBar sx={{ height: 60, bgcolor: "common.black" }}>
+            <Toolbar>
+              <IconButton
+                aria-label="show contents"
+                onClick={toggleDrawer(anchor, true)}
+                sx={{ color: "white" }}
+              >
+                <DehazeIcon />
+              </IconButton>
+            </Toolbar>
+          </AppBar>
           <Drawer
             anchor={anchor}
             open={state[anchor]}
