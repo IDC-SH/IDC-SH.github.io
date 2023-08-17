@@ -9,7 +9,6 @@ import {
   CardContent,
 } from "@mui/material";
 import { grey } from "@mui/material/colors";
-import thubmnail1 from "../data/images-publications/1.jpeg";
 
 import publicationsData from "../data/publications.json";
 
@@ -36,7 +35,7 @@ function PublicationItem({ image, title, publish, author, links }) {
         <CardMedia
           component="img"
           sx={{ width: 16 * 20, height: 9 * 20, margin: 2 }}
-          image={thubmnail1}
+          image={image}
           style={{ borderRadius: "8px" }}
         />
         <CardContent>
@@ -57,9 +56,7 @@ function PublicationItem({ image, title, publish, author, links }) {
             direction="row"
             justifyContent="flex-start"
             alignItems="flex-start"
-            sx={{
-              display: "grid",
-            }}
+            sx={{ display: "grid" }}
           >
             {links.map((item) => (
               <Box sx={{ gridRow: "1", marginRight: 1 }}>
@@ -79,7 +76,7 @@ export default function PublicationList() {
       {publicationsData.map((item) => (
         <PublicationItem
           key={item.i}
-          image={thubmnail1} // TODO
+          image={item.image}
           title={item.title}
           publish={item.publish}
           author={item.author}

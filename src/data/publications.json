@@ -4,6 +4,7 @@
     "title": "Controllable Motion Diffusion Model",
     "publish": "arXiv",
     "author": "Yi Shi, Jingbo Wang, Xuekun Jiang, Bo Dai",
+    "image": "https://controllablemdm.github.io/imgs/teaser.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2306.00416" },
       { "name": "project", "link": "https://controllablemdm.github.io/" }
@@ -14,6 +15,7 @@
     "title": "AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
     "publish": "arXiv",
     "author": "Yuwei Guo, Ceyuan Yang, Anyi Rao, Yaohui Wang, Yu Qiao, Dahua Lin, Bo Dai",
+    "image": "https://animatediff.github.io/figs/framework.jpg",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2307.04725" },
       { "name": "project", "link": "https://animatediff.github.io/" },
@@ -25,6 +27,7 @@
     "title": "DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering",
     "publish": "ICCV2023",
     "author": "Wei Cheng, Ruixiang Chen, Wanqi Yin, Siming Fan, Keyu Chen, Honglin He, Huiwen Luo, Zhongang Cai, Jingbo Wang, Yang Gao, Zhengming Yu, Zhengyu Lin, Daxuan Ren, Lei Yang, Ziwei Liu, Chen Change Loy, Chen Qian, Wayne Wu, Dahua Lin, Bo Dai, Kwan-Yee Lin\n",
+    "image": "https://dna-rendering.github.io/assets/img/diversity.jpg",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2307.10173" },
       { "name": "project", "link": "https://dna-rendering.github.io/" }
@@ -35,6 +38,7 @@
     "title": "RenderMe-360: A Large Digital Asset Library and Benchmarks Towards High-fidelity Head Avatars",
     "publish": "arXiv",
     "author": "Dongwei Pan, Long Zhuo, Jingtan Piao, Huiwen Luo, Wei Cheng, Yuxin Wang, Siming Fan, Shengqi Liu, Lei Yang, Bo Dai, Ziwei Liu, Chen Change Loy, Chen Qian, Wayne Wu, Dahua Lin, Kwan-Yee Lin",
+    "image": "https://raw.githubusercontent.com/RenderMe-360/RenderMe-360/main/docs/teaser.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2305.13353" },
       { "name": "project", "link": "https://renderme-360.github.io/" },
@@ -46,6 +50,7 @@
     "title": "Towards Multi-Layered 3D Garments Animation",
     "publish": "arXiv",
     "author": "Yidi Shao, Chen Change Loy, Bo Dai",
+    "image": "https://mmlab-ntu.github.io/project/layersnet/img/d_wind.gif",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2305.10418" },
       {
@@ -59,6 +64,7 @@
     "title": "LEO: Generative Latent Image Animator for Human Video Synthesis",
     "publish": "arXiv",
     "author": "Yaohui Wang, Xin Ma, Xinyuan Chen, Antitza Dantcheva, Bo Dai, Yu Qiao",
+    "image": "https://wyhsirius.github.io/LEO-project/static/images/model.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2305.03989" },
       { "name": "project", "link": "https://wyhsirius.github.io/LEO-project/" },
@@ -70,6 +76,7 @@
     "title": "Self-Supervised Geometry-Aware Encoder for Style-Based 3D GAN Inversion",
     "publish": "CVPR 2023",
     "author": "Yushi Lan, Xuyi Meng, Shuai Yang, Chen Change Loy, Bo Dai",
+    "image": "https://nirvanalan.github.io/projects/E3DGE/img/overview/stage3.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2212.07409" },
       {
@@ -84,6 +91,7 @@
     "title": "Revisiting the Evaluation of Image Synthesis with GANs",
     "publish": "arXiv",
     "author": "Mengping Yang, Ceyuan Yang, Yichi Zhang, Qingyan Bai, Yujun Shen, Bo Dai",
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/metric.png",
     "links": [{ "name": "paper", "link": "https://arxiv.org/abs/2304.01999" }]
   },
   {
@@ -91,6 +99,7 @@
     "title": "Generative Diffusion Prior for Unified Image Restoration and Enhancement ",
     "publish": "CVPR 2023",
     "author": "Ben Fei, Zhaoyang Lyu, Liang Pan, Junzhe Zhang, Weidong Yang, Tianyue Luo, Bo Zhang, Bo Dai",
+    "image": "https://generativediffusionprior.github.io/img/teaser-4.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2304.01247" },
       {
@@ -108,6 +117,7 @@
     "title": "SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling",
     "publish": "arXiv",
     "author": "Zhitao Yang, Zhongang Cai, Haiyi Mei, Shuai Liu, Zhaoxi Chen, Weiye Xiao, Yukun Wei, Zhongfei Qing, Chen Wei, Bo Dai, Wayne Wu, Chen Qian, Dahua Lin, Ziwei Liu, Lei Yang",
+    "image": "https://maoxie.github.io/SynBody/static/teaser.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2303.17368" },
       { "name": "project", "link": "https://maoxie.github.io/SynBody/" },
@@ -119,6 +129,7 @@
     "title": "Grid-guided Neural Radiance Fields for Large Urban Scenes",
     "publish": "CVPR 2023",
     "author": "Linning Xu, Yuanbo Xiangli, Sida Peng, Xingang Pan, Nanxuan Zhao, Christian Theobalt, Bo Dai, Dahua Lin",
+    "image": "https://city-super.github.io/gridnerf/img/teaser.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2303.14001" },
       { "name": "project", "link": "https://city-super.github.io/gridnerf/" }
@@ -129,6 +140,7 @@
     "title": "AssetField: Assets Mining and Reconfiguration in Ground Feature Plane Representation",
     "publish": "arXiv",
     "author": "Yuanbo Xiangli, Linning Xu, Xingang Pan, Nanxuan Zhao, Bo Dai, Dahua Lin",
+    "image": "https://city-super.github.io/assetfield/img/teaser.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2303.13953" },
       { "name": "project", "link": "https://city-super.github.io/assetfield/" }
@@ -139,7 +151,7 @@
     "title": "Task-Oriented Human-Object Interactions Generation with Implicit Neural Representations",
     "publish": "arXiv",
     "author": "Quanzhou Li, Jingbo Wang, Chen Change Loy, Bo Dai",
-
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/task-oriented.png",
     "video_link": "None",
     "links": [{ "name": "paper", "link": "https://arxiv.org/abs/2303.13129" }]
   },
@@ -148,6 +160,7 @@
     "title": "3D Data Augmentation for Driving Scenes on Camera",
     "publish": "arXiv",
     "author": "Wenwen Tong, Jiangwei Xie, Tianyu Li, Hanming Deng, Xiangwei Geng, Ruoyi Zhou, Dingchen Yang, Bo Dai, Lewei Lu, Hongyang Li",
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/drive-3DAug.jpg",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2303.10340" },
       {
@@ -161,6 +174,7 @@
     "title": "Controllable Mesh Generation Through Sparse Latent Point Diffusion Models",
     "publish": "CVPR 2023",
     "author": "Zhaoyang Lyu, Jinyi Wang, Yuwei An, Ya Zhang, Dahua Lin, Bo Dai",
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/SLIDE-3D.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2303.07938" },
       { "name": "project", "link": "https://slide-3d.github.io/" },
@@ -172,7 +186,7 @@
     "title": "Dynamic Storyboard Generation in an Engine-based Virtual Environment for Video Production",
     "publish": "arXiv",
     "author": "Anyi Rao, Xuekun Jiang, Yuwei Guo, Linning Xu, Lei Yang, Libiao Jin, Dahua Lin, Bo Dai",
-
+    "image": "https://virtualfilmstudio.github.io/src/imgs/banner.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2301.12688" },
       { "name": "project", "link": "https://virtualfilmstudio.github.io/" }
@@ -183,6 +197,7 @@
     "title": "Correspondence Distillation from NeRF-based GAN",
     "publish": "arXiv",
     "author": "Yushi Lan, Chen Change Loy, Bo Dai",
+    "image": "https://nirvanalan.github.io/projects/DDF/img/overview.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2212.09735" },
       {
@@ -196,6 +211,7 @@
     "title": "3DHumanGAN: Towards Photo-Realistic 3D-Aware Human Image Generation",
     "publish": "arXiv",
     "author": "Zhuoqian Yang, Shikai Li, Wayne Wu, Bo Dai",
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/3dhumangan.jpg",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2212.07378" },
       { "name": "project", "link": "https://3dhumangan.github.io/" },
@@ -208,6 +224,7 @@
     "title": "Towards Smooth Video Composition",
     "publish": "ICLR 2023",
     "author": "Qihang Zhang, Ceyuan Yang, Yujun Shen, Yinghao Xu, Bolei Zhou",
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/stylesv_cover.jpg",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2212.07413" },
       { "name": "project", "link": "https://genforce.github.io/StyleSV" },
@@ -219,6 +236,7 @@
     "title": "GLeaD: Improving GANs with A Generator-Leading Task",
     "publish": "CVPR 2023",
     "author": "Qingyan Bai, Ceyuan Yang, Yinghao Xu, Xihui Liu, Yujiu Yang, Yujun Shen",
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/glead_teaser.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2212.03752" },
       { "name": "project", "link": "https://ezioby.github.io/glead/" },
@@ -228,8 +246,9 @@
   {
     "i": 3,
     "title": "OmniCity: Omnipotent City Understanding with Multi-level and Multi-view Images",
-    "author": "Weijia Li, Yawen Lai, Linning Xu, Yuanbo Xiangli, Jinhua Yu, Conghui He, Gui-Song Xia, Dahua Lin",
     "publish": "CVPR 2023",
+    "author": "Weijia Li, Yawen Lai, Linning Xu, Yuanbo Xiangli, Jinhua Yu, Conghui He, Gui-Song Xia, Dahua Lin",
+    "image": "https://city-super.github.io/omnicity/img/omnicity-teasor.jpg",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2208.00928" },
       { "name": "project", "link": "https://city-super.github.io/omnicity/" },
@@ -244,6 +263,7 @@
     "title": "Improving GANs with A Dynamic Discriminator",
     "publish": "NeurIPS 2022",
     "author": "Ceyuan Yang, Yujun Shen, Yinghao Xu, Deli Zhao, Bo Dai, Bolei Zhou",
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/imporv_teaser.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2209.09897" },
       { "name": "project", "link": "https://genforce.github.io/dynamicd" },
@@ -255,6 +275,7 @@
     "title": "BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering",
     "publish": "ECCV 2022",
     "author": "Yuanbo Xiangli, Linning Xu, Xingang Pan, Nanxuan Zhao, Anyi Rao, Christian Theobalt, Bo Dai,  Dahua Lin",
+    "image": "https://city-super.github.io/citynerf/img/teaser.png",
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2112.05504" },
       { "name": "project", "link": "https://city-super.github.io/citynerf/" },
