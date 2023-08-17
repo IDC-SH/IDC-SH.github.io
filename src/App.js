@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import MediaQuery from "react-responsive";
 
 import CssBaseline from "@mui/material/CssBaseline";
@@ -12,27 +12,30 @@ import NewsPage from "./page/News";
 import JoinUsPage from "./page/JoinUs";
 
 // Reference
-// https://stackoverflow.com/questions/51054431/material-ui-appbar-doesnt-scale-down-when-on-mobile
+//
 
 class App extends React.Component {
   render() {
     return (
+      // https://reactrouter.com/en/main/router-components/hash-router
       <HashRouter>
+        {/* https://mui.com/material-ui/react-css-baseline/ */}
         <CssBaseline />
         <div>
-          <MediaQuery maxWidth={996}>
+          {/* https://stackoverflow.com/questions/51054431/material-ui-appbar-doesnt-scale-down-when-on-mobile */}
+          <MediaQuery maxWidth={1024}>
             <NavigationDrawer />
           </MediaQuery>
-          <MediaQuery minWidth={996}>
+          <MediaQuery minWidth={1024}>
             <NavigationBar />
           </MediaQuery>
         </div>
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/publication" component={PublicationPage} />
-          <Route exact path="/news" component={NewsPage} />
-          <Route exact path="/joinus" component={JoinUsPage} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/publication" element={<PublicationPage />} />
+          <Route exact path="/news" element={<NewsPage />} />
+          <Route exact path="/joinus" element={<JoinUsPage />} />
+        </Routes>
       </HashRouter>
     );
   }
