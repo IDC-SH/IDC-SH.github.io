@@ -1,5 +1,9 @@
 [
   {
+    "time": "08/2023",
+    "title": "Five paper are accepted to ICCV 2023"
+  },
+  {
     "time": "07/2023",
     "title": "AnimateDiff Released: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
     "link": "https://animatediff.github.io/"
@@ -12,7 +16,6 @@
   },
   {
     "time": "02/2023",
-    "title": "Four papers are accepted to CVPR 2023",
-    "link": ""
+    "title": "Four papers are accepted to CVPR 2023"
   }
 ]

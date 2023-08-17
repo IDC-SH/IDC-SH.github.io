@@ -11,7 +11,8 @@ function NewsItem({ time, title, link }) {
         <Typography variant="h6">{time}</Typography>
       </Box>
       <Typography variant="body1">
-        {title} {link !== "" && <Link href={link}>more</Link>}
+        {title}{" "}
+        {link !== undefined && link !== "" && <Link href={link}>more</Link>}
       </Typography>
     </>
   );
