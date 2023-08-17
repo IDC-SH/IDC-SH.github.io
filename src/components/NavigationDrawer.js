@@ -1,16 +1,17 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-
-import Box from "@mui/material/Box";
-import Drawer from "@mui/material/Drawer";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
-import ListItemText from "@mui/material/ListItemText";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import DehazeIcon from "@mui/icons-material/Dehaze";
-import { ListItemButton } from "@mui/material";
+import {
+  ListItemButton,
+  Typography,
+  IconButton,
+  Toolbar,
+  AppBar,
+  ListItemText,
+  List,
+  Drawer,
+  Box,
+} from "@mui/material";
+import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 import linksData from "../data/links.json";
 
@@ -38,51 +39,49 @@ export default function NavigationDrawer() {
     setState({ ...state, [anchor]: open });
   };
 
-  const list = (anchor) => (
+  const drawerAnchor = "top";
+
+  const DrawerContentComponent = () => (
     <Box
       sx={{ width: "auto" }}
       role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
+      onClick={toggleDrawer(drawerAnchor, false)}
+      onKeyDown={toggleDrawer(drawerAnchor, false)}
     >
-      {/* https://mui.com/material-ui/react-drawer/#system-TemporaryDrawer.js */}
       <List>
         {linksData.map((item) => (
-          <ListItemButton
-            key={item.name}
-            component={LinkButton}
-            to={item.link}
-            alignItems="center"
-          >
-            <ListItemText primary={item.name} alignItems="center" />
+          <ListItemButton key={item.name} component={LinkButton} to={item.link}>
+            <ListItemText primary={item.name} style={{ textAlign: "center" }} />
           </ListItemButton>
         ))}
       </List>
-      <Divider />
     </Box>
   );
-
-  const drawerAnchor = "top";
 
   return (
     <>
       <AppBar sx={{ height: 60, bgcolor: "common.black" }}>
         <Toolbar>
+          <Typography variant="h6" sx={{ flexGrow: 1 }}>
+            ICD Group
+          </Typography>
           <IconButton
+            size="large"
             aria-label="show contents"
             onClick={toggleDrawer(drawerAnchor, true)}
             sx={{ color: "white" }}
           >
-            <DehazeIcon />
+            <MoreVertIcon fontSize="large" />
           </IconButton>
         </Toolbar>
       </AppBar>
+      {/* https://mui.com/material-ui/react-drawer/#system-TemporaryDrawer.js */}
       <Drawer
         anchor={drawerAnchor}
         open={state[drawerAnchor]}
         onClose={toggleDrawer(drawerAnchor, false)}
       >
-        {list(drawerAnchor)}
+        {DrawerContentComponent(drawerAnchor)}
       </Drawer>
     </>
   );
