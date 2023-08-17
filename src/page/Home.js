@@ -69,7 +69,7 @@ class HomePage extends React.Component {
                     lineHeight: 0.8,
                   }}
                 >
-                  @Shanghai AI Laboratory
+                  @ Shanghai AI Laboratory
                 </Typography>
               </Box>
             </Container>

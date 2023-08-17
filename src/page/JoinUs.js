@@ -9,7 +9,7 @@ class JoinUsPage extends React.Component {
       <div>
         <Container maxWidth="sm">
           <Typography variant="h6" sx={{ marginTop: 10, textAlign: "justify" }}>
-            In IDC group@Shanghai AI Laboratory, we are devoted to advance the
+            In IDC Group @ Shanghai AI Laboratory, we are devoted to advance the
             forefront of research in developing and applying AI-based tools for
             content creation and digitization.
           </Typography>

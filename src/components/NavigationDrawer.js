@@ -63,7 +63,7 @@ export default function NavigationDrawer() {
       <AppBar sx={{ height: 60, bgcolor: "common.black" }}>
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            ICD Group
+            IDC Group
           </Typography>
           <IconButton
             size="large"

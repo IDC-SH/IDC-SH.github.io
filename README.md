@@ -1,4 +1,4 @@
-# IDC-SH-SITE
+# IDC Group Site
 
 ## Used packages
 
