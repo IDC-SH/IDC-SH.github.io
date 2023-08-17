@@ -1,7 +1,7 @@
 import { Grid, Typography, Box, Button, styled } from "@mui/material";
 import { grey } from "@mui/material/colors";
 
-import papersData from "../data/papers.json";
+import papersData from "../data/publications.json";
 
 export default function PublicationList() {
   return (

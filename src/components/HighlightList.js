@@ -1,13 +1,13 @@
 import { Grid, Typography, Box } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 
-import Highlights from "../data/highlight.json";
+import highlightsData from "../data/highlights.json";
 
-export default function HightlightItems(props) {
+export default function HighlightList(props) {
   return (
     <>
       <Carousel>
-        {Highlights.map((item, i) => (
+        {highlightsData.map((item, i) => (
           <Item key={i} item={item} />
         ))}
       </Carousel>

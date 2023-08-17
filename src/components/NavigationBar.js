@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import { AppBar, Toolbar, Typography, Grid, Container } from "@mui/material";
 
-import linksData from "../data/links.json";
+import pagesData from "../data/pages.json";
 
 function LinkItem({ title, destination }) {
   return (
@@ -37,7 +37,7 @@ export default function NavigationBar(props) {
             justifyContent="center"
             alignItems="center"
           >
-            {linksData.map((item) => (
+            {pagesData.map((item) => (
               <LinkItem title={item.name} destination={item.link} />
             ))}
           </Grid>

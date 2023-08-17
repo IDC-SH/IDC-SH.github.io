@@ -1,10 +1,10 @@
 import { Divider, Grid, Box, Card } from "@mui/material";
 
-import newpublishs from "../data/newpublic.json";
+import RecentPublicationListData from "../data/recent-publications.json";
 
-export default function LatestPublish() {
+export default function RecentPublicationList() {
   return (
-    <div>
+    <>
       <Grid
         container
         spacing={1}
@@ -12,15 +12,15 @@ export default function LatestPublish() {
         justifyContent="center"
         alignItems="center"
       >
-        {newpublishs.map((item, i) => (
-          <PublishesItem key={i} item={item} />
+        {RecentPublicationListData.map((item, i) => (
+          <PublicationItem key={i} item={item} />
         ))}
       </Grid>
-    </div>
+    </>
   );
 }
 
-function PublishesItem(props) {
+function PublicationItem(props) {
   return (
     <Card sx={{ width: 350, height: 320, m: 1 }}>
       <Grid

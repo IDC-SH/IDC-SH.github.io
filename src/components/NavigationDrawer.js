@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
-import linksData from "../data/links.json";
+import pagesData from "../data/pages.json";
 
 // https://mui.com/material-ui/guides/routing/#system-ListRouter.js
 const LinkButton = React.forwardRef(function LinkButton(itemProps, ref) {
@@ -37,7 +37,7 @@ export default function NavigationDrawer() {
         }}
       >
         <List>
-          {linksData.map((item) => (
+          {pagesData.map((item) => (
             <ListItemButton
               key={item.name}
               component={LinkButton}

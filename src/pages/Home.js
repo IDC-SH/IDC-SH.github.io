@@ -1,13 +1,13 @@
 import { Typography, Container, Divider, Box } from "@mui/material";
 
-import HightlightItems from "../components/HightlightItems";
-import LatestPublish from "../components/LatestPublish";
+import HighlightList from "../components/HighlightList";
+import RecentPublicationList from "../components/RecentPublicationList";
 
 import "./App.css";
 
 export default function HomePage() {
   return (
-    <Box>
+    <>
       <Box component="div" className="container" height={900}>
         <Container maxWidth="lg">
           <Box
@@ -68,21 +68,25 @@ export default function HomePage() {
         </Container>
       </Box>
 
+      <Divider sx={{ margin: 4 }}>
+        <Typography variant="h2" textAlign="center">
+          Highlights
+        </Typography>
+      </Divider>
+
       <Container maxHeight={300} maxWidth="lg" sx={{ mt: 5 }}>
-        <HightlightItems />
+        <HighlightList />
       </Container>
 
-      <Box sx={{ mb: 2, height: 50 }}>
-        <Divider sx={{ color: "#000000" }} variant="middle">
-          <Box sx={{ fontStyle: "normal", fontWeight: "light", fontSize: 40 }}>
-            Latest Publishes
-          </Box>
-        </Divider>
-      </Box>
+      <Divider sx={{ margin: 4 }}>
+        <Typography variant="h2" textAlign="center">
+          Recent Publications
+        </Typography>
+      </Divider>
 
       <Container>
-        <LatestPublish />
+        <RecentPublicationList />
       </Container>
-    </Box>
+    </>
   );
 }
