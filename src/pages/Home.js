@@ -80,7 +80,7 @@ export default function HomePage() {
 
       <Divider sx={{ margin: 4 }}>
         <Typography variant="h2" textAlign="center">
-          Recent Publications
+          Recents
         </Typography>
       </Divider>
 
