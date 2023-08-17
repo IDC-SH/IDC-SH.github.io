@@ -17,7 +17,7 @@ export default function App() {
     <HashRouter>
       {/* https://mui.com/material-ui/react-css-baseline/ */}
       <CssBaseline />
-      <div>
+      <>
         {/* https://stackoverflow.com/questions/51054431/material-ui-appbar-doesnt-scale-down-when-on-mobile */}
         <MediaQuery maxWidth={1024}>
           <NavigationDrawer />
@@ -25,7 +25,7 @@ export default function App() {
         <MediaQuery minWidth={1024}>
           <NavigationBar />
         </MediaQuery>
-      </div>
+      </>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/publication" element={<PublicationPage />} />

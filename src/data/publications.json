@@ -14,7 +14,6 @@
     "title": "AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
     "publish": "arXiv",
     "author": "Yuwei Guo, Ceyuan Yang, Anyi Rao, Yaohui Wang, Yu Qiao, Dahua Lin, Bo Dai",
-
     "links": [
       { "name": "paper", "link": "https://arxiv.org/abs/2307.04725" },
       { "name": "project", "link": "https://animatediff.github.io/" },
@@ -246,7 +245,7 @@
     "publish": "NeurIPS 2022",
     "author": "Ceyuan Yang, Yujun Shen, Yinghao Xu, Deli Zhao, Bo Dai, Bolei Zhou",
     "links": [
-      { "name": "paper", "link": "https://arxiv.org/pdf/2209.09897.pdf" },
+      { "name": "paper", "link": "https://arxiv.org/abs/2209.09897" },
       { "name": "project", "link": "https://genforce.github.io/dynamicd" },
       { "name": "code", "link": "https://github.com/genforce/dynamicd" }
     ]

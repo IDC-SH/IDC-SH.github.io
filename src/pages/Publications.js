@@ -4,7 +4,7 @@ import PublicationList from "../components/PublicationList";
 
 export default function PublicationPage() {
   return (
-    <Container maxWidth="lg" sx={{ mt: 10 }}>
+    <Container maxWidth="lg" sx={{ marginTop: 10 }}>
       <PublicationList />
     </Container>
   );
