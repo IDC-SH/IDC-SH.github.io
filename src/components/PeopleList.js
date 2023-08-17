@@ -1,11 +1,4 @@
-import * as React from "react";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
-import { Grid, Paper } from "@mui/material";
-import Button from "@mui/material/Button";
-import Avatar from "@mui/material/Avatar";
+import { Typography, Avatar, Card, Grid } from "@mui/material";
 
 export default function PeopleList() {
   var items = [

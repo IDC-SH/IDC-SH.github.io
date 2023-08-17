@@ -6,6 +6,7 @@
     - brought from [create-react-app](https://create-react-app.dev/docs/getting-started)
 - `@mui/material` `@emotion/react` `@emotion/styled` / `@mui/icons-material`
     - are install via [the installation of Material UI](https://mui.com/material-ui/getting-started/installation/)
+    - check all icons [here](https://mui.com/material-ui/material-icons/)
 - `react-router-dom`
     - is used to handle routing in React single-page-application
 - `react-responsive`

@@ -1,11 +1,6 @@
-import * as React from "react";
 import { Link } from "react-router-dom";
 
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
-import Container from "@mui/material/Container";
+import { AppBar, Toolbar, Typography, Grid, Container } from "@mui/material";
 
 import linksData from "../data/links.json";
 

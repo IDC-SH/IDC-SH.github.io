@@ -1,20 +1,15 @@
-import * as React from "react";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-import { Grid } from "@mui/material";
-import Button from "@mui/material/Button";
-import { styled } from "@mui/material/styles";
+import { Grid, Typography, Box, Button, styled } from "@mui/material";
 import { grey } from "@mui/material/colors";
 
 import papersData from "../data/papers.json";
 
 export default function PublicationList() {
   return (
-    <div>
+    <>
       {papersData.map((item, i) => (
         <PaperItem key={i} item={item} />
       ))}
-    </div>
+    </>
   );
 }
 

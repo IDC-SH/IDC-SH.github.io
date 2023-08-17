@@ -1,19 +1,11 @@
-import * as React from "react";
-
-import Container from "@mui/material/Container";
+import { Container } from "@mui/material";
 
 import NewsList from "../components/NewsList";
 
-class NewsPage extends React.Component {
-  render() {
-    return (
-      <div>
-        <Container maxWidth="lg">
-          <NewsList />
-        </Container>
-      </div>
-    );
-  }
+export default function NewsPage() {
+  return (
+    <Container maxWidth="lg">
+      <NewsList />
+    </Container>
+  );
 }
-
-export default NewsPage;

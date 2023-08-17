@@ -1,9 +1,5 @@
-import * as React from "react";
-
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
+import { Typography, Box, Link } from "@mui/material";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import Link from "@mui/material/Link";
 
 import newsData from "../data/news.json";
 

@@ -1,19 +1,18 @@
-import React from "react";
+import { Grid, Typography, Box } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
-import { Grid, Typography } from "@mui/material";
-import { Box } from "@mui/system";
+
 import Highlights from "../data/highlight.json";
 
 export default function HightlightItems(props) {
   return (
-    <div>
+    <>
       <Carousel>
         {Highlights.map((item, i) => (
           <Item key={i} item={item} />
         ))}
       </Carousel>
       <br />
-    </div>
+    </>
   );
 }
 
