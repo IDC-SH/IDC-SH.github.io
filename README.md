@@ -1,5 +1,18 @@
 # IDC Group Site
 
+## Importing rules
+
+- React
+- tools
+- 
+- mui components
+- other components
+- customized components
+- 
+- css
+- 
+- json data
+
 ## Used packages
 
 - `react` `react-dom` `react-scripts`

@@ -22,42 +22,37 @@ const LinkButton = React.forwardRef(function LinkButton(itemProps, ref) {
 });
 
 export default function NavigationDrawer() {
-  const [state, setState] = React.useState({
-    top: false,
-    left: false,
-    bottom: false,
-    right: false,
-  });
+  const [isDrawerOpen, setDrawerOpen] = React.useState(false);
 
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
-
-    setState({ ...state, [anchor]: open });
-  };
-
-  const drawerAnchor = "top";
-
-  const DrawerContentComponent = () => (
-    <Box
-      sx={{ width: "auto" }}
-      role="presentation"
-      onClick={toggleDrawer(drawerAnchor, false)}
-      onKeyDown={toggleDrawer(drawerAnchor, false)}
-    >
-      <List>
-        {linksData.map((item) => (
-          <ListItemButton key={item.name} component={LinkButton} to={item.link}>
-            <ListItemText primary={item.name} style={{ textAlign: "center" }} />
-          </ListItemButton>
-        ))}
-      </List>
-    </Box>
-  );
+  function DrawerList() {
+    return (
+      <Box
+        sx={{ width: "auto" }}
+        role="presentation"
+        onClick={() => {
+          setDrawerOpen(false);
+        }}
+        onKeyDown={() => {
+          setDrawerOpen(false);
+        }}
+      >
+        <List>
+          {linksData.map((item) => (
+            <ListItemButton
+              key={item.name}
+              component={LinkButton}
+              to={item.link}
+            >
+              <ListItemText
+                primary={item.name}
+                style={{ textAlign: "center" }}
+              />
+            </ListItemButton>
+          ))}
+        </List>
+      </Box>
+    );
+  }
 
   return (
     <>
@@ -69,7 +64,9 @@ export default function NavigationDrawer() {
           <IconButton
             size="large"
             aria-label="show contents"
-            onClick={toggleDrawer(drawerAnchor, true)}
+            onClick={() => {
+              setDrawerOpen(true);
+            }}
             sx={{ color: "white" }}
           >
             <MoreVertIcon fontSize="large" />
@@ -78,11 +75,13 @@ export default function NavigationDrawer() {
       </AppBar>
       {/* https://mui.com/material-ui/react-drawer/#system-TemporaryDrawer.js */}
       <Drawer
-        anchor={drawerAnchor}
-        open={state[drawerAnchor]}
-        onClose={toggleDrawer(drawerAnchor, false)}
+        anchor={"top"}
+        open={isDrawerOpen}
+        onClose={() => {
+          setDrawerOpen(false);
+        }}
       >
-        {DrawerContentComponent(drawerAnchor)}
+        <DrawerList />
       </Drawer>
     </>
   );
