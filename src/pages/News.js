@@ -1,4 +1,4 @@
-import { Typography, Box, Link, Container, Grid } from "@mui/material";
+import { Typography, Box, Link, Container } from "@mui/material";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 import newsData from "../data/news.json";
@@ -18,15 +18,11 @@ function NewsItem({ time, title, link }) {
 }
 
 function NewsList() {
-  return (
-    <>
-      {newsData.map((item) => (
-        <Box sx={{ marginBottom: 2 }}>
-          <NewsItem time={item.time} title={item.title} link={item.link} />
-        </Box>
-      ))}
-    </>
-  );
+  return newsData.map((item) => (
+    <Box sx={{ marginBottom: 2 }}>
+      <NewsItem time={item.time} title={item.title} link={item.link} />
+    </Box>
+  ));
 }
 
 export default function NewsPage() {

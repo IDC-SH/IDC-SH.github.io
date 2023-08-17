@@ -3,12 +3,13 @@ import MediaQuery from "react-responsive";
 
 import CssBaseline from "@mui/material/CssBaseline";
 
+import HomePage from "./pages/Home";
+import PublicationPage from "./pages/Publications";
+import NewsPage from "./pages/News";
+import JoinusPage from "./pages/Joinus";
+
 import NavigationBar from "./components/NavigationBar";
 import NavigationDrawer from "./components/NavigationDrawer";
-import HomePage from "./page/Home";
-import PublicationPage from "./page/Publications";
-import NewsPage from "./page/News";
-import JoinUsPage from "./page/JoinUs";
 
 export default function App() {
   return (
@@ -29,7 +30,7 @@ export default function App() {
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/publication" element={<PublicationPage />} />
         <Route exact path="/news" element={<NewsPage />} />
-        <Route exact path="/joinus" element={<JoinUsPage />} />
+        <Route exact path="/joinus" element={<JoinusPage />} />
       </Routes>
     </HashRouter>
   );
