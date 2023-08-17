@@ -1,19 +1,18 @@
 [
   {
-    "year": 2023,
-    "items": [
-      {
-        "title": "07/2023 AnimateDiff Released: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
-        "link": "https://animatediff.github.io/"
-      },
-      {
-        "title": "07/2023 LandMark（书生·天际）Released: The world's first city-level NeRF real-life 3D large-scale model",
-        "link": "https://landmark.intern-ai.org.cn/"
-      },
-      {
-        "title": "02/2023 Four papers are accepted to CVPR 2023",
-        "link": ""
-      }
-    ]
+    "time": "07/2023",
+    "title": "AnimateDiff Released: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
+    "link": "https://animatediff.github.io/"
+  },
+  {
+    "time": "07/2023",
+
+    "title": "LandMark（书生·天际）Released: The world's first city-level NeRF real-life 3D large-scale model",
+    "link": "https://landmark.intern-ai.org.cn/"
+  },
+  {
+    "time": "02/2023",
+    "title": "Four papers are accepted to CVPR 2023",
+    "link": ""
   }
 ]
