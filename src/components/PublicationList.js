@@ -1,3 +1,5 @@
+import MediaQuery from "react-responsive";
+
 import {
   Grid,
   Typography,
@@ -21,14 +23,13 @@ const ColorButton = styled(Button)(({ theme }) => ({
   },
 }));
 
-function PublicationItem({ image, title, publish, author, links }) {
+function PublicationItem({ isMobile, image, title, publish, author, links }) {
   return (
     <>
       <Card
         sx={{
-          display: "flex",
+          display: isMobile ? "" : "flex",
           marginBottom: 4,
-          alignItems: "top",
           backgroundColor: "#F9F9FB",
         }}
       >
@@ -73,16 +74,32 @@ function PublicationItem({ image, title, publish, author, links }) {
 export default function PublicationList() {
   return (
     <>
-      {publicationsData.map((item) => (
-        <PublicationItem
-          key={item.i}
-          image={item.image}
-          title={item.title}
-          publish={item.publish}
-          author={item.author}
-          links={item.links}
-        />
-      ))}
+      <MediaQuery maxWidth={1024}>
+        {publicationsData.map((item) => (
+          <PublicationItem
+            key={item.i}
+            isMobile={true}
+            image={item.image}
+            title={item.title}
+            publish={item.publish}
+            author={item.author}
+            links={item.links}
+          />
+        ))}
+      </MediaQuery>
+      <MediaQuery minWidth={1024}>
+        {publicationsData.map((item) => (
+          <PublicationItem
+            key={item.i}
+            isMobile={false}
+            image={item.image}
+            title={item.title}
+            publish={item.publish}
+            author={item.author}
+            links={item.links}
+          />
+        ))}
+      </MediaQuery>
     </>
   );
 }
