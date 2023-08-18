@@ -1,3 +1,5 @@
+import MediaQuery from "react-responsive";
+
 import { Typography, Container, Divider, Box } from "@mui/material";
 
 import {
@@ -42,12 +44,6 @@ function LabIntroduction() {
 }
 
 function RecruitingIntroduction() {
-  const textStyle = {
-    fontStyle: "oblique",
-    color: "white",
-    whiteSpace: "nowrap",
-  };
-
   return (
     <>
       <Box
@@ -60,9 +56,10 @@ function RecruitingIntroduction() {
       >
         <Typography
           sx={{
-            ...textStyle,
+            color: "white",
+            textAlign: "center",
             fontFamily: "Comic Sans MS",
-            fontSize: 64,
+            fontSize: 48,
             lineHeight: 2.2,
           }}
         >
@@ -88,17 +85,21 @@ function RecruitingIntroduction() {
   );
 }
 
-function MainIntroduction() {
+function MainIntroduction({ isMobile = false }) {
   return (
     <Container maxWidth="lg">
-      <Box display="flex">
+      <Box
+        display={isMobile ? "" : "flex"}
+        alignItems={"center"}
+        justifyContent={"center"}
+        justifyItems={"center"}
+      >
+        <br />
         <Box
           sx={{
-            height: 400,
             backgroundColor: "rgba(232,232,232,0.2)",
-            marginTop: 12,
-            marginLeft: 5,
-            marginRight: 5,
+            marginY: 12,
+            marginX: 4,
             padding: 4,
           }}
         >
@@ -106,15 +107,15 @@ function MainIntroduction() {
         </Box>
         <Box
           sx={{
-            height: 400,
             backgroundColor: "rgba(232,232,232,0.2)",
-            marginTop: 12,
-            marginRight: 5,
+            marginY: 12,
+            marginX: 4,
             padding: 4,
           }}
         >
           <RecruitingIntroduction />
         </Box>
+        <br />
       </Box>
     </Container>
   );
@@ -124,7 +125,6 @@ export default function HomePage() {
   return (
     <>
       <Box
-        height={600}
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundRepeat: "no-repeat",
@@ -134,7 +134,12 @@ export default function HomePage() {
           backgroundColor: "black",
         }}
       >
-        <MainIntroduction />
+        <MediaQuery maxWidth={1024}>
+          <MainIntroduction isMobile />
+        </MediaQuery>
+        <MediaQuery minWidth={1024}>
+          <MainIntroduction />
+        </MediaQuery>
       </Box>
 
       <Divider sx={{ margin: 4 }}>
