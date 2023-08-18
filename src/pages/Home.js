@@ -148,6 +148,7 @@ export default function HomePage() {
         </Typography>
       </Divider>
       <HighlightLandMarkCard />
+      <br />
       <HighlightAnimateDiffCard />
 
       <Divider sx={{ margin: 4 }}>
