@@ -1,6 +1,6 @@
 import { Container } from "@mui/material";
 
-import ResponsivePublicationItem from "./PublicationItem.js";
+import ResponsivePublicationItem from "./PublicationItem";
 
 import recentPublicationsData from "../data/recent-publications.json";
 import publicationsData from "../data/publications.json";

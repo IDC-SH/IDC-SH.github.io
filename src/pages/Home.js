@@ -1,11 +1,14 @@
 import { Typography, Container, Divider, Box } from "@mui/material";
 
-import HighlightList from "../components/HighlightList";
+import {
+  HighlightAnimateDiffCard,
+  HighlightLandMarkCard,
+} from "../components/Highlights";
 import RecentPublicationList from "../components/RecentPublicationList";
 
 import "./App.css";
 
-export default function HomePage() {
+function MainIntroduction() {
   return (
     <>
       <Box component="div" className="container" height={900}>
@@ -67,13 +70,22 @@ export default function HomePage() {
           </Box>
         </Container>
       </Box>
+    </>
+  );
+}
+
+export default function HomePage() {
+  return (
+    <>
+      <MainIntroduction />
 
       <Divider sx={{ margin: 4 }}>
         <Typography variant="h2" textAlign="center">
           Highlights
         </Typography>
       </Divider>
-      <HighlightList />
+      <HighlightAnimateDiffCard />
+      <HighlightLandMarkCard />
 
       <Divider sx={{ margin: 4 }}>
         <Typography variant="h2" textAlign="center">
