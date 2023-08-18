@@ -26,12 +26,25 @@ function PublicationItem({ isMobile, image, title, publish, author, links }) {
           backgroundColor: "#F9F9FB",
         }}
       >
-        <CardMedia
-          component="img"
-          sx={{ width: 16 * 20, height: 9 * 20, margin: 2 }}
-          image={image}
-          style={{ borderRadius: "8px" }}
-        />
+        {/* center image on mobile */}
+        <Box
+          style={
+            isMobile
+              ? {
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }
+              : {}
+          }
+        >
+          <CardMedia
+            component="img"
+            sx={{ width: 16 * 20, height: 9 * 20, margin: 2 }}
+            image={image}
+            style={{ borderRadius: "8px" }}
+          />
+        </Box>
         <CardContent>
           <Typography variant="h6" sx={{ marginBottom: 1 }}>
             {title}

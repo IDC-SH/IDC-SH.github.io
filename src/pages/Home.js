@@ -73,20 +73,14 @@ export default function HomePage() {
           Highlights
         </Typography>
       </Divider>
-
-      <Container maxHeight={300} maxWidth="lg" sx={{ mt: 5 }}>
-        <HighlightList />
-      </Container>
+      <HighlightList />
 
       <Divider sx={{ margin: 4 }}>
         <Typography variant="h2" textAlign="center">
           Recents
         </Typography>
       </Divider>
-
-      <Container>
-        <RecentPublicationList />
-      </Container>
+      <RecentPublicationList />
     </>
   );
 }
