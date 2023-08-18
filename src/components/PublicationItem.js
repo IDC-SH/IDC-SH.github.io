@@ -8,6 +8,7 @@ import {
   Card,
   CardMedia,
   CardContent,
+  styled,
 } from "@mui/material";
 import { grey } from "@mui/material/colors";
 import DescriptionIcon from "@mui/icons-material/Description";
@@ -17,6 +18,17 @@ import VideocamIcon from "@mui/icons-material/Videocam";
 import AdsClickIcon from "@mui/icons-material/AdsClick";
 
 function PublicationItem({ isMobile, image, title, publish, author, links }) {
+  // https://mui.com/material-ui/react-button/#customization
+  const ColorButton = styled(Button)(({ theme }) => ({
+    color: "white",
+    backgroundColor: grey[800],
+    "&:hover": {
+      backgroundColor: grey[700],
+    },
+    textTransform: "none",
+    whiteSpace: "nowrap",
+  }));
+
   return (
     <Card
       sx={{
@@ -62,37 +74,34 @@ function PublicationItem({ isMobile, image, title, publish, author, links }) {
           direction="row"
           justifyContent="flex-start"
           alignItems="flex-start"
-          sx={{ display: "grid" }}
         >
           {links.map((item) => (
-            <Box key={item.name} sx={{ gridRow: "1", marginRight: 1 }}>
-              <Button
+            <Grid
+              item
+              key={item.name}
+              sx={{ gridRow: "1", marginRight: 1, marginY: 1 }}
+            >
+              <ColorButton
                 variant="contained"
                 href={item.link}
                 startIcon={
-                  item.name === "paper" ? (
+                  item.name === "Paper" ? (
                     <DescriptionIcon />
-                  ) : item.name === "project" ? (
+                  ) : item.name === "Paper Page" ||
+                    item.name === "Home Page" ? (
                     <HomeIcon />
-                  ) : item.name === "code" ? (
+                  ) : item.name === "Code" ? (
                     <CodeIcon />
-                  ) : item.name === "video" ? (
+                  ) : item.name === "Video" ? (
                     <VideocamIcon />
                   ) : (
                     <AdsClickIcon />
                   )
                 }
-                style={{
-                  backgroundColor: grey[800],
-                  whiteSpace: "nowrap",
-                  "&:hover": {
-                    backgroundColor: grey[700],
-                  },
-                }}
               >
                 {item.name}
-              </Button>
-            </Box>
+              </ColorButton>
+            </Grid>
           ))}
         </Grid>
       </CardContent>
