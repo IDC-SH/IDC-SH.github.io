@@ -4,7 +4,7 @@ import {
   HighlightAnimateDiffCard,
   HighlightLandMarkCard,
 } from "../components/Highlights";
-import RecentPublicationList from "../components/RecentPublicationList";
+import { RecentPublicationList } from "../components/PublicationList";
 
 import backgroundImage from "./images-home/background.jpeg";
 

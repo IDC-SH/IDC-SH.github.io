@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-import PublicationList from "../components/PublicationList";
+import { PublicationList } from "../components/PublicationList";
 
 export default function PublicationPage() {
   return (
