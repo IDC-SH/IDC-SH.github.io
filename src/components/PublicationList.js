@@ -5,23 +5,18 @@ import {
   Typography,
   Box,
   Button,
-  styled,
   Card,
   CardMedia,
   CardContent,
 } from "@mui/material";
 import { grey } from "@mui/material/colors";
+import DescriptionIcon from "@mui/icons-material/Description";
+import HomeIcon from "@mui/icons-material/Home";
+import CodeIcon from "@mui/icons-material/Code";
+import VideocamIcon from "@mui/icons-material/Videocam";
+import AdsClickIcon from "@mui/icons-material/AdsClick";
 
 import publicationsData from "../data/publications.json";
-
-const ColorButton = styled(Button)(({ theme }) => ({
-  color: theme.palette.getContrastText(grey[800]),
-  backgroundColor: grey[800],
-  "white-space": "nowrap",
-  "&:hover": {
-    backgroundColor: grey[700],
-  },
-}));
 
 function PublicationItem({ isMobile, image, title, publish, author, links }) {
   return (
@@ -61,7 +56,32 @@ function PublicationItem({ isMobile, image, title, publish, author, links }) {
           >
             {links.map((item) => (
               <Box sx={{ gridRow: "1", marginRight: 1 }}>
-                <ColorButton href={item.link}>{item.name}</ColorButton>
+                <Button
+                  variant="contained"
+                  href={item.link}
+                  startIcon={
+                    item.name === "paper" ? (
+                      <DescriptionIcon />
+                    ) : item.name === "project" ? (
+                      <HomeIcon />
+                    ) : item.name === "code" ? (
+                      <CodeIcon />
+                    ) : item.name === "video" ? (
+                      <VideocamIcon />
+                    ) : (
+                      <AdsClickIcon />
+                    )
+                  }
+                  style={{
+                    backgroundColor: grey[800],
+                    "white-space": "nowrap",
+                    "&:hover": {
+                      backgroundColor: grey[700],
+                    },
+                  }}
+                >
+                  {item.name}
+                </Button>
               </Box>
             ))}
           </Grid>
