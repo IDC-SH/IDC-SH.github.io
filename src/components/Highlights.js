@@ -49,7 +49,7 @@ export function HighlightLandMarkCard() {
           color="white"
           fontWeight="bold"
         >
-          书生·天际 LandMark
+          书生 · 天际 Land Mark
         </Typography>
         <Typography
           variant="h2"
@@ -195,7 +195,7 @@ export function HighlightAnimateDiffCard() {
               color="white"
               fontWeight="bold"
             >
-              AnimateDiff
+              Animate Diff
             </Typography>
             <Typography
               variant="h3"
