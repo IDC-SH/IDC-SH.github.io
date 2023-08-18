@@ -1,10 +1,12 @@
+import { Container } from "@mui/material";
+
 import ResponsivePublicationItem from "./PublicationItem.js";
 
 import publicationsData from "../data/publications.json";
 
 export default function PublicationList() {
   return (
-    <>
+    <Container maxWidth="lg">
       {publicationsData.map((item) => (
         <ResponsivePublicationItem
           key={item.i}
@@ -15,6 +17,6 @@ export default function PublicationList() {
           links={item.links}
         />
       ))}
-    </>
+    </Container>
   );
 }

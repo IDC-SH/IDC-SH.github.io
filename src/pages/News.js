@@ -19,17 +19,21 @@ function NewsItem({ time, title, link }) {
 }
 
 function NewsList() {
-  return newsData.map((item) => (
-    <Box sx={{ marginBottom: 2 }}>
-      <NewsItem time={item.time} title={item.title} link={item.link} />
-    </Box>
-  ));
+  return (
+    <Container maxWidth="sm">
+      {newsData.map((item) => (
+        <Box sx={{ marginBottom: 2 }}>
+          <NewsItem time={item.time} title={item.title} link={item.link} />
+        </Box>
+      ))}
+    </Container>
+  );
 }
 
 export default function NewsPage() {
   return (
-    <Container maxWidth="sm" sx={{ marginTop: 10 }}>
+    <Box sx={{ marginTop: 10 }}>
       <NewsList />
-    </Container>
+    </Box>
   );
 }

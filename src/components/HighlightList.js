@@ -63,8 +63,6 @@ function Item(props) {
           </Typography>
         </Box>
       </Grid>
-
-      {/* </Paper> */}
     </Grid>
   );
 }

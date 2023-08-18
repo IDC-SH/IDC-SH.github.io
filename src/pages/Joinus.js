@@ -1,6 +1,6 @@
-import { Container, Typography } from "@mui/material";
+import { Container, Typography, Box } from "@mui/material";
 
-export default function JoinusPage() {
+function JoinusInfo() {
   return (
     <Container maxWidth="sm">
       <Typography variant="h6" sx={{ marginTop: 10 }}>
@@ -21,5 +21,13 @@ export default function JoinusPage() {
         your interest to daibo@pjlab.org.cn.
       </Typography>
     </Container>
+  );
+}
+
+export default function JoinusPage() {
+  return (
+    <Box sx={{ marginTop: 10 }}>
+      <JoinusInfo />
+    </Box>
   );
 }
