@@ -22,7 +22,7 @@ function NewsList() {
   return (
     <Container maxWidth="sm">
       {newsData.map((item) => (
-        <Box sx={{ marginBottom: 2 }}>
+        <Box key={item.title} sx={{ marginBottom: 2 }}>
           <NewsItem time={item.time} title={item.title} link={item.link} />
         </Box>
       ))}

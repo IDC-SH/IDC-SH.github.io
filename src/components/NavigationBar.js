@@ -38,7 +38,11 @@ export default function NavigationBar(props) {
             alignItems="center"
           >
             {pagesData.map((item) => (
-              <LinkItem title={item.name} destination={item.link} />
+              <LinkItem
+                key={item.name}
+                title={item.name}
+                destination={item.link}
+              />
             ))}
           </Grid>
         </Container>

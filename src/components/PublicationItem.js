@@ -65,7 +65,7 @@ function PublicationItem({ isMobile, image, title, publish, author, links }) {
           sx={{ display: "grid" }}
         >
           {links.map((item) => (
-            <Box sx={{ gridRow: "1", marginRight: 1 }}>
+            <Box key={item.name} sx={{ gridRow: "1", marginRight: 1 }}>
               <Button
                 variant="contained"
                 href={item.link}
@@ -84,7 +84,7 @@ function PublicationItem({ isMobile, image, title, publish, author, links }) {
                 }
                 style={{
                   backgroundColor: grey[800],
-                  "white-space": "nowrap",
+                  whiteSpace: "nowrap",
                   "&:hover": {
                     backgroundColor: grey[700],
                   },
