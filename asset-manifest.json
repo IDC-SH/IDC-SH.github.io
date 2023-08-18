@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.722f3e5e.js",
+    "main.js": "/static/js/main.191be873.js",
     "static/media/3.jpeg": "/static/media/3.8aa822478767541899dd.jpeg",
     "static/media/1.jpeg": "/static/media/1.9c7087fc9abba95a4038.jpeg",
     "static/media/14.jpeg": "/static/media/14.fe68a0207589e42059bb.jpeg",
+    "static/media/background-landmark.jpeg": "/static/media/background-landmark.52ff68ac3e7e36932d02.jpeg",
     "static/media/15.jpeg": "/static/media/15.a64726cb6ee5e0d7e91b.jpeg",
     "static/media/20.jpeg": "/static/media/20.59a111436ccecaf2d651.jpeg",
     "static/media/16.jpeg": "/static/media/16.3ef89e1fab4c45325f96.jpeg",
     "static/media/23.jpeg": "/static/media/23.7faa2da6faec126a415c.jpeg",
+    "static/media/background-animatediff.jpeg": "/static/media/background-animatediff.d1413279dd060c5bcc31.jpeg",
     "static/media/17.jpeg": "/static/media/17.280feb1b596c168bd980.jpeg",
     "static/media/8.jpeg": "/static/media/8.553cd6ac827695941dc6.jpeg",
     "static/media/5.jpeg": "/static/media/5.386af4f66351f480bf74.jpeg",
@@ -16,6 +18,7 @@
     "static/media/11.jpeg": "/static/media/11.fd34b1cd63c8300b75f5.jpeg",
     "static/media/6.jpeg": "/static/media/6.76473453d26ef67804c8.jpeg",
     "static/media/13.jpeg": "/static/media/13.1d5fe41b207749909d3a.jpeg",
+    "static/media/animatediff-demo.jpeg": "/static/media/animatediff-demo.c7184c65ea504c069868.jpeg",
     "static/media/21.jpeg": "/static/media/21.ddf6dc0470eab25d8540.jpeg",
     "static/media/4.jpeg": "/static/media/4.2680b9429b187e19390e.jpeg",
     "static/media/22.jpeg": "/static/media/22.c7d9548cdde6342846e8.jpeg",
@@ -26,9 +29,9 @@
     "static/media/9.jpeg": "/static/media/9.eff1f361552b1b0e471b.jpeg",
     "static/media/2.jpeg": "/static/media/2.5dab0cb6dfedce8c5eee.jpeg",
     "index.html": "/index.html",
-    "main.722f3e5e.js.map": "/static/js/main.722f3e5e.js.map"
+    "main.191be873.js.map": "/static/js/main.191be873.js.map"
   },
   "entrypoints": [
-    "static/js/main.722f3e5e.js"
+    "static/js/main.191be873.js"
   ]
 }
