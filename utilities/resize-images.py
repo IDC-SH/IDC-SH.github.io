@@ -3,11 +3,11 @@ import numpy as np
 
 import os
 
-input_folder = "images"
-output_folder = "result"
+input_folder = "./images/"
+output_folder = "./images-resized/"
 
 for file in os.listdir(input_folder):
-    image = cv2.imread(f"{input_folder}/{file}", cv2.IMREAD_UNCHANGED)
+    image = cv2.imread(f"{input_folder}{file}", cv2.IMREAD_UNCHANGED)
     if image.shape[2] == 4:
         trans_mask = image[:, :, 3] == 0
         image[trans_mask] = [255, 255, 255, 255]
@@ -33,4 +33,4 @@ for file in os.listdir(input_folder):
         result[:, start : start + width] = image[:]
 
     filename = file.split(".")[0]
-    cv2.imwrite(f"{output_folder}/{filename}.jpeg", result)
+    cv2.imwrite(f"{output_folder}{filename}.jpeg", result)
