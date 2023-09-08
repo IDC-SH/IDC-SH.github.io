@@ -1,6 +1,71 @@
 [
   {
-    "i": 23,
+    "i": 30,
+    "title": "MatrixCity: A Large-scale City Dataset for City-scale Neural Rendering and Beyond",
+    "publish": "ICCV2023",
+    "author": "Yixuan Li, Lihan Jiang, Linning Xu, Yuanbo Xiangli, Zhenzhi Wang, Dahua Lin, Bo Dai",
+    "image": "https://city-super.github.io/matrixcity/img/teaser.jpg",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://city-super.github.io/matrixcity/img/matrixcity_camera_ready.pdf"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://city-super.github.io/matrixcity/"
+      },
+      {
+        "name": "Data",
+        "link": "https://openxlab.org.cn/datasets/bdaibdai/MatrixCity"
+      }
+    ]
+  },
+  {
+    "i": 29,
+    "title": "Learning Modulated Transformation in GANs",
+    "publish": "arXiv",
+    "author": "Ceyuan Yang, Qihang Zhang, Yinghao Xu, Jiapeng Zhu, Yujun Shen, Bo Dai",
+    "image": "",
+    "links": [{ "name": "Paper", "link": "https://arxiv.org/abs/2308.15472" }]
+  },
+  {
+    "i": 28,
+    "title": "MATLABER: Material-Aware Text-to-3D via LAtent BRDF auto-EncodeR",
+    "publish": "arXiv",
+    "author": "Xudong Xu, Zhaoyang Lyu, Xingang Pan, Bo Dai",
+    "image": "https://sheldontsui.github.io/projects/assets/teaser.jpg",
+    "links": [
+      { "name": "Paper", "link": "https://arxiv.org/abs/2308.09278" },
+      {
+        "name": "Paper Page",
+        "link": "https://sheldontsui.github.io/projects/Matlaber"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/SheldonTsui/Matlaber"
+      }
+    ]
+  },
+  {
+    "i": 27,
+    "title": "DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior",
+    "publish": "arXiv",
+    "author": "Xinqi Lin, Jingwen He, Ziyan Chen, Zhaoyang Lyu, Ben Fei, Bo Dai, Wanli Ouyang, Yu Qiao, Chao Dong",
+    "image": "https://0x3f3f3f3fun.github.io/projects/diffbir/static/images/figure1_a.png",
+    "links": [
+      { "name": "Paper", "link": "https://arxiv.org/abs/2308.15070" },
+      {
+        "name": "Paper Page",
+        "link": "https://0x3f3f3f3fun.github.io/projects/diffbir/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/XPixelGroup/DiffBIR"
+      }
+    ]
+  },
+  {
+    "i": 26,
     "title": "Controllable Motion Diffusion Model",
     "publish": "arXiv",
     "author": "Yi Shi, Jingbo Wang, Xuekun Jiang, Bo Dai",
@@ -11,7 +76,7 @@
     ]
   },
   {
-    "i": 22,
+    "i": 25,
     "title": "AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
     "publish": "arXiv",
     "author": "Yuwei Guo, Ceyuan Yang, Anyi Rao, Yaohui Wang, Yu Qiao, Dahua Lin, Bo Dai",
@@ -23,30 +88,69 @@
     ]
   },
   {
+    "i": 24,
+    "title": "AssetField: Assets Mining and Reconfiguration in Ground Feature Plane Representation",
+    "publish": "ICCV2023",
+    "author": "Yuanbo Xiangli, Linning Xu, Xingang Pan, Nanxuan Zhao, Bo Dai, Dahua Lin",
+    "image": "https://city-super.github.io/assetfield/img/teaser.png",
+    "links": [
+      { "name": "Paper", "link": "https://arxiv.org/abs/2303.13953" },
+      {
+        "name": "Paper Page",
+        "link": "https://city-super.github.io/assetfield/"
+      }
+    ]
+  },
+  {
+    "i": 23,
+    "title": "LinkGAN: Linking GAN Latents to Pixels for Controllable Image Synthesis",
+    "publish": "ICCV 2023",
+    "author": "Jiapeng Zhu, Ceyuan Yang, Yujun Shen, Zifan Shi, Deli Zhao, Qifeng Chen",
+    "image": "https://zhujiapeng.github.io/linkgan/assets/framework.jpg",
+    "links": [
+      { "name": "Paper", "link": "https://arxiv.org/abs/2301.04604" },
+      { "name": "Paper Page", "link": "https://zhujiapeng.github.io/linkgan/" },
+      {
+        "name": "Code",
+        "link": "https://github.com/zhujiapeng/linkgan"
+      }
+    ]
+  },
+  {
+    "i": 22,
+    "title": "OrthoPlanes: A Novel Representation for Better 3D-Awareness of GANs",
+    "publish": "ICCV 2023",
+    "author": "Honglin He, Zhuoqian Yang, Shikai Li, Bo Dai, Wayne Wu",
+    "image": "https://raw.githubusercontent.com/OrthoPlanes/op3d/main/docs/teaser.png",
+    "links": [
+      { "name": "Paper Page", "link": "https://orthoplanes.github.io/" },
+      {
+        "name": "Code",
+        "link": "https://github.com/OrthoPlanes/op3d"
+      },
+      {
+        "name": "Video",
+        "link": "https://www.youtube.com/embed/hHts2zWEbJ8?autoplay=0"
+      }
+    ]
+  },
+  {
     "i": 21,
     "title": "DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering",
     "publish": "ICCV2023",
-    "author": "Wei Cheng, Ruixiang Chen, Wanqi Yin, Siming Fan, Keyu Chen, Honglin He, Huiwen Luo, Zhongang Cai, Jingbo Wang, Yang Gao, Zhengming Yu, Zhengyu Lin, Daxuan Ren, Lei Yang, Ziwei Liu, Chen Change Loy, Chen Qian, Wayne Wu, Dahua Lin, Bo Dai, Kwan-Yee Lin\n",
+    "author": "Wei Cheng, Ruixiang Chen, Wanqi Yin, Siming Fan, Keyu Chen, Honglin He, Huiwen Luo, Zhongang Cai, Jingbo Wang, Yang Gao, Zhengming Yu, Zhengyu Lin, Daxuan Ren, Lei Yang, Ziwei Liu, Chen Change Loy, Chen Qian, Wayne Wu, Dahua Lin, Bo Dai, Kwan-Yee Lin",
     "image": "https://dna-rendering.github.io/assets/img/diversity.jpg",
     "links": [
       { "name": "Paper", "link": "https://arxiv.org/abs/2307.10173" },
-      { "name": "Paper Page", "link": "https://dna-rendering.github.io/" }
+      { "name": "Paper Page", "link": "https://dna-rendering.github.io/" },
+      {
+        "name": "Code",
+        "link": "https://github.com/DNA-Rendering/DNA-Rendering"
+      }
     ]
   },
   {
     "i": 20,
-    "title": "RenderMe-360: A Large Digital Asset Library and Benchmarks Towards High-fidelity Head Avatars",
-    "publish": "arXiv",
-    "author": "Dongwei Pan, Long Zhuo, Jingtan Piao, Huiwen Luo, Wei Cheng, Yuxin Wang, Siming Fan, Shengqi Liu, Lei Yang, Bo Dai, Ziwei Liu, Chen Change Loy, Chen Qian, Wayne Wu, Dahua Lin, Kwan-Yee Lin",
-    "image": "https://raw.githubusercontent.com/RenderMe-360/RenderMe-360/main/docs/teaser.png",
-    "links": [
-      { "name": "Paper", "link": "https://arxiv.org/abs/2305.13353" },
-      { "name": "Paper Page", "link": "https://renderme-360.github.io/" },
-      { "name": "Code", "link": "https://github.com/RenderMe-360/RenderMe-360" }
-    ]
-  },
-  {
-    "i": 19,
     "title": "Towards Multi-Layered 3D Garments Animation",
     "publish": "arXiv",
     "author": "Yidi Shao, Chen Change Loy, Bo Dai",
@@ -60,7 +164,32 @@
     ]
   },
   {
+    "i": 19,
+    "title": "SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling",
+    "publish": "ICCV2023",
+    "author": "Zhitao Yang, Zhongang Cai, Haiyi Mei, Shuai Liu, Zhaoxi Chen, Weiye Xiao, Yukun Wei, Zhongfei Qing, Chen Wei, Bo Dai, Wayne Wu, Chen Qian, Dahua Lin, Ziwei Liu, Lei Yang",
+    "image": "https://maoxie.github.io/SynBody/static/teaser.png",
+    "links": [
+      { "name": "Paper", "link": "https://arxiv.org/abs/2303.17368" },
+      { "name": "Paper Page", "link": "https://maoxie.github.io/SynBody/" },
+      { "name": "Video", "link": "https://www.youtube.com/watch?v=ogXpRB9zR9A" }
+    ]
+  },
+  {
     "i": 18,
+    "title": "3DHumanGAN: Towards Photo-Realistic 3D-Aware Human Image Generation",
+    "publish": "ICCV2023",
+    "author": "Zhuoqian Yang, Shikai Li, Wayne Wu, Bo Dai",
+    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/3dhumangan.jpg",
+    "links": [
+      { "name": "Paper", "link": "https://arxiv.org/abs/2212.07378" },
+      { "name": "Paper Page", "link": "https://3dhumangan.github.io/" },
+      { "name": "Code", "link": "https://github.com/3dhumangan/3DHumanGAN" },
+      { "name": "Video", "link": "https://youtu.be/fYgVYGMLpnw" }
+    ]
+  },
+  {
+    "i": 17,
     "title": "LEO: Generative Latent Image Animator for Human Video Synthesis",
     "publish": "arXiv",
     "author": "Yaohui Wang, Xin Ma, Xinyuan Chen, Antitza Dantcheva, Bo Dai, Yu Qiao",
@@ -75,7 +204,7 @@
     ]
   },
   {
-    "i": 17,
+    "i": 16,
     "title": "Self-Supervised Geometry-Aware Encoder for Style-Based 3D GAN Inversion",
     "publish": "CVPR 2023",
     "author": "Yushi Lan, Xuyi Meng, Shuai Yang, Chen Change Loy, Bo Dai",
@@ -90,7 +219,7 @@
     ]
   },
   {
-    "i": 16,
+    "i": 15,
     "title": "Revisiting the Evaluation of Image Synthesis with GANs",
     "publish": "arXiv",
     "author": "Mengping Yang, Ceyuan Yang, Yichi Zhang, Qingyan Bai, Yujun Shen, Bo Dai",
@@ -98,7 +227,7 @@
     "links": [{ "name": "Paper", "link": "https://arxiv.org/abs/2304.01999" }]
   },
   {
-    "i": 15,
+    "i": 14,
     "title": "Generative Diffusion Prior for Unified Image Restoration and Enhancement ",
     "publish": "CVPR 2023",
     "author": "Ben Fei, Zhaoyang Lyu, Liang Pan, Junzhe Zhang, Weidong Yang, Tianyue Luo, Bo Zhang, Bo Dai",
@@ -113,18 +242,6 @@
         "name": "Code",
         "link": "https://github.com/Fayeben/GenerativeDiffusionPrior"
       }
-    ]
-  },
-  {
-    "i": 14,
-    "title": "SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling",
-    "publish": "arXiv",
-    "author": "Zhitao Yang, Zhongang Cai, Haiyi Mei, Shuai Liu, Zhaoxi Chen, Weiye Xiao, Yukun Wei, Zhongfei Qing, Chen Wei, Bo Dai, Wayne Wu, Chen Qian, Dahua Lin, Ziwei Liu, Lei Yang",
-    "image": "https://maoxie.github.io/SynBody/static/teaser.png",
-    "links": [
-      { "name": "Paper", "link": "https://arxiv.org/abs/2303.17368" },
-      { "name": "Paper Page", "link": "https://maoxie.github.io/SynBody/" },
-      { "name": "Video", "link": "https://www.youtube.com/watch?v=ogXpRB9zR9A" }
     ]
   },
   {
@@ -146,16 +263,14 @@
   },
   {
     "i": 12,
-    "title": "AssetField: Assets Mining and Reconfiguration in Ground Feature Plane Representation",
+    "title": "RenderMe-360: A Large Digital Asset Library and Benchmarks Towards High-fidelity Head Avatars",
     "publish": "arXiv",
-    "author": "Yuanbo Xiangli, Linning Xu, Xingang Pan, Nanxuan Zhao, Bo Dai, Dahua Lin",
-    "image": "https://city-super.github.io/assetfield/img/teaser.png",
+    "author": "Dongwei Pan, Long Zhuo, Jingtan Piao, Huiwen Luo, Wei Cheng, Yuxin Wang, Siming Fan, Shengqi Liu, Lei Yang, Bo Dai, Ziwei Liu, Chen Change Loy, Chen Qian, Wayne Wu, Dahua Lin, Kwan-Yee Lin",
+    "image": "https://raw.githubusercontent.com/RenderMe-360/RenderMe-360/main/docs/teaser.png",
     "links": [
-      { "name": "Paper", "link": "https://arxiv.org/abs/2303.13953" },
-      {
-        "name": "Paper Page",
-        "link": "https://city-super.github.io/assetfield/"
-      }
+      { "name": "Paper", "link": "https://arxiv.org/abs/2305.13353" },
+      { "name": "Paper Page", "link": "https://renderme-360.github.io/" },
+      { "name": "Code", "link": "https://github.com/RenderMe-360/RenderMe-360" }
     ]
   },
   {
@@ -173,13 +288,7 @@
     "publish": "arXiv",
     "author": "Wenwen Tong, Jiangwei Xie, Tianyu Li, Hanming Deng, Xiangwei Geng, Ruoyi Zhou, Dingchen Yang, Bo Dai, Lewei Lu, Hongyang Li",
     "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/drive-3DAug.jpg",
-    "links": [
-      { "name": "Paper", "link": "https://arxiv.org/abs/2303.10340" },
-      {
-        "name": "Paper Page",
-        "link": "https://deepai.org/publication/3d-data-augmentation-for-driving-scenes-on-camera"
-      }
-    ]
+    "links": [{ "name": "Paper", "link": "https://arxiv.org/abs/2303.10340" }]
   },
   {
     "i": 9,
@@ -196,7 +305,7 @@
   {
     "i": 8,
     "title": "Dynamic Storyboard Generation in an Engine-based Virtual Environment for Video Production",
-    "publish": "arXiv",
+    "publish": "SIGGRAPH 2023 Poster",
     "author": "Anyi Rao, Xuekun Jiang, Yuwei Guo, Linning Xu, Lei Yang, Libiao Jin, Dahua Lin, Bo Dai",
     "image": "https://virtualfilmstudio.github.io/src/imgs/banner.png",
     "links": [
@@ -216,19 +325,6 @@
         "name": "Paper Page",
         "link": "https://nirvanalan.github.io/projects/DDF/index.html"
       }
-    ]
-  },
-  {
-    "i": 6,
-    "title": "3DHumanGAN: Towards Photo-Realistic 3D-Aware Human Image Generation",
-    "publish": "arXiv",
-    "author": "Zhuoqian Yang, Shikai Li, Wayne Wu, Bo Dai",
-    "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/3dhumangan.jpg",
-    "links": [
-      { "name": "Paper", "link": "https://arxiv.org/abs/2212.07378" },
-      { "name": "Paper Page", "link": "https://3dhumangan.github.io/" },
-      { "name": "Code", "link": "https://github.com/3dhumangan/3DHumanGAN" },
-      { "name": "Video", "link": "https://youtu.be/fYgVYGMLpnw" }
     ]
   },
   {

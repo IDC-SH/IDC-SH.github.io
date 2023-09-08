@@ -25,5 +25,3 @@
 - `react-responsive`
     - use `MediaQuery` to judge the screen width to make site responsive for desktop and mobile browser
     - Reference: <https://stackoverflow.com/questions/51054431/material-ui-appbar-doesnt-scale-down-when-on-mobile>
-- `react-material-ui-carousel`
-    - TODO should be removed
