@@ -154,7 +154,7 @@
     "title": "Towards Multi-Layered 3D Garments Animation",
     "publish": "arXiv",
     "author": "Yidi Shao, Chen Change Loy, Bo Dai",
-    "image": "https://mmlab-ntu.github.io/project/layersnet/img/d_wind.gif",
+    "image": "",
     "links": [
       { "name": "Paper", "link": "https://arxiv.org/abs/2305.10418" },
       {
