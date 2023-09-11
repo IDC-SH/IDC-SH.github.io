@@ -90,9 +90,9 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ### 克隆仓库到本地
 
-使用 git 将 GitHub 上面的 https://github.com/IDC-SH/IDC-SH.github.io 仓库 clone 到本地（需要设置 ssh 密钥）
+使用 git 将 GitHub 上面的 <https://github.com/IDC-SH/IDC-SH.github.io> 仓库 clone 到本地（需要设置 ssh 密钥）
 
-用 ssh 克隆，在仓库点击 Code，复制得到 git@github.com:IDC-SH/IDC-SH.github.io.git
+用 ssh 克隆，在仓库点击 Code，复制得到 `git@github.com:IDC-SH/IDC-SH.github.io.git`
 
 在本地，输入命令：
 
@@ -104,7 +104,7 @@ git clone git@github.com:IDC-SH/IDC-SH.github.io.git
 
 ### 本地安装 VS Code
 
-https://code.visualstudio.com（注意勾选将 code 添加到环境变量）
+<https://code.visualstudio.com>（注意勾选将 code 添加到环境变量）
 
 打开刚刚下载得到的网站仓库：
 
