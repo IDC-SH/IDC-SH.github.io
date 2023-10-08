@@ -1,32 +1,33 @@
-[{
-  "i": 32,
-  "title": "Interpret Vision Transformers as ConvNets with Dynamic Convolutions",
-  "publish": "arXiv",
-  "author": "Chong Zhou, Chen Change Loy, Bo Dai",
-  "image": "",
-  "links": [{ "name": "Paper", "link": "https://arxiv.org/abs/2309.10713" }]
-},
-{
-  "i": 31,
-  "title": "Unified Human-Scene Interaction via Prompted Chain-of-Contacts",
-  "publish": "Arxiv",
-  "author": "Zeqi Xiao, Tai Wang, Jingbo Wang, Jinkun Cao, Wenwei Zhang, Bo Dai, Dahua Lin, Jiangmiao Pang",
-  "image": "",
-  "links": [
-    {
-      "name": "Paper",
-      "link": "https://browse.arxiv.org/pdf/2309.07918.pdf"
-    },
-    {
-      "name": "Paper Page",
-      "link": "https://xizaoqu.github.io/unihsi/"
-    },
-    {
-      "name": "Code",
-      "link": "https://github.com/OpenRobotLab/UniHSI"
-    }
-  ]
-},
+[
+  {
+    "i": 32,
+    "title": "Interpret Vision Transformers as ConvNets with Dynamic Convolutions",
+    "publish": "arXiv",
+    "author": "Chong Zhou, Chen Change Loy, Bo Dai",
+    "image": "",
+    "links": [{ "name": "Paper", "link": "https://arxiv.org/abs/2309.10713" }]
+  },
+  {
+    "i": 31,
+    "title": "Unified Human-Scene Interaction via Prompted Chain-of-Contacts",
+    "publish": "arXiv",
+    "author": "Zeqi Xiao, Tai Wang, Jingbo Wang, Jinkun Cao, Wenwei Zhang, Bo Dai, Dahua Lin, Jiangmiao Pang",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://browse.arxiv.org/pdf/2309.07918.pdf"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://xizaoqu.github.io/unihsi/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/OpenRobotLab/UniHSI"
+      }
+    ]
+  },
   {
     "i": 30,
     "title": "MatrixCity: A Large-scale City Dataset for City-scale Neural Rendering and Beyond",
