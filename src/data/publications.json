@@ -1,4 +1,32 @@
-[
+[{
+  "i": 32,
+  "title": "Interpret Vision Transformers as ConvNets with Dynamic Convolutions",
+  "publish": "arXiv",
+  "author": "Chong Zhou, Chen Change Loy, Bo Dai",
+  "image": "",
+  "links": [{ "name": "Paper", "link": "https://arxiv.org/abs/2309.10713" }]
+},
+{
+  "i": 31,
+  "title": "Unified Human-Scene Interaction via Prompted Chain-of-Contacts",
+  "publish": "Arxiv",
+  "author": "Zeqi Xiao, Tai Wang, Jingbo Wang, Jinkun Cao, Wenwei Zhang, Bo Dai, Dahua Lin, Jiangmiao Pang",
+  "image": "",
+  "links": [
+    {
+      "name": "Paper",
+      "link": "https://browse.arxiv.org/pdf/2309.07918.pdf"
+    },
+    {
+      "name": "Paper Page",
+      "link": "https://xizaoqu.github.io/unihsi/"
+    },
+    {
+      "name": "Code",
+      "link": "https://github.com/OpenRobotLab/UniHSI"
+    }
+  ]
+},
   {
     "i": 30,
     "title": "MatrixCity: A Large-scale City Dataset for City-scale Neural Rendering and Beyond",
@@ -23,7 +51,7 @@
   {
     "i": 29,
     "title": "Learning Modulated Transformation in GANs",
-    "publish": "arXiv",
+    "publish": "NeurIPS 2023",
     "author": "Ceyuan Yang, Qihang Zhang, Yinghao Xu, Jiapeng Zhu, Yujun Shen, Bo Dai",
     "image": "",
     "links": [{ "name": "Paper", "link": "https://arxiv.org/abs/2308.15472" }]
@@ -152,7 +180,7 @@
   {
     "i": 20,
     "title": "Towards Multi-Layered 3D Garments Animation",
-    "publish": "arXiv",
+    "publish": "ICCV 2023",
     "author": "Yidi Shao, Chen Change Loy, Bo Dai",
     "image": "",
     "links": [
@@ -221,7 +249,7 @@
   {
     "i": 15,
     "title": "Revisiting the Evaluation of Image Synthesis with GANs",
-    "publish": "arXiv",
+    "publish": "NeurIPS 2023 Datasets and Benchmarks",
     "author": "Mengping Yang, Ceyuan Yang, Yichi Zhang, Qingyan Bai, Yujun Shen, Bo Dai",
     "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/metric.png",
     "links": [{ "name": "Paper", "link": "https://arxiv.org/abs/2304.01999" }]
@@ -264,7 +292,7 @@
   {
     "i": 12,
     "title": "RenderMe-360: A Large Digital Asset Library and Benchmarks Towards High-fidelity Head Avatars",
-    "publish": "arXiv",
+    "publish": "NeurIPS 2023 Datasets and Benchmarks",
     "author": "Dongwei Pan, Long Zhuo, Jingtan Piao, Huiwen Luo, Wei Cheng, Yuxin Wang, Siming Fan, Shengqi Liu, Lei Yang, Bo Dai, Ziwei Liu, Chen Change Loy, Chen Qian, Wayne Wu, Dahua Lin, Kwan-Yee Lin",
     "image": "https://raw.githubusercontent.com/RenderMe-360/RenderMe-360/main/docs/teaser.png",
     "links": [
@@ -316,7 +344,7 @@
   {
     "i": 7,
     "title": "Correspondence Distillation from NeRF-based GAN",
-    "publish": "arXiv",
+    "publish": "IJCV 2023",
     "author": "Yushi Lan, Chen Change Loy, Bo Dai",
     "image": "https://nirvanalan.github.io/projects/DDF/img/overview.png",
     "links": [
