@@ -11,11 +11,14 @@ function LinkItem({ title, destination }) {
         <Typography
           component="div"
           sx={{
-            fontSize: 20,
+            fontSize: 32,
             fontStyle: "normal",
-            color: "common.white",
+            color: "rgb(58,73,177)",
             textAlign: "center",
             display: { xs: "none", md: "block", xl: "block" },
+            '&:hover':{backgroundColor:'rgb(237,195,71)',lineHeight:1,width:'120%',height:'20px'},
+            fontWeight:900,
+            fontFamily:'Titillium Web'
           }}
         >
           {title}
@@ -27,14 +30,14 @@ function LinkItem({ title, destination }) {
 
 export default function NavigationBar(props) {
   return (
-    <AppBar sx={{ height: 60, bgcolor: "common.black" }}>
+    <AppBar sx={{ height: '60px', bgcolor: "common.white",boxShadow:"none" }}>
       <Toolbar>
         <Container maxWidth="lg">
           <Grid
             container
             spacing={1}
             direction="row"
-            justifyContent="center"
+            justifyContent="space-between"
             alignItems="center"
           >
             {pagesData.map((item) => (

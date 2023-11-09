@@ -1,22 +1,41 @@
-import MediaQuery from "react-responsive";
 
-import { Typography, Container, Divider, Box } from "@mui/material";
-
-import {
-  HighlightAnimateDiffCard,
-  HighlightLandMarkCard,
-} from "../components/Highlights";
+import { Typography, Container, Divider, Box, Card } from "@mui/material";
+import {HighlightsLeftCard} from "../components/Highlights";
 import { RecentPublicationList } from "../components/PublicationList";
-
-import backgroundImage from "./images-home/background.jpeg";
+import ArrowDownwardIcon from  "@mui/icons-material/ArrowDownward"
 
 function LabIntroduction() {
-  const textStyle = {
+  const textStyle1 = {
+    fontStyle: "oblique",
+    color: "#263238",
+    whiteSpace: "nowrap",
+    fontWeight: "bold",
+    fontSize: 32,
+    fontFamily: 'Lato',
+    lineHeight: 2.5,
+    marginTop: "100px"
+  };
+  const textStyle2 = {
     fontStyle: "oblique",
     color: "white",
     whiteSpace: "nowrap",
     fontWeight: "bold",
+    fontSize: 32,
+    fontFamily: 'Lato',
+    lineHeight: 2.5,
+    marginTop: "0px"
   };
+  const textStyle3 = {
+    fontStyle: "normal",
+    color: "#263238",
+    whiteSpace: "nowrap",
+    fontWeight: "bold",
+    fontSize: 48,
+    fontFamily: 'Lato',
+    lineHeight: 2.5,
+    marginTop: "0px"
+  };
+
   return (
     <Box
       sx={{
@@ -26,133 +45,86 @@ function LabIntroduction() {
       }}
     >
       <Typography
-        sx={{ ...textStyle, fontSize: 160, lineHeight: 1, letterSpacing: 20 }}
+        sx={{ ...textStyle1, fontSize: 60, lineHeight: 1.75 }}
       >
-        IDC
+        Research Group on
       </Typography>
-      <Typography sx={{ ...textStyle, fontSize: 20, lineHeight: 0.6 }}>
+      <Box sx={{ width: "100%", backgroundColor: "rgb(53,73,183)", textAlign: "center" }}>
+        <Typography sx={{ ...textStyle2, display: "inline-block", fontSize: 60, lineHeight: 1.75, textAlign: "center" }}>
         Intelligent Digital Creation
-      </Typography>
-      <Typography sx={{ ...textStyle, fontSize: 120, lineHeight: 1.2 }}>
-        Group
-      </Typography>
-      <Typography sx={{ ...textStyle, fontSize: 18, lineHeight: 0.8 }}>
-        @ Shanghai AI Laboratory
+        </Typography>
+      </Box>
+      <Typography sx={{ ...textStyle3,fontSize: 54, lineHeight: 1.75 ,position:'relative'}}>
+      Stay tuned with us!
       </Typography>
     </Box>
-  );
-}
-
-function RecruitingIntroduction() {
-  return (
-    <>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <Typography
-          sx={{
-            color: "white",
-            textAlign: "center",
-            fontFamily: "Comic Sans MS",
-            fontSize: 48,
-            lineHeight: 2.2,
-          }}
-        >
-          Team is Recruiting
-        </Typography>
-        <Typography
-          variant="subtitle2"
-          sx={{
-            fontSize: 28,
-            lineHeight: 2,
-            color: "white",
-            textAlign: "center",
-          }}
-        >
-          If you believe you have what it takes,
-          <br />
-          please do not hesitate to express
-          <br />
-          your interest to <i>daibo@pjlab.org.cn</i>
-        </Typography>
-      </Box>
-    </>
-  );
-}
-
-function MainIntroduction({ isMobile = false }) {
-  return (
-    <Container maxWidth="lg">
-      <Box
-        display={isMobile ? "" : "flex"}
-        alignItems={"center"}
-        justifyContent={"center"}
-        justifyItems={"center"}
-      >
-        <br />
-        <Box
-          sx={{
-            backgroundColor: "rgba(232,232,232,0.2)",
-            marginY: 12,
-            marginX: 4,
-            padding: 4,
-          }}
-        >
-          <LabIntroduction />
-        </Box>
-        <Box
-          sx={{
-            backgroundColor: "rgba(232,232,232,0.2)",
-            marginY: 12,
-            marginX: 4,
-            padding: 4,
-          }}
-        >
-          <RecruitingIntroduction />
-        </Box>
-        <br />
-      </Box>
-    </Container>
   );
 }
 
 export default function HomePage() {
   return (
     <>
-      <Box
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundAttachment: "scroll",
-          backgroundSize: "cover",
-          backgroundColor: "black",
-        }}
-      >
-        <MediaQuery maxWidth={1024}>
-          <MainIntroduction isMobile />
-        </MediaQuery>
-        <MediaQuery minWidth={1024}>
-          <MainIntroduction />
-        </MediaQuery>
-      </Box>
+      <LabIntroduction />
 
       <Divider sx={{ margin: 4 }}>
-        <Typography variant="h2" textAlign="center">
+        <Typography
+        variant="h2"
+          sx={{
+            fontWeight: 'bold',
+            fontFamily: 'Roboto Condensed',
+            color: 'rgb(53,73,183)',
+            textAlign: 'center',
+            position: 'relative',
+            '&::after': {
+              content: '""',
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+              width: '100%',
+              height: '50%',
+              background: 'rgb(237,195,71)',
+              zIndex: -1,
+            },
+            '&:hover::after':{
+              top:0,
+              bottom:'auto',
+              height:'50%',
+            background:'rgb(237,195,71)'
+          },
+          }}
+        >
           Highlights
         </Typography>
       </Divider>
-      <HighlightLandMarkCard />
-      <br />
-      <HighlightAnimateDiffCard />
+      <HighlightsLeftCard/>
 
       <Divider sx={{ margin: 4 }}>
-        <Typography variant="h2" textAlign="center">
+      <Typography
+        variant="h2"
+          sx={{
+            fontWeight: 'bold',
+            fontFamily: 'Roboto Condensed',
+            color: 'rgb(53,73,183)',
+            textAlign: 'center',
+            position: 'relative',
+            '&::after': {
+              content: '""',
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+              width: '100%',
+              height: '50%',
+              background: 'rgb(237,195,71)',
+              zIndex: -1,
+            },
+            '&:hover::after':{
+              top:0,
+              bottom:'auto',
+              height:'50%',
+            background:'rgb(237,195,71)'
+          },
+          }}
+        >
           Recents
         </Typography>
       </Divider>
