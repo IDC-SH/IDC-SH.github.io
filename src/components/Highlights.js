@@ -12,450 +12,470 @@ import HomeIcon from "@mui/icons-material/Home";
 import CodeIcon from "@mui/icons-material/Code";
 import NewspaperIcon from "@mui/icons-material/Newspaper";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import MediaQuery from "react-responsive";
 
-export function HighlightsLeftCard() {
+function HightlightCardLandMark() {
   return (
-    <Grid container justifyContent="center" spacing={2}>
-      <Grid item xs={6}>
+    <Grid item xs={6}>
+      <Box
+        sx={{
+          backgroundColor: "rgba(53,73,183,0.3)",
+          padding: 2,
+          borderRadius: 8,
+          width: "90%",
+          margin: "10px 10px 10px 20px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          position: "relative",
+          justifyContent: "center",
+        }}
+      >
         <Box
           sx={{
-            backgroundColor: "rgba(53,73,183,0.3)",
-            padding: 2,
-            borderRadius: 8,
-            height: "420px",
-            width: "550px",
-            margin: "10px 10px 10px 20px",
+            width: "90%",
             display: "flex",
             flexDirection: "column",
-            alignItems: "center",
-            position: "relative",
-            justifyContent: "center",
+            position: "abosolute",
           }}
         >
-          <Box
+          <Typography
+            variant="h1"
+            color="white"
+            fontWeight="bold"
+            fontFamily="Roboto Condensed"
             sx={{
-              width: "90%",
-              display: "flex",
-              flexDirection: "column",
+              fontSize: "72px",
               position: "abosolute",
+              marginTop: "5px",
+              Left: "30px",
             }}
           >
-            <Typography
-              variant="h1"
-              color="white"
-              fontWeight="bold"
-              fontFamily="Roboto Condensed"
+            LandMark
+          </Typography>
+          <Typography
+            variant="h4"
+            color="white"
+            fontWeight="bold"
+            fontFamily="Roboto Condensed"
+            sx={{
+              fontSize: "22px",
+              position: "abosolute",
+              marginTop: "5px",
+              Left: "30px",
+            }}
+          >
+            A City-Scale 3D Neural Radiance Field With International Leading,
+            Efficient Training and Exceptional Rending
+          </Typography>
+          <Typography
+            variant="h4"
+            color="white"
+            fontWeight="bold"
+            fontFamily="Roboto Condensed"
+            sx={{
+              backgroundColor: "rgb(237,195,71)",
+              fontSize: "14px",
+              position: "abosolute",
+              marginTop: "5px",
+              Left: "30px",
+            }}
+          >
+            [2023/10]:LandMark officially Open-sourced!
+          </Typography>
+        </Box>
+        {/*photo Gallery*/}
+        <Grid
+          container
+          spacing={2}
+          justifyContent="center"
+          sx={{ marginTop: "5px" }}
+        >
+          <Grid item>
+            <img
+              src={highlightleftphoto1}
+              alt="highlightleftphoto1"
+              style={{ width: "160px", height: "90px" }}
+            />
+          </Grid>
+          <Grid item>
+            <img
+              src={highlightleftphoto2}
+              alt="XianAItower"
+              style={{ width: "160px", height: "90px" }}
+            />
+          </Grid>
+          <Grid item>
+            <img
+              src={highlightleftphoto3}
+              alt="WukangBuiding"
+              style={{ width: "160px", height: "90px" }}
+            />
+          </Grid>
+          {/*End of photo Gallery*/}
+        </Grid>
+        <Box
+          sx={{
+            position: "relative",
+            marginLeft: "auto",
+            marginRight: "-45px",
+            marginTop: "-260px",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+          }}
+        >
+          <Button
+            variant="contained"
+            component="a"
+            href="https://landmark.intern-ai.org.cn/"
+            target="_blank"
+            sx={{
+              position: "abosolute",
+              width: "50px",
+              height: "35px",
+              "&:hover": { background: yellow[700] },
+            }}
+          >
+            <IconButton
               sx={{
-                fontSize: "72px",
-                position: "abosolute",
-                marginTop: "5px",
-                Left: "30px",
+                borderRadius: "50%",
+                fontSize: "5rem",
+                backgroundColor: "transparent",
+                marginRight: "0.5rem",
+                margin: "0",
               }}
             >
-              LandMark
-            </Typography>
-            <Typography
-              variant="h4"
-              color="white"
-              fontWeight="bold"
-              fontFamily="Roboto Condensed"
+              <HomeIcon sx={{ color: "white" }} />
+            </IconButton>
+          </Button>
+          <Button
+            variant="contained"
+            component="a"
+            href="https://github.com/InternLandMark/LandMark"
+            target="_blank"
+            sx={{
+              position: "abosolute",
+              width: "50px",
+              height: "35px",
+              marginTop: 5,
+              "&:hover": { background: yellow[700] },
+            }}
+          >
+            <IconButton
               sx={{
-                fontSize: "22px",
-                position: "abosolute",
-                marginTop: "5px",
-                Left: "30px",
+                borderRadius: "50%",
+                fontSize: "5rem",
+                backgroundColor: "transparent",
+                marginRight: "0.5rem",
+                margin: "0",
               }}
             >
-              A City-Scale 3D Neural Radiance Field With International Leading,
-              Efficient Training and Exceptional Rending
-            </Typography>
-            <Typography
-              variant="h4"
-              color="white"
-              fontWeight="bold"
-              fontFamily="Roboto Condensed"
+              <CodeIcon sx={{ color: "white" }} />
+            </IconButton>
+          </Button>
+          <Button
+            variant="contained"
+            component="a"
+            href="https://arxiv.org/abs/2303.14001"
+            target="_blank"
+            sx={{
+              position: "abosolute",
+              width: "50px",
+              height: "35px",
+              marginTop: 5,
+              "&:hover": { background: yellow[700] },
+            }}
+          >
+            <IconButton
               sx={{
-                backgroundColor: "rgb(237,195,71)",
-                fontSize: "14px",
-                position: "abosolute",
-                marginTop: "5px",
-                Left: "30px",
+                borderRadius: "50%",
+                fontSize: "5rem",
+                backgroundColor: "transparent",
+                marginRight: "0.5rem",
+                margin: "0",
               }}
             >
-              [2023/10]:LandMark officially Open-sourced!
-            </Typography>
-          </Box>
+              <DescriptionIcon sx={{ color: "white" }} />
+            </IconButton>
+          </Button>
+          <Button
+            variant="contained"
+            component="a"
+            href="https://www.shlab.org.cn/news/5443429"
+            target="_blank"
+            sx={{
+              position: "abosolute",
+              width: "50px",
+              height: "35px",
+              marginTop: 5,
+              "&:hover": { background: yellow[700] },
+            }}
+          >
+            <IconButton
+              sx={{
+                borderRadius: "50%",
+                fontSize: "5rem",
+                backgroundColor: "transparent",
+                marginRight: "0.5rem",
+                margin: "0",
+              }}
+            >
+              <NewspaperIcon sx={{ color: "white" }} />
+            </IconButton>
+          </Button>
+        </Box>
+      </Box>
+    </Grid>
+  );
+}
+
+function HighlightCardAnimateDiff() {
+  return (
+    <Grid item xs={6}>
+      <Box
+        sx={{
+          backgroundColor: "rgba(53,73,183,0.3)",
+          padding: 2,
+          borderRadius: 8,
+          width: "90%",
+          margin: "10px 10px 10px 20px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          position: "relative",
+          justifyContent: "center",
+        }}
+      >
+        <Box
+          sx={{
+            width: "80%",
+            display: "flex",
+            flexDirection: "column",
+            position: "relative",
+          }}
+        >
+          <Typography
+            variant="h1"
+            color="white"
+            fontWeight="bold"
+            fontFamily="Roboto Condensed"
+            sx={{
+              fontSize: "72px",
+              position: "abosolute",
+              top: "30px",
+              Left: "30px",
+            }}
+          >
+            AnimateDiff
+          </Typography>
+          <Typography
+            variant="h4"
+            color="white"
+            fontWeight="bold"
+            fontFamily="Roboto Condensed"
+            sx={{
+              fontSize: "22px",
+              position: "relative",
+              Top: "5px",
+              Left: "30px",
+            }}
+          >
+            Animate Your Personalized Text-to-Image Diffusion Models without
+            Specific Tuning
+          </Typography>
+          <Typography
+            variant="h4"
+            color="white"
+            fontWeight="bold"
+            fontFamily="Roboto Condensed"
+            sx={{
+              backgroundColor: "rgb(237,195,71)",
+              fontSize: "14px",
+              position: "abosolute",
+              marginTop: "5px",
+              Left: "30px",
+            }}
+          >
+            [2023/9/25]:Release MotionLoRA and its model zoo!
+          </Typography>
           {/*photo Gallery*/}
           <Grid
             container
             spacing={2}
             justifyContent="center"
-            sx={{ marginTop: "5px" }}
+            sx={{ marginTop: "10px" }}
           >
-            <Grid item>
+            <Grid
+              item
+              sx={{ position: "abosolute", bottom: "50px", right: "200px" }}
+            >
               <img
-                src={highlightleftphoto1}
-                alt="highlightleftphoto1"
-                style={{ width: "160px", height: "90px" }}
+                src={highlightrightphoto1}
+                alt="Zoom In"
+                style={{ width: "90px", height: "90px" }}
               />
             </Grid>
-            <Grid item>
+            <Grid
+              item
+              sx={{ position: "abosolute", bottom: "50px", right: "200px" }}
+            >
               <img
-                src={highlightleftphoto2}
-                alt="XianAItower"
-                style={{ width: "160px", height: "90px" }}
+                src={highlightrightphoto2}
+                alt="Zoom Out"
+                style={{ width: "90px", height: "90px" }}
               />
             </Grid>
-            <Grid item>
+            <Grid
+              item
+              sx={{ position: "abosolute", bottom: "50px", right: "200px" }}
+            >
               <img
-                src={highlightleftphoto3}
-                alt="WukangBuiding"
-                style={{ width: "160px", height: "90px" }}
+                src={highlightrightphoto3}
+                alt="Zoom Pan left"
+                style={{ width: "90px", height: "90px" }}
+              />
+            </Grid>
+            <Grid
+              item
+              sx={{ position: "abosolute", bottom: "50px", right: "200px" }}
+            >
+              <img
+                src={highlightrightphoto4}
+                alt="Zoom pan right"
+                style={{ width: "90px", height: "90px" }}
               />
             </Grid>
             {/*End of photo Gallery*/}
           </Grid>
-          <Box
-            sx={{
-              position: "relative",
-              marginLeft: "auto",
-              marginRight: "-45px",
-              marginTop: "-260px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
-            }}
-          >
-            <Button
-              variant="contained"
-              component="a"
-              href="https://landmark.intern-ai.org.cn/"
-              target="_blank"
-              sx={{
-                position: "abosolute",
-                width: "50px",
-                height: "35px",
-                "&:hover": { background: yellow[700] },
-              }}
-            >
-              <IconButton
-                sx={{
-                  borderRadius: "50%",
-                  fontSize: "5rem",
-                  backgroundColor: "transparent",
-                  marginRight: "0.5rem",
-                  margin: "0",
-                }}
-              >
-                <HomeIcon sx={{ color: "white" }} />
-              </IconButton>
-            </Button>
-            <Button
-              variant="contained"
-              component="a"
-              href="https://github.com/InternLandMark/LandMark"
-              target="_blank"
-              sx={{
-                position: "abosolute",
-                width: "50px",
-                height: "35px",
-                marginTop: 5,
-                "&:hover": { background: yellow[700] },
-              }}
-            >
-              <IconButton
-                sx={{
-                  borderRadius: "50%",
-                  fontSize: "5rem",
-                  backgroundColor: "transparent",
-                  marginRight: "0.5rem",
-                  margin: "0",
-                }}
-              >
-                <CodeIcon sx={{ color: "white" }} />
-              </IconButton>
-            </Button>
-            <Button
-              variant="contained"
-              component="a"
-              href="https://arxiv.org/abs/2303.14001"
-              target="_blank"
-              sx={{
-                position: "abosolute",
-                width: "50px",
-                height: "35px",
-                marginTop: 5,
-                "&:hover": { background: yellow[700] },
-              }}
-            >
-              <IconButton
-                sx={{
-                  borderRadius: "50%",
-                  fontSize: "5rem",
-                  backgroundColor: "transparent",
-                  marginRight: "0.5rem",
-                  margin: "0",
-                }}
-              >
-                <DescriptionIcon sx={{ color: "white" }} />
-              </IconButton>
-            </Button>
-            <Button
-              variant="contained"
-              component="a"
-              href="https://www.shlab.org.cn/news/5443429"
-              target="_blank"
-              sx={{
-                position: "abosolute",
-                width: "50px",
-                height: "35px",
-                marginTop: 5,
-                "&:hover": { background: yellow[700] },
-              }}
-            >
-              <IconButton
-                sx={{
-                  borderRadius: "50%",
-                  fontSize: "5rem",
-                  backgroundColor: "transparent",
-                  marginRight: "0.5rem",
-                  margin: "0",
-                }}
-              >
-                <NewspaperIcon sx={{ color: "white" }} />
-              </IconButton>
-            </Button>
-          </Box>
         </Box>
-      </Grid>
-
-      <Grid item xs={6}>
         <Box
           sx={{
-            backgroundColor: "rgba(53,73,183,0.3)",
-            padding: 2,
-            borderRadius: 8,
-            height: "420px",
-            width: "550px",
-            margin: "10px 10px 10px 20px",
+            position: "relative",
+            marginLeft: "500px",
+            marginRight: "-45px",
+            marginTop: "-260px",
             display: "flex",
             flexDirection: "column",
-            alignItems: "center",
-            position: "relative",
-            justifyContent: "center",
+            justifyContent: "space-between",
           }}
         >
-          <Box
+          <Button
+            variant="contained"
+            component="a"
+            href="https://animatediff.github.io/"
+            target="_blank"
             sx={{
-              width: "80%",
-              display: "flex",
-              flexDirection: "column",
-              position: "relative",
+              width: "50px",
+              height: "35px",
+              "&:hover": { background: yellow[700] },
             }}
           >
-            <Typography
-              variant="h1"
-              color="white"
-              fontWeight="bold"
-              fontFamily="Roboto Condensed"
+            <IconButton
               sx={{
-                fontSize: "72px",
-                position: "abosolute",
-                top: "30px",
-                Left: "30px",
+                borderRadius: "50%",
+                fontSize: "5rem",
+                backgroundColor: "transparent",
+                marginRight: "0.5rem",
+                margin: "0",
               }}
             >
-              AnimateDiff
-            </Typography>
-            <Typography
-              variant="h4"
-              color="white"
-              fontWeight="bold"
-              fontFamily="Roboto Condensed"
-              sx={{
-                fontSize: "22px",
-                position: "relative",
-                Top: "5px",
-                Left: "30px",
-              }}
-            >
-              Animate Your Personalized Text-to-Image Diffusion Models without
-              Specific Tuning
-            </Typography>
-            <Typography
-              variant="h4"
-              color="white"
-              fontWeight="bold"
-              fontFamily="Roboto Condensed"
-              sx={{
-                backgroundColor: "rgb(237,195,71)",
-                fontSize: "14px",
-                position: "abosolute",
-                marginTop: "5px",
-                Left: "30px",
-              }}
-            >
-              [2023/9/25]:Release MotionLoRA and its model zoo!
-            </Typography>
-            {/*photo Gallery*/}
-            <Grid
-              container
-              spacing={2}
-              justifyContent="center"
-              sx={{ marginTop: "10px" }}
-            >
-              <Grid
-                item
-                sx={{ position: "abosolute", bottom: "50px", right: "200px" }}
-              >
-                <img
-                  src={highlightrightphoto1}
-                  alt="Zoom In"
-                  style={{ width: "90px", height: "90px" }}
-                />
-              </Grid>
-              <Grid
-                item
-                sx={{ position: "abosolute", bottom: "50px", right: "200px" }}
-              >
-                <img
-                  src={highlightrightphoto2}
-                  alt="Zoom Out"
-                  style={{ width: "90px", height: "90px" }}
-                />
-              </Grid>
-              <Grid
-                item
-                sx={{ position: "abosolute", bottom: "50px", right: "200px" }}
-              >
-                <img
-                  src={highlightrightphoto3}
-                  alt="Zoom Pan left"
-                  style={{ width: "90px", height: "90px" }}
-                />
-              </Grid>
-              <Grid
-                item
-                sx={{ position: "abosolute", bottom: "50px", right: "200px" }}
-              >
-                <img
-                  src={highlightrightphoto4}
-                  alt="Zoom pan right"
-                  style={{ width: "90px", height: "90px" }}
-                />
-              </Grid>
-              {/*End of photo Gallery*/}
-            </Grid>
-          </Box>
-          <Box
+              <HomeIcon sx={{ color: "white" }} />
+            </IconButton>
+          </Button>
+          <Button
+            variant="contained"
+            component="a"
+            href="https://github.com/guoyww/animatediff/"
+            target="_blank"
             sx={{
-              position: "relative",
-              marginLeft: "500px",
-              marginRight: "-45px",
-              marginTop: "-260px",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
+              width: "50px",
+              height: "35px",
+              marginTop: 5,
+              "&:hover": { background: yellow[700] },
             }}
           >
-            <Button
-              variant="contained"
-              component="a"
-              href="https://animatediff.github.io/"
-              target="_blank"
+            <IconButton
               sx={{
-                width: "50px",
-                height: "35px",
-                "&:hover": { background: yellow[700] },
+                borderRadius: "50%",
+                fontSize: "5rem",
+                backgroundColor: "transparent",
+                marginRight: "0.5rem",
+                margin: "0",
               }}
             >
-              <IconButton
-                sx={{
-                  borderRadius: "50%",
-                  fontSize: "5rem",
-                  backgroundColor: "transparent",
-                  marginRight: "0.5rem",
-                  margin: "0",
-                }}
-              >
-                <HomeIcon sx={{ color: "white" }} />
-              </IconButton>
-            </Button>
-            <Button
-              variant="contained"
-              component="a"
-              href="https://github.com/guoyww/animatediff/"
-              target="_blank"
+              <CodeIcon sx={{ color: "white" }} />
+            </IconButton>
+          </Button>
+          <Button
+            variant="contained"
+            component="a"
+            href="https://arxiv.org/abs/2303.14001"
+            target="_blank"
+            sx={{
+              width: "50px",
+              height: "35px",
+              marginTop: 5,
+              "&:hover": { background: yellow[700] },
+            }}
+          >
+            <IconButton
               sx={{
-                width: "50px",
-                height: "35px",
-                marginTop: 5,
-                "&:hover": { background: yellow[700] },
+                borderRadius: "50%",
+                fontSize: "5rem",
+                backgroundColor: "transparent",
+                marginRight: "0.5rem",
+                margin: "0",
               }}
             >
-              <IconButton
-                sx={{
-                  borderRadius: "50%",
-                  fontSize: "5rem",
-                  backgroundColor: "transparent",
-                  marginRight: "0.5rem",
-                  margin: "0",
-                }}
-              >
-                <CodeIcon sx={{ color: "white" }} />
-              </IconButton>
-            </Button>
-            <Button
-              variant="contained"
-              component="a"
-              href="https://arxiv.org/abs/2303.14001"
-              target="_blank"
+              <DescriptionIcon sx={{ color: "white" }} />
+            </IconButton>
+          </Button>
+          <Button
+            variant="contained"
+            component="a"
+            href="https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff"
+            target="_blank"
+            sx={{
+              width: "50px",
+              height: "35px",
+              marginTop: 5,
+              "&:hover": { background: yellow[700] },
+            }}
+          >
+            <IconButton
               sx={{
-                width: "50px",
-                height: "35px",
-                marginTop: 5,
-                "&:hover": { background: yellow[700] },
+                borderRadius: "50%",
+                fontSize: "5rem",
+                backgroundColor: "transparent",
+                marginRight: "0.5rem",
+                margin: "0",
               }}
             >
-              <IconButton
-                sx={{
-                  borderRadius: "50%",
-                  fontSize: "5rem",
-                  backgroundColor: "transparent",
-                  marginRight: "0.5rem",
-                  margin: "0",
-                }}
-              >
-                <DescriptionIcon sx={{ color: "white" }} />
-              </IconButton>
-            </Button>
-            <Button
-              variant="contained"
-              component="a"
-              href="https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff"
-              target="_blank"
-              sx={{
-                width: "50px",
-                height: "35px",
-                marginTop: 5,
-                "&:hover": { background: yellow[700] },
-              }}
-            >
-              <IconButton
-                sx={{
-                  borderRadius: "50%",
-                  fontSize: "5rem",
-                  backgroundColor: "transparent",
-                  marginRight: "0.5rem",
-                  margin: "0",
-                }}
-              >
-                <SportsEsportsIcon sx={{ color: "white" }} />
-              </IconButton>
-            </Button>
-          </Box>
+              <SportsEsportsIcon sx={{ color: "white" }} />
+            </IconButton>
+          </Button>
         </Box>
-      </Grid>
+      </Box>
     </Grid>
+  );
+}
+
+export function HighlightsCard() {
+  return (
+    <>
+      <MediaQuery minWidth={1024}>
+        <Grid container direction="row">
+          <HightlightCardLandMark />
+          <HighlightCardAnimateDiff />
+        </Grid>
+      </MediaQuery>
+      <MediaQuery maxWidth={1024}>
+        <Grid container direction="column">
+          <HightlightCardLandMark />
+          <HighlightCardAnimateDiff />
+        </Grid>
+      </MediaQuery>
+    </>
   );
 }

@@ -1,12 +1,12 @@
 import { Typography, Divider, Box } from "@mui/material";
-import { HighlightsLeftCard } from "../components/Highlights";
+import { HighlightsCard } from "../components/Highlights";
 import { RecentPublicationList } from "../components/PublicationList";
 
 function LabIntroduction() {
   const textStyle1 = {
     fontStyle: "oblique",
     color: "#263238",
-    whiteSpace: "nowrap",
+    // whiteSpace: "nowrap",
     fontWeight: "bold",
     fontSize: 32,
     fontFamily: "Lato",
@@ -16,7 +16,7 @@ function LabIntroduction() {
   const textStyle2 = {
     fontStyle: "oblique",
     color: "white",
-    whiteSpace: "nowrap",
+    // whiteSpace: "nowrap",
     fontWeight: "bold",
     fontSize: 32,
     fontFamily: "Lato",
@@ -26,7 +26,7 @@ function LabIntroduction() {
   const textStyle3 = {
     fontStyle: "normal",
     color: "#263238",
-    whiteSpace: "nowrap",
+    // whiteSpace: "nowrap",
     fontWeight: "bold",
     fontSize: 48,
     fontFamily: "Lato",
@@ -113,7 +113,7 @@ export default function HomePage() {
           Highlights
         </Typography>
       </Divider>
-      <HighlightsLeftCard />
+      <HighlightsCard />
 
       <Divider sx={{ margin: 4 }}>
         <Typography
