@@ -352,7 +352,7 @@ function HighlightCardAnimateDiff() {
         <Box
           sx={{
             position: "relative",
-            marginLeft: "500px",
+            marginLeft: "auto",
             marginRight: "-45px",
             marginTop: "-260px",
             display: "flex",
