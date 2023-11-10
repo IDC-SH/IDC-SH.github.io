@@ -3,6 +3,9 @@ import { Typography, Container, Divider, Box, Card } from "@mui/material";
 import {HighlightsLeftCard} from "../components/Highlights";
 import { RecentPublicationList } from "../components/PublicationList";
 import ArrowDownwardIcon from  "@mui/icons-material/ArrowDownward"
+import { HighlightsLeftCard } from "../components/Highlights";
+import { RecentPublicationList } from "../components/PublicationList";
+
 
 function LabIntroduction() {
   const textStyle1 = {
@@ -51,11 +54,11 @@ function LabIntroduction() {
       </Typography>
       <Box sx={{ width: "100%", backgroundColor: "rgb(53,73,183)", textAlign: "center" }}>
         <Typography sx={{ ...textStyle2, display: "inline-block", fontSize: 60, lineHeight: 1.75, textAlign: "center" }}>
-        Intelligent Digital Creation
+          Intelligent Digital Creation
         </Typography>
       </Box>
-      <Typography sx={{ ...textStyle3,fontSize: 54, lineHeight: 1.75 ,position:'relative'}}>
-      Stay tuned with us!
+      <Typography sx={{ ...textStyle3, fontSize: 54, lineHeight: 1.75, position: 'relative' }}>
+        Stay tuned with us!
       </Typography>
     </Box>
   );
@@ -68,7 +71,7 @@ export default function HomePage() {
 
       <Divider sx={{ margin: 4 }}>
         <Typography
-        variant="h2"
+          variant="h2"
           sx={{
             fontWeight: 'bold',
             fontFamily: 'Roboto Condensed',
@@ -85,22 +88,22 @@ export default function HomePage() {
               background: 'rgb(237,195,71)',
               zIndex: -1,
             },
-            '&:hover::after':{
-              top:0,
-              bottom:'auto',
-              height:'50%',
-            background:'rgb(237,195,71)'
-          },
+            '&:hover::after': {
+              top: 0,
+              bottom: 'auto',
+              height: '50%',
+              background: 'rgb(237,195,71)'
+            },
           }}
         >
           Highlights
         </Typography>
       </Divider>
-      <HighlightsLeftCard/>
+      <HighlightsLeftCard />
 
       <Divider sx={{ margin: 4 }}>
-      <Typography
-        variant="h2"
+        <Typography
+          variant="h2"
           sx={{
             fontWeight: 'bold',
             fontFamily: 'Roboto Condensed',
@@ -117,12 +120,12 @@ export default function HomePage() {
               background: 'rgb(237,195,71)',
               zIndex: -1,
             },
-            '&:hover::after':{
-              top:0,
-              bottom:'auto',
-              height:'50%',
-            background:'rgb(237,195,71)'
-          },
+            '&:hover::after': {
+              top: 0,
+              bottom: 'auto',
+              height: '50%',
+              background: 'rgb(237,195,71)'
+            },
           }}
         >
           Recents
