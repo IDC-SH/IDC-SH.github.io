@@ -1,11 +1,6 @@
-
-import { Typography, Container, Divider, Box, Card } from "@mui/material";
-import {HighlightsLeftCard} from "../components/Highlights";
-import { RecentPublicationList } from "../components/PublicationList";
-import ArrowDownwardIcon from  "@mui/icons-material/ArrowDownward"
+import { Typography, Divider, Box } from "@mui/material";
 import { HighlightsLeftCard } from "../components/Highlights";
 import { RecentPublicationList } from "../components/PublicationList";
-
 
 function LabIntroduction() {
   const textStyle1 = {
@@ -14,9 +9,9 @@ function LabIntroduction() {
     whiteSpace: "nowrap",
     fontWeight: "bold",
     fontSize: 32,
-    fontFamily: 'Lato',
+    fontFamily: "Lato",
     lineHeight: 2.5,
-    marginTop: "100px"
+    marginTop: "100px",
   };
   const textStyle2 = {
     fontStyle: "oblique",
@@ -24,9 +19,9 @@ function LabIntroduction() {
     whiteSpace: "nowrap",
     fontWeight: "bold",
     fontSize: 32,
-    fontFamily: 'Lato',
+    fontFamily: "Lato",
     lineHeight: 2.5,
-    marginTop: "0px"
+    marginTop: "0px",
   };
   const textStyle3 = {
     fontStyle: "normal",
@@ -34,9 +29,9 @@ function LabIntroduction() {
     whiteSpace: "nowrap",
     fontWeight: "bold",
     fontSize: 48,
-    fontFamily: 'Lato',
+    fontFamily: "Lato",
     lineHeight: 2.5,
-    marginTop: "0px"
+    marginTop: "0px",
   };
 
   return (
@@ -47,17 +42,36 @@ function LabIntroduction() {
         alignItems: "center",
       }}
     >
-      <Typography
-        sx={{ ...textStyle1, fontSize: 60, lineHeight: 1.75 }}
-      >
+      <Typography sx={{ ...textStyle1, fontSize: 60, lineHeight: 1.75 }}>
         Research Group on
       </Typography>
-      <Box sx={{ width: "100%", backgroundColor: "rgb(53,73,183)", textAlign: "center" }}>
-        <Typography sx={{ ...textStyle2, display: "inline-block", fontSize: 60, lineHeight: 1.75, textAlign: "center" }}>
+      <Box
+        sx={{
+          width: "100%",
+          backgroundColor: "rgb(53,73,183)",
+          textAlign: "center",
+        }}
+      >
+        <Typography
+          sx={{
+            ...textStyle2,
+            display: "inline-block",
+            fontSize: 60,
+            lineHeight: 1.75,
+            textAlign: "center",
+          }}
+        >
           Intelligent Digital Creation
         </Typography>
       </Box>
-      <Typography sx={{ ...textStyle3, fontSize: 54, lineHeight: 1.75, position: 'relative' }}>
+      <Typography
+        sx={{
+          ...textStyle3,
+          fontSize: 54,
+          lineHeight: 1.75,
+          position: "relative",
+        }}
+      >
         Stay tuned with us!
       </Typography>
     </Box>
@@ -73,26 +87,26 @@ export default function HomePage() {
         <Typography
           variant="h2"
           sx={{
-            fontWeight: 'bold',
-            fontFamily: 'Roboto Condensed',
-            color: 'rgb(53,73,183)',
-            textAlign: 'center',
-            position: 'relative',
-            '&::after': {
+            fontWeight: "bold",
+            fontFamily: "Roboto Condensed",
+            color: "rgb(53,73,183)",
+            textAlign: "center",
+            position: "relative",
+            "&::after": {
               content: '""',
-              position: 'absolute',
+              position: "absolute",
               bottom: 0,
               left: 0,
-              width: '100%',
-              height: '50%',
-              background: 'rgb(237,195,71)',
+              width: "100%",
+              height: "50%",
+              background: "rgb(237,195,71)",
               zIndex: -1,
             },
-            '&:hover::after': {
+            "&:hover::after": {
               top: 0,
-              bottom: 'auto',
-              height: '50%',
-              background: 'rgb(237,195,71)'
+              bottom: "auto",
+              height: "50%",
+              background: "rgb(237,195,71)",
             },
           }}
         >
@@ -105,26 +119,26 @@ export default function HomePage() {
         <Typography
           variant="h2"
           sx={{
-            fontWeight: 'bold',
-            fontFamily: 'Roboto Condensed',
-            color: 'rgb(53,73,183)',
-            textAlign: 'center',
-            position: 'relative',
-            '&::after': {
+            fontWeight: "bold",
+            fontFamily: "Roboto Condensed",
+            color: "rgb(53,73,183)",
+            textAlign: "center",
+            position: "relative",
+            "&::after": {
               content: '""',
-              position: 'absolute',
+              position: "absolute",
               bottom: 0,
               left: 0,
-              width: '100%',
-              height: '50%',
-              background: 'rgb(237,195,71)',
+              width: "100%",
+              height: "50%",
+              background: "rgb(237,195,71)",
               zIndex: -1,
             },
-            '&:hover::after': {
+            "&:hover::after": {
               top: 0,
-              bottom: 'auto',
-              height: '50%',
-              background: 'rgb(237,195,71)'
+              bottom: "auto",
+              height: "50%",
+              background: "rgb(237,195,71)",
             },
           }}
         >

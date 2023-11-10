@@ -16,9 +16,14 @@ function LinkItem({ title, destination }) {
             color: "rgb(58,73,177)",
             textAlign: "center",
             display: { xs: "none", md: "block", xl: "block" },
-            '&:hover':{backgroundColor:'rgb(237,195,71)',lineHeight:1,width:'120%',height:'20px'},
-            fontWeight:900,
-            fontFamily:'Titillium Web'
+            "&:hover": {
+              backgroundColor: "rgb(237,195,71)",
+              lineHeight: 1,
+              width: "120%",
+              height: "20px",
+            },
+            fontWeight: 900,
+            fontFamily: "Titillium Web",
           }}
         >
           {title}
@@ -30,7 +35,7 @@ function LinkItem({ title, destination }) {
 
 export default function NavigationBar(props) {
   return (
-    <AppBar sx={{ height: '60px', bgcolor: "common.white",boxShadow:"none" }}>
+    <AppBar sx={{ height: "60px", bgcolor: "common.white", boxShadow: "none" }}>
       <Toolbar>
         <Container maxWidth="lg">
           <Grid
