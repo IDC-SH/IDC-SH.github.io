@@ -1,8 +1,12 @@
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import { Typography, Box, Button, Grid, IconButton } from "@mui/material";
 import { yellow } from "@mui/material/colors";
-import highlightleftphoto1 from "./images-highlights/Highlight-Landmark.png";
-import highlightleftphoto2 from "./images-highlights/Hightlight-landmark2.png";
-import highlightleftphoto3 from "./images-highlights/Hightlight-landmark3.png";
+import highlightleftphoto1 from "./images-highlights/Highlights-LandMark01.gif";
+import highlightleftphoto2 from "./images-highlights/Highlights-LandMark02.gif";
+import highlightleftphoto3 from "./images-highlights/Highlights-LandMark03.gif";
 import highlightrightphoto1 from "./images-highlights/Highlight-A01.gif";
 import highlightrightphoto2 from "./images-highlights/Highlight-A02.gif";
 import highlightrightphoto3 from "./images-highlights/Highlight-A03.gif";
@@ -19,10 +23,11 @@ function HightlightCardLandMark() {
     <Grid item xs={6}>
       <Box
         sx={{
-          backgroundColor: "rgba(53,73,183,0.3)",
+          backgroundColor: "rgba(53,73,183,0.8)",
           padding: 2,
           borderRadius: 8,
           width: "90%",
+          height: "400px",
           margin: "10px 10px 10px 20px",
           display: "flex",
           flexDirection: "column",
@@ -40,7 +45,6 @@ function HightlightCardLandMark() {
           }}
         >
           <Typography
-            variant="h1"
             color="white"
             fontWeight="bold"
             fontFamily="Roboto Condensed"
@@ -54,7 +58,6 @@ function HightlightCardLandMark() {
             LandMark
           </Typography>
           <Typography
-            variant="h4"
             color="white"
             fontWeight="bold"
             fontFamily="Roboto Condensed"
@@ -69,19 +72,21 @@ function HightlightCardLandMark() {
             Efficient Training and Exceptional Rending
           </Typography>
           <Typography
-            variant="h4"
             color="white"
             fontWeight="bold"
             fontFamily="Roboto Condensed"
             sx={{
               backgroundColor: "rgb(237,195,71)",
-              fontSize: "14px",
-              position: "abosolute",
+              fontSize: "13px",
+              position: "relative",
               marginTop: "5px",
               Left: "30px",
+              textAlign:"center",
             }}
           >
-            [2023/10]:LandMark officially Open-sourced!
+            <a href='https://github.com/guoyww/animatediff/'>
+           [2023/10]:LandMark officially Open-sourced!
+            </a>
           </Typography>
         </Box>
         {/*photo Gallery*/}
@@ -131,6 +136,7 @@ function HightlightCardLandMark() {
             href="https://landmark.intern-ai.org.cn/"
             target="_blank"
             sx={{
+              backgroundColor: "rgba(53,73,183,0.3)",
               position: "abosolute",
               width: "50px",
               height: "35px",
@@ -155,6 +161,7 @@ function HightlightCardLandMark() {
             href="https://github.com/InternLandMark/LandMark"
             target="_blank"
             sx={{
+              backgroundColor: "rgba(53,73,183,0.3)",
               position: "abosolute",
               width: "50px",
               height: "35px",
@@ -180,6 +187,7 @@ function HightlightCardLandMark() {
             href="https://arxiv.org/abs/2303.14001"
             target="_blank"
             sx={{
+              backgroundColor: "rgba(53,73,183,0.3)",
               position: "abosolute",
               width: "50px",
               height: "35px",
@@ -205,6 +213,7 @@ function HightlightCardLandMark() {
             href="https://www.shlab.org.cn/news/5443429"
             target="_blank"
             sx={{
+              backgroundColor: "rgba(53,73,183,0.3)",
               position: "abosolute",
               width: "50px",
               height: "35px",
@@ -235,11 +244,12 @@ function HighlightCardAnimateDiff() {
     <Grid item xs={6}>
       <Box
         sx={{
-          backgroundColor: "rgba(53,73,183,0.3)",
+          backgroundColor: "rgba(53,73,183,0.8)",
           padding: 2,
           borderRadius: 8,
           width: "90%",
-          margin: "10px 10px 10px 20px",
+          height: "400px",
+          margin: "10px 10px 10px 10px",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -249,28 +259,26 @@ function HighlightCardAnimateDiff() {
       >
         <Box
           sx={{
-            width: "80%",
+            width: "90%",
             display: "flex",
             flexDirection: "column",
             position: "relative",
           }}
         >
           <Typography
-            variant="h1"
             color="white"
             fontWeight="bold"
             fontFamily="Roboto Condensed"
             sx={{
               fontSize: "72px",
               position: "abosolute",
-              top: "30px",
-              Left: "30px",
+              margintop: "10px",
+              Left: "20px",
             }}
           >
             AnimateDiff
           </Typography>
           <Typography
-            variant="h4"
             color="white"
             fontWeight="bold"
             fontFamily="Roboto Condensed"
@@ -278,14 +286,12 @@ function HighlightCardAnimateDiff() {
               fontSize: "22px",
               position: "relative",
               Top: "5px",
-              Left: "30px",
             }}
           >
-            Animate Your Personalized Text-to-Image Diffusion Models without
-            Specific Tuning
+            Animate Your Personalized Text-to-Image
+            Diffusion Models without Specific Tuning
           </Typography>
           <Typography
-            variant="h4"
             color="white"
             fontWeight="bold"
             fontFamily="Roboto Condensed"
@@ -294,10 +300,12 @@ function HighlightCardAnimateDiff() {
               fontSize: "14px",
               position: "abosolute",
               marginTop: "5px",
-              Left: "30px",
+              textAlign:"center",
             }}
           >
-            [2023/9/25]:Release MotionLoRA and its model zoo!
+            <a href='https://github.com/guoyww/animatediff/'>
+              [2023/11]:Release the Motion Module (beta version) on SDXL!
+            </a>
           </Typography>
           {/*photo Gallery*/}
           <Grid
@@ -366,6 +374,7 @@ function HighlightCardAnimateDiff() {
             href="https://animatediff.github.io/"
             target="_blank"
             sx={{
+              backgroundColor: "rgba(53,73,183,0.3)",
               width: "50px",
               height: "35px",
               "&:hover": { background: yellow[700] },
@@ -389,6 +398,7 @@ function HighlightCardAnimateDiff() {
             href="https://github.com/guoyww/animatediff/"
             target="_blank"
             sx={{
+              backgroundColor: "rgba(53,73,183,0.3)",
               width: "50px",
               height: "35px",
               marginTop: 5,
@@ -413,6 +423,7 @@ function HighlightCardAnimateDiff() {
             href="https://arxiv.org/abs/2303.14001"
             target="_blank"
             sx={{
+              backgroundColor: "rgba(53,73,183,0.3)",
               width: "50px",
               height: "35px",
               marginTop: 5,
@@ -437,6 +448,7 @@ function HighlightCardAnimateDiff() {
             href="https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff"
             target="_blank"
             sx={{
+              backgroundColor: "rgba(53,73,183,0.3)",
               width: "50px",
               height: "35px",
               marginTop: 5,

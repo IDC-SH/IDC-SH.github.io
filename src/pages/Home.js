@@ -11,7 +11,7 @@ function LabIntroduction() {
     fontSize: 32,
     fontFamily: "Lato",
     lineHeight: 2.5,
-    marginTop: "100px",
+    marginTop: "120px",
   };
   const textStyle2 = {
     fontStyle: "oblique",
@@ -37,9 +37,13 @@ function LabIntroduction() {
   return (
     <Box
       sx={{
+        backgroundColor:"rgba(255,253,231,0.3)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        height:"550px",
+        overflow:"auto",
+        marginTop:"20px",
       }}
     >
       <Typography sx={{ ...textStyle1, fontSize: 60, lineHeight: 1.75 }}>
@@ -57,7 +61,7 @@ function LabIntroduction() {
             ...textStyle2,
             display: "inline-block",
             fontSize: 60,
-            lineHeight: 1.75,
+            lineHeight: 2,
             textAlign: "center",
           }}
         >
@@ -68,7 +72,7 @@ function LabIntroduction() {
         sx={{
           ...textStyle3,
           fontSize: 54,
-          lineHeight: 1.75,
+          lineHeight: 2,
           position: "relative",
         }}
       >
@@ -83,7 +87,7 @@ export default function HomePage() {
     <>
       <LabIntroduction />
 
-      <Divider sx={{ margin: 4 }}>
+      <Divider sx={{ margin:4 }}>
         <Typography
           variant="h2"
           sx={{
@@ -113,7 +117,7 @@ export default function HomePage() {
           Highlights
         </Typography>
       </Divider>
-      <HighlightsCard />
+      < HighlightsCard />
 
       <Divider sx={{ margin: 4 }}>
         <Typography
