@@ -1,5 +1,15 @@
 [
   {
+    "time": "11/2023",
+    "link": "'https://animatediff.github.io/",
+    "title": "Release the Motion Module (beta version) on SDXL!"
+  },
+  {
+    "time": "10/2023",
+    "link": "https://github.com/InternLandMark/LandMark",
+    "title": "LandMark officially Open-sourced!"
+  },
+  {
     "time": "09/2023",
     "title": "One paper is accepted to NeurIPS 2023 and two papers are accepted by NeurIPS 2023 Datasets and Benchmarks."
   },
