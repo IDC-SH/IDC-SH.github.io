@@ -7,10 +7,10 @@ function NewsItem({ time, title, link }) {
   return (
     <>
       <Box display="flex" alignItems="center" padding="0">
-        <CalendarMonthIcon sx={{ color: "#f44336", marginRight: 1 }} />
+        <CalendarMonthIcon sx={{ color: "#f44336", marginRight:1}} />
         <Typography variant="h6">{time}</Typography>
       </Box>
-      <Typography variant="body1">
+      <Typography variant="h5">
         {title}{" "}
         {link !== undefined && link !== "" && <Link href={link}>more</Link>}
       </Typography>
@@ -20,7 +20,7 @@ function NewsItem({ time, title, link }) {
 
 function NewsList() {
   return (
-    <Container maxWidth="sm">
+    <Container  marginRight="10px">
       {newsData.map((item) => (
         <Box key={item.title} sx={{ marginBottom: 2 }}>
           <NewsItem time={item.time} title={item.title} link={item.link} />
