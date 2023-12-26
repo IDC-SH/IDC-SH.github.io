@@ -1,6 +1,9 @@
-import { Typography, Divider, Box } from "@mui/material";
-import { HighlightsCard } from "../components/Highlights";
+import React from "react";
+import 'slick-carousel/slick.jquery.json';
+import { Typography, Divider, Box, Grid, card } from "@mui/material";
+import HighlightSection from "../components/HighlightSection";
 import { RecentPublicationList } from "../components/PublicationList";
+import { Form } from "react-router-dom";
 
 function LabIntroduction() {
   const textStyle1 = {
@@ -37,13 +40,13 @@ function LabIntroduction() {
   return (
     <Box
       sx={{
-        backgroundColor:"rgba(255,253,231,0.3)",
+        backgroundColor: "rgba(255,253,231,0.3)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        height:"550px",
-        overflow:"auto",
-        marginTop:"20px",
+        height: "550px",
+        overflow: "auto",
+        marginTop: "20px",
       }}
     >
       <Typography sx={{ ...textStyle1, fontSize: 60, lineHeight: 1.75 }}>
@@ -82,12 +85,13 @@ function LabIntroduction() {
   );
 }
 
+
 export default function HomePage() {
   return (
     <>
       <LabIntroduction />
 
-      <Divider sx={{ margin:4 }}>
+      <Divider sx={{ margin: 4 }}>
         <Typography
           variant="h2"
           sx={{
@@ -117,7 +121,8 @@ export default function HomePage() {
           Highlights
         </Typography>
       </Divider>
-      < HighlightsCard />
+
+      <HighlightSection />  
 
       <Divider sx={{ margin: 4 }}>
         <Typography
