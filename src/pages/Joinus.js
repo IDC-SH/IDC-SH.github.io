@@ -3,6 +3,7 @@ import { Container, Typography, Box } from "@mui/material";
 function JoinusInfo() {
   return (
     <Container maxWidth="sm">
+
       <Typography variant="h5" 
       sx={{ marginTop: 10 }}>
         We are devoted to advance the
