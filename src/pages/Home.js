@@ -1,9 +1,9 @@
 import React from "react";
 import 'slick-carousel/slick.jquery.json';
-import { Typography, Divider, Box, Grid, card } from "@mui/material";
+import { Typography, Divider, Box} from "@mui/material";
 import HighlightSection from "../components/HighlightSection";
 import { RecentPublicationList } from "../components/PublicationList";
-import { Form } from "react-router-dom";
+// import { Form } from "react-router-dom";
 
 function LabIntroduction() {
   const textStyle1 = {

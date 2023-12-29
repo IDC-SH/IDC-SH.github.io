@@ -5,7 +5,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import { yellow } from "@mui/material/colors";
 import HomeIcon from "@mui/icons-material/Home";
 import CodeIcon from "@mui/icons-material/Code";
-import NewspaperIcon from "@mui/icons-material/Newspaper";
+// import NewspaperIcon from "@mui/icons-material/Newspaper";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import highlightrightphoto1 from "./images-highlights/Highlight-A01.gif";
 import highlightrightphoto2 from "./images-highlights/Highlight-A02.gif";
