@@ -44,12 +44,19 @@ function LabIntroduction() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        height: "550px",
+        height: "auto",
         overflow: "auto",
         marginTop: "20px",
       }}
     >
-      <Typography sx={{ ...textStyle1, fontSize: 60, lineHeight: 1.75 }}>
+      <Typography
+        sx={{
+          ...textStyle1,
+          fontSize: 60,
+          lineHeight: 1.75,
+          marginX: "8%",
+        }}
+      >
         Research Group on
       </Typography>
       <Box
@@ -77,6 +84,7 @@ function LabIntroduction() {
           fontSize: 54,
           lineHeight: 2,
           position: "relative",
+          marginX: "8%",
         }}
       >
         Stay tuned with us!
