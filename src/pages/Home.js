@@ -153,6 +153,7 @@ export default function HomePage() {
           Recents
         </Typography>
       </Divider>
+
       <RecentPublicationList />
     </>
   );

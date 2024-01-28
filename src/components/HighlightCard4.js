@@ -9,6 +9,7 @@ import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import night from "./images-highlights/night.gif";
 import graffiti from "./images-highlights/graffiti.gif";
 import fish from "./images-highlights/fish.gif";
+import MediaQuery from "react-responsive";
 
 const HighlightCard4 = () => {
   return (
@@ -21,7 +22,7 @@ const HighlightCard4 = () => {
             padding: 2,
             borderRadius: 8,
             width: "90%",
-            height: "400px",
+            height: "auto",
             margin: "10px 10px 10px 20px",
             display: "flex",
             flexDirection: "column",
@@ -43,13 +44,14 @@ const HighlightCard4 = () => {
               fontWeight="bold"
               fontFamily="Roboto Condensed"
               sx={{
-                fontSize: "72px",
+                fontSize: "64px",
                 position: "abosolute",
                 marginTop: "5px",
                 Left: "30px",
               }}
             >
-              EdgeSAM
+              <MediaQuery maxWidth={500}>Edge SAM</MediaQuery>
+              <MediaQuery minWidth={500}>EdgeSAM</MediaQuery>
             </Typography>
             <Typography
               color="white"
@@ -88,7 +90,7 @@ const HighlightCard4 = () => {
             container
             spacing={2}
             justifyContent="center"
-            sx={{ marginTop: "5px" }}
+            sx={{ marginTop: "5px", marginBottom: "10px" }}
           >
             <Grid item>
               <img
@@ -116,7 +118,7 @@ const HighlightCard4 = () => {
             sx={{
               position: "relative",
               marginLeft: "auto",
-              marginRight: "-45px",
+              marginRight: "-20px",
               marginTop: "-260px",
               display: "flex",
               flexDirection: "column",

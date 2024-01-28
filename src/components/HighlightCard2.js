@@ -11,6 +11,7 @@ import highlightrightphoto1 from "./images-highlights/Highlight-A01.gif";
 import highlightrightphoto2 from "./images-highlights/Highlight-A02.gif";
 import highlightrightphoto3 from "./images-highlights/Highlight-A03.gif";
 import highlightrightphoto4 from "./images-highlights/Highlight-A04.gif";
+import MediaQuery from "react-responsive";
 
 const HighlightCard2 = () => {
   return (
@@ -22,7 +23,7 @@ const HighlightCard2 = () => {
           padding: 2,
           borderRadius: 8,
           width: "90%",
-          height: "400px",
+          height: "auto",
           margin: "10px 10px 10px 10px",
           display: "flex",
           flexDirection: "column",
@@ -44,13 +45,14 @@ const HighlightCard2 = () => {
             fontWeight="bold"
             fontFamily="Roboto Condensed"
             sx={{
-              fontSize: "72px",
+              fontSize: "64px",
               position: "abosolute",
               margintop: "10px",
               Left: "20px",
             }}
           >
-            AnimateDiff
+            <MediaQuery maxWidth={500}>Animate Diff</MediaQuery>
+            <MediaQuery minWidth={500}>AnimateDiff</MediaQuery>
           </Typography>
           <Typography
             color="white"
@@ -86,7 +88,7 @@ const HighlightCard2 = () => {
             container
             spacing={2}
             justifyContent="center"
-            sx={{ marginTop: "10px" }}
+            sx={{ marginTop: "5px", marginBottom: "10px" }}
           >
             <Grid
               item
@@ -135,7 +137,7 @@ const HighlightCard2 = () => {
           sx={{
             position: "relative",
             marginLeft: "auto",
-            marginRight: "-45px",
+            marginRight: "-20px",
             marginTop: "-260px",
             display: "flex",
             flexDirection: "column",

@@ -10,6 +10,7 @@ import input1 from "./images-highlights/input1.png";
 import input2 from "./images-highlights/input2.png";
 import output1 from "./images-highlights/output1.gif";
 import output2 from "./images-highlights/output2.gif";
+import MediaQuery from "react-responsive";
 
 const HighlightCard3 = () => {
   return (
@@ -22,7 +23,7 @@ const HighlightCard3 = () => {
             padding: 2,
             borderRadius: 8,
             width: "90%",
-            height: "400px",
+            height: "auto",
             margin: "10px 10px 10px 20px",
             display: "flex",
             flexDirection: "column",
@@ -44,13 +45,14 @@ const HighlightCard3 = () => {
               fontWeight="bold"
               fontFamily="Roboto Condensed"
               sx={{
-                fontSize: "72px",
+                fontSize: "64px",
                 position: "abosolute",
                 marginTop: "5px",
                 Left: "30px",
               }}
             >
-              SparseCtrl
+              <MediaQuery maxWidth={500}>Sparse Ctrl</MediaQuery>
+              <MediaQuery minWidth={500}>SparseCtrl</MediaQuery>
             </Typography>
             <Typography
               color="white"
@@ -88,7 +90,7 @@ const HighlightCard3 = () => {
             container
             spacing={2}
             justifyContent="center"
-            sx={{ marginTop: "5px" }}
+            sx={{ marginTop: "5px", marginBottom: "10px" }}
           >
             <Grid item>
               <img
@@ -124,7 +126,7 @@ const HighlightCard3 = () => {
             sx={{
               position: "relative",
               marginLeft: "auto",
-              marginRight: "-45px",
+              marginRight: "-20px",
               marginTop: "-260px",
               display: "flex",
               flexDirection: "column",

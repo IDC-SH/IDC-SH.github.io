@@ -16,22 +16,12 @@ function HighlightSection() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    autoplay: false,
+    speed: 400,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     vertical: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-        },
-      },
-    ],
   };
 
   const goToNextSlide = () => {
@@ -43,35 +33,27 @@ function HighlightSection() {
   };
 
   return (
-    <Box
-      className="highlights-container"
-      style={{ width: "1250px", margin: "0 auto" }}
-    >
-      <Slider ref={sliderRef} {...settings}>
-        <div>
-          <HighlightCard1 />
-        </div>
-        <div>
-          <HighlightCard2 />
-        </div>
-        <div>
-          <HighlightCard3 />
-        </div>
-        <div>
-          <HighlightCard4 />
-        </div>
-      </Slider>
+    <>
       <Box
-        style={{
-          position: "absolute",
-          top: "1140px",
-          left: "49%",
-          transform: "translate(-50%, -50%)",
-          display: "flex",
-          justifyContent: "space-between",
-          width: "100px",
-        }}
+        className="highlights-container"
+        style={{ width: "96%", margin: "0 auto" }}
       >
+        <Slider ref={sliderRef} {...settings}>
+          <div>
+            <HighlightCard1 />
+          </div>
+          <div>
+            <HighlightCard2 />
+          </div>
+          <div>
+            <HighlightCard3 />
+          </div>
+          <div>
+            <HighlightCard4 />
+          </div>
+        </Slider>
+      </Box>
+      <Box justifyContent="space-around" display="flex">
         <IconButton onClick={goToPrevSlide}>
           <ArrowBackIcon />
         </IconButton>
@@ -79,7 +61,7 @@ function HighlightSection() {
           <ArrowForwardIcon />
         </IconButton>
       </Box>
-    </Box>
+    </>
   );
 }
 
