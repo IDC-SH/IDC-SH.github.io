@@ -1,9 +1,9 @@
 import { Typography, Box, Link, Container } from "@mui/material";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import React from 'react';
-import column1Data from "../data/Landmarknews.json"
-import column2Data from "../data/AnimateDiffnews.json"
-import column3Data from "../data/Papernews.json"
+import column1Data from "../data/news-landmark.json"
+import column2Data from "../data/news-animate-diff.json"
+import column3Data from "../data/news-paper.json"
 
 const NewsLink = ({ children, href }) => (
   <Link href={href} sx={{ color: 'inherit', textDecoration: 'none' }}>
