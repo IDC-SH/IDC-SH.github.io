@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import Slider from "react-slick";
-import 'slick-carousel/slick.jquery.json';
+import "slick-carousel/slick.jquery.json";
 import { Typography, Box, Button, Grid, IconButton } from "@mui/material";
 import { yellow } from "@mui/material/colors";
 import highlightleftphoto1 from "./images-highlights/Highlights-LandMark01.gif";
@@ -87,7 +87,7 @@ function HighlightCard1() {
               textAlign: "center",
             }}
           >
-            <a href='https://github.com/guoyww/animatediff/'>
+            <a href="https://github.com/guoyww/animatediff/">
               [2023/10]:LandMark officially Open-sourced!
             </a>
           </Typography>
@@ -291,8 +291,8 @@ function HighlightCard2() {
               Top: "5px",
             }}
           >
-            Animate Your Personalized Text-to-Image
-            Diffusion Models without Specific Tuning
+            Animate Your Personalized Text-to-Image Diffusion Models without
+            Specific Tuning
           </Typography>
           <Typography
             color="white"
@@ -306,7 +306,7 @@ function HighlightCard2() {
               textAlign: "center",
             }}
           >
-            <a href='https://github.com/guoyww/animatediff/'>
+            <a href="https://github.com/guoyww/animatediff/">
               [2023/11]:Release the Motion Module (beta version) on SDXL!
             </a>
           </Typography>
@@ -541,8 +541,8 @@ function HighlightCard3() {
               textAlign: "center",
             }}
           >
-            <a href='https://github.com/guoyww/animatediff/'>
-            [2023.12] AnimateDiff v3 and SparseCtrl!
+            <a href="https://github.com/guoyww/animatediff/">
+              [2023.12] AnimateDiff v3 and SparseCtrl!
             </a>
           </Typography>
         </Box>
@@ -768,8 +768,10 @@ function HighlightCard4() {
               textAlign: "center",
             }}
           >
-            <a href='https://github.com/guoyww/animatediff/'>
-            [2023.12] The goal of EdgeSAM is to transfer the capabilities of SAM into a much more compact model, which makes deployment on edge devices feasible.
+            <a href="https://github.com/guoyww/animatediff/">
+              [2023.12] The goal of EdgeSAM is to transfer the capabilities of
+              SAM into a much more compact model, which makes deployment on edge
+              devices feasible.
             </a>
           </Typography>
         </Box>
@@ -930,7 +932,7 @@ function HighlightCard4() {
   );
 }
 
-export{HighlightCard1, HighlightCard2, HighlightCard3, HighlightCard4}
+export { HighlightCard1, HighlightCard2, HighlightCard3, HighlightCard4 };
 
 function HighlightsCard() {
   const settings = {
@@ -940,20 +942,24 @@ function HighlightsCard() {
     slidesToShow: 2,
     slidesToScroll: 1,
     vertical: false,
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
       },
-    },
     ],
   };
 
   return (
-    <div className="highlights-container" style={{ width: "1300px", height: "500px" }}>
+    <div
+      className="highlights-container"
+      style={{ width: "1300px", height: "500px" }}
+    >
       <Slider {...settings}>
         <Grid container direction="column">
           <HighlightCard1 />
@@ -964,7 +970,7 @@ function HighlightsCard() {
       </Slider>
     </div>
   );
-};
+}
 
 export function HighlightsCard() {
   return (
@@ -979,7 +985,7 @@ export function HighlightsCard() {
       </MediaQuery>
       <MediaQuery maxWidth={1024}>
         <Grid container direction="column">
-        <HighlightCard1 />
+          <HighlightCard1 />
           <HighlightCard2 />
           <HighlightCard3 />
           <HighlightCard4 />

@@ -1,5 +1,5 @@
 import React from "react";
-import 'slick-carousel/slick.jquery.json';
+import "slick-carousel/slick.jquery.json";
 import { Typography, Box, Button, Grid, IconButton } from "@mui/material";
 import DescriptionIcon from "@mui/icons-material/Description";
 import { yellow } from "@mui/material/colors";
@@ -15,8 +15,7 @@ import highlightrightphoto4 from "./images-highlights/Highlight-A04.gif";
 const HighlightCard2 = () => {
   return (
     <Grid container>
-    <Grid item xs={12} md={6}>
-    </Grid>
+      <Grid item xs={12} md={6}></Grid>
       <Box
         sx={{
           backgroundColor: "rgba(53,73,183,0.8)",
@@ -63,8 +62,8 @@ const HighlightCard2 = () => {
               Top: "5px",
             }}
           >
-            Animate Your Personalized Text-to-Image
-            Diffusion Models without Specific Tuning
+            Animate Your Personalized Text-to-Image Diffusion Models without
+            Specific Tuning
           </Typography>
           <Typography
             color="white"
@@ -78,7 +77,7 @@ const HighlightCard2 = () => {
               textAlign: "center",
             }}
           >
-            <a href='https://github.com/guoyww/animatediff/'>
+            <a href="https://github.com/guoyww/animatediff/">
               [2023/11]:Release the Motion Module (beta version) on SDXL!
             </a>
           </Typography>
@@ -246,6 +245,6 @@ const HighlightCard2 = () => {
       </Box>
     </Grid>
   );
-}
+};
 
 export default HighlightCard2;

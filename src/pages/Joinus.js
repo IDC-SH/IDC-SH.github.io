@@ -3,12 +3,9 @@ import { Container, Typography, Box } from "@mui/material";
 function JoinusInfo() {
   return (
     <Container maxWidth="sm">
-
-      <Typography variant="h5" 
-      sx={{ marginTop: 10 }}>
-        We are devoted to advance the
-        forefront of research in developing and applying AI-based tools for
-        content creation and digitization.
+      <Typography variant="h5" sx={{ marginTop: 10 }}>
+        We are devoted to advance the forefront of research in developing and
+        applying AI-based tools for content creation and digitization.
       </Typography>
       <Typography variant="h5" sx={{ marginTop: 2 }}>
         Our mission is to empower users to manifest their imagination in a

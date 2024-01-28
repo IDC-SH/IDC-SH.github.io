@@ -1,5 +1,5 @@
 import React from "react";
-import 'slick-carousel/slick.jquery.json';
+import "slick-carousel/slick.jquery.json";
 import { Typography, Box, Button, Grid, IconButton } from "@mui/material";
 import { yellow } from "@mui/material/colors";
 import DescriptionIcon from "@mui/icons-material/Description";
@@ -14,8 +14,7 @@ const HighlightCard1 = () => {
   return (
     <div className="highlight-card">
       <Grid container>
-        <Grid item xs={12} md={6}>
-        </Grid>
+        <Grid item xs={12} md={6}></Grid>
         <Box
           sx={{
             backgroundColor: "rgba(53,73,183,0.8)",
@@ -79,7 +78,7 @@ const HighlightCard1 = () => {
                 textAlign: "center",
               }}
             >
-              <a href='https://github.com/guoyww/animatediff/'>
+              <a href="https://github.com/guoyww/animatediff/">
                 [2023/10]:LandMark officially Open-sourced!
               </a>
             </Typography>
@@ -233,6 +232,6 @@ const HighlightCard1 = () => {
       </Grid>
     </div>
   );
-}
+};
 
 export default HighlightCard1;
