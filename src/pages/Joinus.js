@@ -17,7 +17,10 @@ function JoinusInfo() {
       </Typography>
       <Typography variant="h5" sx={{ marginTop: 2, marginBottom: 10 }}>
         If you believe you have what it takes, please do not hesitate to express
-        your interest to daibo@pjlab.org.cn.
+        your interest to
+        <Typography variant="h5" sx={{ fontStyle: "italic" }}>
+          daibo@pjlab.org.cn .
+        </Typography>
       </Typography>
     </Container>
   );

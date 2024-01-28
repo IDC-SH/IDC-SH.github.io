@@ -1,4 +1,5 @@
-import { Typography, Box, Link, Container } from "@mui/material";
+import { Typography, Box, Link, Grid } from "@mui/material";
+import MediaQuery from "react-responsive";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import React from "react";
 import column1Data from "../data/news-landmark.json";
@@ -31,6 +32,97 @@ function NewsItem({ time, title, link }) {
   );
 }
 
+function NewsCards({ isMobile }) {
+  return (
+    <Grid container sx={{ display: "flex", marginTop: 4 }}>
+      <Box
+        sx={{
+          width: "100%",
+          backgroundColor: "rgba(53,73,183,0.1)",
+          padding: 2,
+          marginX: "4%",
+          marginY: "1%",
+        }}
+      >
+        <Typography
+          variant="h3"
+          sx={{
+            fontSize: "22px",
+            color: "#fff",
+            backgroundColor: "#3557b7",
+            padding: "5px 10px",
+            marginBottom: "10px",
+            textAlign: "center",
+          }}
+        >
+          City-scale Rendering and Beyond
+        </Typography>
+        {column1Data.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: 2 }}>
+            <NewsItem time={item.time} title={item.title} link={item.link} />
+          </Box>
+        ))}
+      </Box>
+      <Box
+        sx={{
+          width: "100%",
+          backgroundColor: "rgba(53,73,183,0.1)",
+          padding: 2,
+          marginX: "4%",
+          marginY: "1%",
+        }}
+      >
+        <Typography
+          variant="h3"
+          sx={{
+            fontSize: "24px",
+            color: "#fff",
+            backgroundColor: "#3557b7",
+            padding: "5px 10px",
+            marginBottom: "10px",
+            textAlign: "center",
+          }}
+        >
+          Video Generation
+        </Typography>
+        {column2Data.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: 2 }}>
+            <NewsItem time={item.time} title={item.title} link={item.link} />
+          </Box>
+        ))}
+      </Box>
+      <Box
+        sx={{
+          width: "100%",
+          backgroundColor: "rgba(53,73,183,0.1)",
+          padding: 2,
+          marginX: "4%",
+          marginY: "1%",
+        }}
+      >
+        <Typography
+          variant="h3"
+          sx={{
+            fontSize: "24px",
+            color: "#fff",
+            backgroundColor: "#3557b7",
+            padding: "5px 10px",
+            marginBottom: "10px",
+            textAlign: "center",
+          }}
+        >
+          Others
+        </Typography>
+        {column3Data.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: 2 }}>
+            <NewsItem time={item.time} title={item.title} link={item.link} />
+          </Box>
+        ))}
+      </Box>
+    </Grid>
+  );
+}
+
 function NewsPage() {
   return (
     <Box sx={{ marginTop: 10 }}>
@@ -54,88 +146,12 @@ function NewsPage() {
           Check Out Our Latest Tech Buzz!
         </Typography>
       </Box>
-      <Container
-        sx={{ display: "flex", justifyContent: "space-between", marginTop: 4 }}
-      >
-        <Box
-          sx={{
-            width: "33%",
-            backgroundColor: "rgba(53,73,183,0.1)",
-            padding: 2,
-          }}
-        >
-          <Typography
-            variant="h3"
-            sx={{
-              fontSize: "22px",
-              color: "#fff",
-              backgroundColor: "#3557b7",
-              padding: "5px 10px",
-              marginBottom: "10px",
-              textAlign: "center",
-            }}
-          >
-            City-scale Rendering and Beyond
-          </Typography>
-          {column1Data.map((item, index) => (
-            <Box key={index} sx={{ marginBottom: 2 }}>
-              <NewsItem time={item.time} title={item.title} link={item.link} />
-            </Box>
-          ))}
-        </Box>
-        <Box
-          sx={{
-            width: "33%",
-            backgroundColor: "rgba(53,73,183,0.1)",
-            padding: 2,
-          }}
-        >
-          <Typography
-            variant="h3"
-            sx={{
-              fontSize: "24px",
-              color: "#fff",
-              backgroundColor: "#3557b7",
-              padding: "5px 10px",
-              marginBottom: "10px",
-              textAlign: "center",
-            }}
-          >
-            Video Generation
-          </Typography>
-          {column2Data.map((item, index) => (
-            <Box key={index} sx={{ marginBottom: 2 }}>
-              <NewsItem time={item.time} title={item.title} link={item.link} />
-            </Box>
-          ))}
-        </Box>
-        <Box
-          sx={{
-            width: "33%",
-            backgroundColor: "rgba(53,73,183,0.1)",
-            padding: 2,
-          }}
-        >
-          <Typography
-            variant="h3"
-            sx={{
-              fontSize: "24px",
-              color: "#fff",
-              backgroundColor: "#3557b7",
-              padding: "5px 10px",
-              marginBottom: "10px",
-              textAlign: "center",
-            }}
-          >
-            Others
-          </Typography>
-          {column3Data.map((item, index) => (
-            <Box key={index} sx={{ marginBottom: 2 }}>
-              <NewsItem time={item.time} title={item.title} link={item.link} />
-            </Box>
-          ))}
-        </Box>
-      </Container>
+      <MediaQuery maxWidth={1024}>
+        <NewsCards isMobile={true} />
+      </MediaQuery>
+      <MediaQuery minWidth={1024}>
+        <NewsCards isMobile={false} />
+      </MediaQuery>
     </Box>
   );
 }
