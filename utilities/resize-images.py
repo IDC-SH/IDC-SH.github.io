@@ -6,6 +6,9 @@ import os
 input_folder = "./images/"
 output_folder = "./images-resized/"
 
+from pathlib import Path
+Path(output_folder).mkdir(parents=True, exist_ok=True)
+
 for file in os.listdir(input_folder):
     image = cv2.imread(f"{input_folder}{file}", cv2.IMREAD_UNCHANGED)
     if image.shape[2] == 4:
