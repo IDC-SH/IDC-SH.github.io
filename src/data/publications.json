@@ -52,7 +52,7 @@
   {
     "i": 39,
     "title": "Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering",
-    "publish": "arXiv",
+    "publish": "CVPR 2024",
     "author": "Tao Lu, Mulin Yu, Linning Xu, Yuanbo Xiangli, Limin Wang, Dahua Lin, Bo Dai",
     "image": "",
     "links": [
@@ -77,7 +77,7 @@
   {
     "i": 38,
     "title": "Cinematic Behavior Transfer via NeRF-based Differentiable Filming",
-    "publish": "arXiv",
+    "publish": "CVPR 2024",
     "author": "Xuekun Jiang, Anyi Rao, Jingbo Wang, Dahua Lin, Bo Dai",
     "image": "",
     "links": [
@@ -111,7 +111,7 @@
   {
     "i": 36,
     "title": "BerfScene: Bev-conditioned Equivariant Radiance Fields for Infinite 3D Scene Generation",
-    "publish": "arXiv",
+    "publish": "CVPR 2024",
     "author": "Qihang Zhang, Yinghao Xu, Yujun Shen, Bo Dai, Bolei Zhou, Ceyuan Yang",
     "image": "",
     "links": [
@@ -132,7 +132,7 @@
   {
     "i": 35,
     "title": "Point Cloud Pre-training with Diffusion Models",
-    "publish": "arXiv",
+    "publish": "CVPR 2024",
     "author": "Xiao Zheng, Xiaoshui Huang, Guofeng Mei, Yuenan Hou, Zhaoyang Lyu, Bo Dai, Wanli Ouyang, Yongshun Gong",
     "image": "",
     "links": [
@@ -145,7 +145,7 @@
   {
     "i": 34,
     "title": "DiffMorpher: Unleashing the Capability of Diffusion Models for Image Morphing",
-    "publish": "arXiv",
+    "publish": "CVPR 2024",
     "author": "Kaiwen Zhang, Yifan Zhou, Xudong Xu, Xingang Pan, Bo Dai",
     "image": "",
     "links": [
@@ -166,7 +166,7 @@
   {
     "i": 33,
     "title": "EpiDiff: Enhancing Multi-View Synthesis via Localized Epipolar-Constrained Diffusion",
-    "publish": "arXiv",
+    "publish": "CVPR 2024",
     "author": "Zehuan Huang, Hao Wen, Junting Dong, Yaohui Wang, Yangguang Li, Xinyuan Chen, Yan-Pei Cao, Ding Liang, Yu Qiao, Bo Dai, Lu Sheng",
     "image": "",
     "links": [
