@@ -310,7 +310,7 @@
   {
     "i": 25,
     "title": "AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning",
-    "publish": "arXiv",
+    "publish": "ICLR 2024",
     "author": "Yuwei Guo, Ceyuan Yang, Anyi Rao, Yaohui Wang, Yu Qiao, Dahua Lin, Bo Dai",
     "image": "https://animatediff.github.io/figs/framework.jpg",
     "links": [
