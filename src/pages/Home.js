@@ -4,7 +4,6 @@ import { Typography, Divider, Box } from "@mui/material";
 import HighlightSection from "../components/HighlightSection";
 import { RecentPublicationList } from "../components/PublicationList";
 // import { Form } from "react-router-dom";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import { Container } from "@mui/system";
 
 function LabIntroduction() {
