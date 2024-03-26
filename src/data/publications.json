@@ -1,4 +1,46 @@
-[
+[   
+  {
+    "i": 43,
+    "title": "GetMesh: A Controllable Model for High-quality Mesh Generation and Manipulation",
+    "publish": "arXiv",
+    "author": "Zhaoyang Lyu, Ben Fei, Jinyi Wang, Xudong Xu, Ya Zhang, Weidong Yang, Bo Dai",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2403.11990"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://getmesh.github.io/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/ZhaoyangLyu/GetMesh"
+      }
+    ]
+  }, 
+  {
+    "i": 42,
+    "title": "GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction",
+    "publish": "arXiv",
+    "author": "Mulin Yu, Tao Lu, Linning Xu, Lihan Jiang, Yuanbo Xiangli, Bo Dai",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2403.16964"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://city-super.github.io/GSDF/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/city-super/GSDF"
+      }
+    ]
+  },
   {
     "i": 41,
     "title": "EdgeSAM: Prompt-In-the-Loop Distillation for On-Device Deployment of SAM",
@@ -217,7 +259,7 @@
   {
     "i": 30,
     "title": "MatrixCity: A Large-scale City Dataset for City-scale Neural Rendering and Beyond",
-    "publish": "ICCV2023",
+    "publish": "ICCV 2023",
     "author": "Yixuan Li, Lihan Jiang, Linning Xu, Yuanbo Xiangli, Zhenzhi Wang, Dahua Lin, Bo Dai",
     "image": "https://city-super.github.io/matrixcity/img/teaser.jpg",
     "links": [
@@ -331,7 +373,7 @@
   {
     "i": 24,
     "title": "AssetField: Assets Mining and Reconfiguration in Ground Feature Plane Representation",
-    "publish": "ICCV2023",
+    "publish": "ICCV 2023",
     "author": "Yuanbo Xiangli, Linning Xu, Xingang Pan, Nanxuan Zhao, Bo Dai, Dahua Lin",
     "image": "https://city-super.github.io/assetfield/img/teaser.png",
     "links": [
@@ -390,7 +432,7 @@
   {
     "i": 21,
     "title": "DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering",
-    "publish": "ICCV2023",
+    "publish": "ICCV 2023",
     "author": "Wei Cheng, Ruixiang Chen, Wanqi Yin, Siming Fan, Keyu Chen, Honglin He, Huiwen Luo, Zhongang Cai, Jingbo Wang, Yang Gao, Zhengming Yu, Zhengyu Lin, Daxuan Ren, Lei Yang, Ziwei Liu, Chen Change Loy, Chen Qian, Wayne Wu, Dahua Lin, Bo Dai, Kwan-Yee Lin",
     "image": "https://dna-rendering.github.io/assets/img/diversity.jpg",
     "links": [
@@ -428,7 +470,7 @@
   {
     "i": 19,
     "title": "SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling",
-    "publish": "ICCV2023",
+    "publish": "ICCV 2023",
     "author": "Zhitao Yang, Zhongang Cai, Haiyi Mei, Shuai Liu, Zhaoxi Chen, Weiye Xiao, Yukun Wei, Zhongfei Qing, Chen Wei, Bo Dai, Wayne Wu, Chen Qian, Dahua Lin, Ziwei Liu, Lei Yang",
     "image": "https://maoxie.github.io/SynBody/static/teaser.png",
     "links": [
@@ -449,7 +491,7 @@
   {
     "i": 18,
     "title": "3DHumanGAN: Towards Photo-Realistic 3D-Aware Human Image Generation",
-    "publish": "ICCV2023",
+    "publish": "ICCV 2023",
     "author": "Zhuoqian Yang, Shikai Li, Wayne Wu, Bo Dai",
     "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/3dhumangan.jpg",
     "links": [
