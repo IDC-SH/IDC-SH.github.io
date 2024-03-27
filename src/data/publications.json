@@ -1,4 +1,24 @@
-[   
+[ {
+    "i": 44,
+    "title": "Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians",
+    "publish": "arXiv",
+    "author": "Kerui Ren, Lihan Jiang, Tao Lu, Mulin Yu, Linning Xu, Zhangkai Ni, Bo Dai",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2403.17898"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://city-super.github.io/octree-gs/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/city-super/Octree-GS"
+      }
+    ]
+  },   
   {
     "i": 43,
     "title": "GetMesh: A Controllable Model for High-quality Mesh Generation and Manipulation",
