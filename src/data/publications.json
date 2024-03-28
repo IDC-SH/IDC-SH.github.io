@@ -1,5 +1,5 @@
 [ {
-    "i": 44,
+    "i": 47,
     "title": "Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians",
     "publish": "arXiv",
     "author": "Kerui Ren, Lihan Jiang, Tao Lu, Mulin Yu, Linning Xu, Zhangkai Ni, Bo Dai",
@@ -20,7 +20,7 @@
     ]
   },   
   {
-    "i": 43,
+    "i": 46,
     "title": "GetMesh: A Controllable Model for High-quality Mesh Generation and Manipulation",
     "publish": "arXiv",
     "author": "Zhaoyang Lyu, Ben Fei, Jinyi Wang, Xudong Xu, Ya Zhang, Weidong Yang, Bo Dai",
@@ -41,7 +41,7 @@
     ]
   }, 
   {
-    "i": 42,
+    "i": 45,
     "title": "GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction",
     "publish": "arXiv",
     "author": "Mulin Yu, Tao Lu, Linning Xu, Lihan Jiang, Yuanbo Xiangli, Bo Dai",
@@ -61,6 +61,65 @@
       }
     ]
   },
+  {
+    "i": 44,
+    "title": "Make-It-Vivid: Dressing Your Animatable Biped Cartoon Characters from Text",
+    "publish": "CVPR 2024",
+    "author": "Junshu Tang, Yanhong Zeng, Ke Fan, Xuheng Wang, Bo Dai, Kai Chen, Lizhuang Ma",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2403.16897"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://make-it-vivid.github.io/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/junshutang/Make-It-Vivid"
+      },
+      {
+        "name": "Video",
+        "link": "https://www.youtube.com/watch?v=jNa0Gia8jVo&feature=youtu.be"
+      }
+    ]
+  },   
+  {
+    "i": 43,
+    "title": "LN3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation",
+    "publish": "arXiv",
+    "author": "Yushi Lan, Fangzhou Hong, Shuai Yang, Shangchen Zhou, Xuyi Meng, Bo Dai, Xingang Pan, Chen Change Loy",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2403.12019"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://nirvanalan.github.io/projects/ln3diff/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/NIRVANALAN/LN3Diff"
+      }
+    ]
+  },   
+  {
+    "i": 42,
+    "title": "Generalized Predictive Model for Autonomous Driving",
+    "publish": "CVPR 2024",
+    "author": "Jiazhi Yang, Shenyuan Gao, Yihang Qiu, Li Chen, Tianyu Li, Bo Dai, Kashyap Chitta, Penghao Wu, Jia Zeng, Ping Luo, Jun Zhang, Andreas Geiger, Yu Qiao, Hongyang Li",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2403.09630"
+      }
+    ]
+  },   
   {
     "i": 41,
     "title": "EdgeSAM: Prompt-In-the-Loop Distillation for On-Device Deployment of SAM",
