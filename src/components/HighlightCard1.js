@@ -81,8 +81,8 @@ const HighlightCard1 = () => {
                 textAlign: "center",
               }}
             >
-              <a href="https://github.com/guoyww/animatediff/">
-                [2023/10]:LandMark officially Open-sourced!
+              <a href="https://www.shlab.org.cn/news/5443886">
+                [2024/04]:LandMark 2.0 is coming!
               </a>
             </Typography>
           </Box>

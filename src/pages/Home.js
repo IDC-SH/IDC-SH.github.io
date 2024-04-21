@@ -175,6 +175,13 @@ export default function HomePage() {
 
       <Box sx={{ marginBottom: 2 }}>
         <NewsItem
+          time={"04/2024"}
+          title={"LandMark 2.0 is coming! Check the news at https://www.shlab.org.cn/news/5443429."}
+        />
+      </Box>
+
+      <Box sx={{ marginBottom: 2 }}>
+        <NewsItem
           time={"02/2024"}
           title={"Ten papers are accepted to CVPR 2024."}
         />
