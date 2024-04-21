@@ -74,7 +74,7 @@ const HighlightCard2 = () => {
             fontFamily="Roboto Condensed"
             sx={{
               backgroundColor: "rgb(237,195,71)",
-              fontSize: "14px",
+              fontSize: "22px",
               position: "abosolute",
               marginTop: "5px",
               textAlign: "center",
