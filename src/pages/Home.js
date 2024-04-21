@@ -176,7 +176,7 @@ export default function HomePage() {
       <Box sx={{ marginBottom: 2 }}>
         <NewsItem
           time={"04/2024"}
-          title={"LandMark 2.0 is coming! Check the news at https://www.shlab.org.cn/news/5443429."}
+          title={"LandMark 2.0 is coming! Check the news at www.shlab.org.cn/news/5443886"}
         />
       </Box>
 
