@@ -5,6 +5,7 @@ import HighlightSection from "../components/HighlightSection";
 import { RecentPublicationList } from "../components/PublicationList";
 // import { Form } from "react-router-dom";
 import { Container } from "@mui/system";
+import Link from "@mui/material/Link";
 
 function LabIntroduction() {
   const textStyle1 = {
@@ -133,7 +134,13 @@ function NewsItem({ time, title, link }) {
               fontStyle: "italic",
             }}
           >
-            {title}
+            {link ? (
+              <Link href={link} underline="none" color="inherit">
+                {title}
+              </Link>
+            ) : (
+              title
+            )}
           </Typography>
         </Box>
       </Container>
@@ -181,8 +188,9 @@ export default function HomePage() {
         <NewsItem
           time={"04/2024"}
           title={
-            "LandMark 2.0 is coming! Check the news at www.shlab.org.cn/news/5443886."
+            "LandMark 2.0 is coming! Check the news at shlab.org.cn/news/5443886."
           }
+          link={"https://www.shlab.org.cn/news/5443886"}
         />
       </Box>
 
