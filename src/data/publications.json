@@ -1,4 +1,110 @@
-[ {
+[ 
+  {
+    "i": 52,
+    "title": "MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model",
+    "publish": "arXiv",
+    "author": "Wenxun Dai, Ling-Hao Chen, Jingbo Wang, Jinpeng Liu, Bo Dai, Yansong Tang",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2404.19759"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://dai-wenxun.github.io/MotionLCM-page/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/Dai-Wenxun/MotionLCM"
+      },
+      {
+        "name": "Video",
+        "link": "https://www.youtube.com/watch?v=BhrGmJYaRE4"
+      }
+    ]
+  }, 
+  {
+  "i": 51,
+  "title": "PACER+: On-Demand Pedestrian Animation Controller in Driving Scenarios",
+  "publish": "CVPR 2024",
+  "author": "Jingbo Wang, Zhengyi Luo, Ye Yuan, Yixuan Li, Bo Dai",
+  "image": "",
+  "links": [
+    {
+      "name": "Paper",
+      "link": "https://arxiv.org/pdf/2404.19722"
+    },
+    {
+      "name": "Paper Page",
+      "link": "https://wangjingbo1219.github.io/papers/CVPR2024_PACER_PLUS/PACERPLUSPage.html"
+    },
+    {
+      "name": "Video",
+      "link": "https://wangjingbo1219.github.io/papers/CVPR2024_PACER_PLUS/demo_1_compress.mp4"
+    }
+  ]
+  }, 
+  {
+  "i": 50,
+  "title": "TELA: Text to Layer-wise 3D Clothed Human Generation",
+  "publish": "arXiv",
+  "author": "Junting Dong, Qi Fang, Zehuan Huang, Xudong Xu, Jingbo Wang, Sida Peng, Bo Dai",
+  "image": "",
+  "links": [
+    {
+      "name": "Paper",
+      "link": "https://arxiv.org/abs/2404.16748"
+    },
+    {
+      "name": "Paper Page",
+      "link": "https://jtdong.com/tela_layer/"
+    },
+    {
+      "name": "Video",
+      "link": "https://youtu.be/gu_5jRskjps"
+    }
+  ]
+  }, 
+  {
+    "i": 49,
+    "title": "SemGrasp: Semantic Grasp Generation via Language Aligned Discretization",
+    "publish": "arXiv",
+    "author": "Kailin Li, Jingbo Wang, Lixin Yang, Cewu Lu, Bo Dai",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2404.03590"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://kailinli.github.io/SemGrasp/"
+      }
+    ]
+  },   
+  {
+    "i": 48,
+    "title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+    "publish": "arXiv",
+    "author": "Hao He, Yinghao Xu, Yuwei Guo, Gordon Wetzstein, Bo Dai, Hongsheng Li, Ceyuan Yang",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2404.02101"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://hehao13.github.io/projects-CameraCtrl/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/hehao13/CameraCtrl"
+      }
+    ]
+  },   
+  {
     "i": 47,
     "title": "Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians",
     "publish": "arXiv",
