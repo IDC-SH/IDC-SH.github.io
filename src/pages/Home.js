@@ -116,20 +116,24 @@ function NewsItem({ time, title, link }) {
           </Typography>
           <Typography
             variant="h5"
+            sx={{ fontSize: "24px", marginX: 1, fontWeight: "bold" }}
+          >
+            🎉
+          </Typography>
+        </Box>
+        {/* fix for mobile: use two lines for one news */}
+        <Box display="flex" justifyContent="center" padding="0">
+          <Typography
+            variant="h5"
+            align="center"
             sx={{
-              fontSize: "24px",
+              fontSize: "20px",
               marginX: 1,
               fontWeight: "bold",
               fontStyle: "italic",
             }}
           >
             {title}
-          </Typography>
-          <Typography
-            variant="h5"
-            sx={{ fontSize: "24px", marginX: 1, fontWeight: "bold" }}
-          >
-            🎉
           </Typography>
         </Box>
       </Container>
@@ -142,7 +146,7 @@ export default function HomePage() {
     <>
       <LabIntroduction />
 
-      <Divider sx={{ margin: 4 }}>
+      <Divider sx={{ marginX: 0, marginY: 4 }}>
         <Typography
           variant="h2"
           sx={{
@@ -176,7 +180,9 @@ export default function HomePage() {
       <Box sx={{ marginBottom: 2 }}>
         <NewsItem
           time={"04/2024"}
-          title={"LandMark 2.0 is coming! Check the news at www.shlab.org.cn/news/5443886"}
+          title={
+            "LandMark 2.0 is coming! Check the news at www.shlab.org.cn/news/5443886."
+          }
         />
       </Box>
 
@@ -187,7 +193,7 @@ export default function HomePage() {
         />
       </Box>
 
-      <Divider sx={{ margin: 4 }}>
+      <Divider sx={{ marginX: 0, marginY: 4 }}>
         <Typography
           variant="h2"
           sx={{
@@ -220,7 +226,7 @@ export default function HomePage() {
 
       <HighlightSection />
 
-      <Divider sx={{ margin: 4 }}>
+      <Divider sx={{ marginX: 0, marginY: 4 }}>
         <Typography
           variant="h2"
           sx={{
