@@ -82,7 +82,7 @@ const HighlightCard1 = () => {
               }}
             >
               <a href="https://www.shlab.org.cn/news/5443886">
-                [2024/04]:LandMark 2.0 is coming!
+                [04/2024] LandMark 2.0 is coming!
               </a>
             </Typography>
           </Box>
