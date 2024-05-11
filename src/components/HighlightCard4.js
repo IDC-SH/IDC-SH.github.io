@@ -21,7 +21,7 @@ const HighlightCard4 = () => {
             backgroundColor: "rgba(53,73,183,0.8)",
             padding: 2,
             borderRadius: 8,
-            width: "90%",
+            width: "100%",
             height: "auto",
             marginX: "2%",
             marginY: "2%",
@@ -51,7 +51,7 @@ const HighlightCard4 = () => {
                 Left: "30px",
               }}
             >
-              <MediaQuery maxWidth={500}>Edge SAM</MediaQuery>
+              <MediaQuery maxWidth={500}>EdgeSAM</MediaQuery>
               <MediaQuery minWidth={500}>EdgeSAM</MediaQuery>
             </Typography>
             <Typography
@@ -68,7 +68,7 @@ const HighlightCard4 = () => {
               Prompt-In-the-Loop Distillation for On-Device Deployment of SAM
             </Typography>
             <Typography
-              color="white"
+              color="rgb(53,73,183)"
               fontWeight="bold"
               fontFamily="Roboto Condensed"
               sx={{
@@ -81,10 +81,9 @@ const HighlightCard4 = () => {
               }}
             >
               <a href="https://mmlab-ntu.github.io/project/edgesam/">
-                [2023.12] We're planning to release the iOS app to the App
-                Store.
-                <div>Stay tuned!</div>
+                [01/2024] EdgeSAM is intergrated into X-AnyLabeling.
               </a>
+              <div>[12/2023] We're planning to release the iOS app to the App Store. Stay tuned! </div>
             </Typography>
           </Box>
           <Grid
@@ -97,21 +96,21 @@ const HighlightCard4 = () => {
               <img
                 src={fish}
                 alt="fish"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "340px", height: "200px" }}
               />
             </Grid>
             <Grid item>
               <img
                 src={night}
                 alt="night"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "340px", height: "200px" }}
               />
             </Grid>
             <Grid item>
               <img
                 src={graffiti}
                 alt="graffiti"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "340px", height: "200px" }}
               />
             </Grid>
           </Grid>

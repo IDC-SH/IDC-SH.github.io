@@ -5,11 +5,8 @@ import { yellow } from "@mui/material/colors";
 import DescriptionIcon from "@mui/icons-material/Description";
 import HomeIcon from "@mui/icons-material/Home";
 import CodeIcon from "@mui/icons-material/Code";
-import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
-import input1 from "./images-highlights/input1.png";
-import input2 from "./images-highlights/input2.png";
-import output1 from "./images-highlights/output1.gif";
-import output2 from "./images-highlights/output2.gif";
+import VideocamIcon from "@mui/icons-material/Videocam";
+import pacer1 from "./images-highlights/pacer1.gif";
 import MediaQuery from "react-responsive";
 
 const HighlightCard3 = () => {
@@ -22,7 +19,7 @@ const HighlightCard3 = () => {
             backgroundColor: "rgba(53,73,183,0.8)",
             padding: 2,
             borderRadius: 8,
-            width: "90%",
+            width: "100%",
             height: "auto",
             marginX: "2%",
             marginY: "2%",
@@ -52,8 +49,8 @@ const HighlightCard3 = () => {
                 Left: "30px",
               }}
             >
-              <MediaQuery maxWidth={500}>Sparse Ctrl</MediaQuery>
-              <MediaQuery minWidth={500}>SparseCtrl</MediaQuery>
+              <MediaQuery maxWidth={500}>PACER+</MediaQuery>
+              <MediaQuery minWidth={500}>PACER+</MediaQuery>
             </Typography>
             <Typography
               color="white"
@@ -66,7 +63,7 @@ const HighlightCard3 = () => {
                 Left: "30px",
               }}
             >
-              Adding Sparse Controls to Text-to-Video Diffusion Models
+              On-Demand Pedestrian Animation Controller in Driving Scenarios
             </Typography>
             <Typography
               color="white"
@@ -81,8 +78,8 @@ const HighlightCard3 = () => {
                 textAlign: "center",
               }}
             >
-              <a href="https://github.com/guoyww/animatediff/">
-                [2023.12] AnimateDiff v3 and SparseCtrl!
+              <a href="https://github.com/IDC-Flash/PacerPlus">
+                [03/2024] Codes and pre-trained models released!
               </a>
             </Typography>
           </Box>
@@ -95,30 +92,9 @@ const HighlightCard3 = () => {
           >
             <Grid item>
               <img
-                src={input1}
-                alt="input1"
-                style={{ width: "120px", height: "90px" }}
-              />
-            </Grid>
-            <Grid item>
-              <img
-                src={output1}
-                alt="XianAItower"
-                style={{ width: "120px", height: "90px" }}
-              />
-            </Grid>
-            <Grid item>
-              <img
-                src={input2}
-                alt="WukangBuiding"
-                style={{ width: "120px", height: "90px" }}
-              />
-            </Grid>
-            <Grid item>
-              <img
-                src={output2}
-                alt="WukangBuiding"
-                style={{ width: "120px", height: "90px" }}
+                src={pacer1}
+                alt="pacer1"
+                style={{ width: "300px", height: "200px" }}
               />
             </Grid>
             {/*End of photo Gallery*/}
@@ -137,7 +113,7 @@ const HighlightCard3 = () => {
             <Button
               variant="contained"
               component="a"
-              href="https://guoyww.github.io/projects/SparseCtrl/"
+              href="https://wangjingbo1219.github.io/papers/CVPR2024_PACER_PLUS/PACERPLUSPage.html"
               target="_blank"
               sx={{
                 backgroundColor: "rgba(53,73,183,0.3)",
@@ -162,7 +138,7 @@ const HighlightCard3 = () => {
             <Button
               variant="contained"
               component="a"
-              href="https://github.com/guoyww/AnimateDiff#202312-animatediff-v3-and-sparsectrl"
+              href="https://github.com/IDC-Flash/PacerPlus"
               target="_blank"
               sx={{
                 backgroundColor: "rgba(53,73,183,0.3)",
@@ -188,7 +164,7 @@ const HighlightCard3 = () => {
             <Button
               variant="contained"
               component="a"
-              href="https://arxiv.org/abs/2311.16933"
+              href="https://arxiv.org/abs/2404.19722"
               target="_blank"
               sx={{
                 backgroundColor: "rgba(53,73,183,0.3)",
@@ -214,7 +190,7 @@ const HighlightCard3 = () => {
             <Button
               variant="contained"
               component="a"
-              href="https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff"
+              href="https://youtu.be/Pq10Q_ZBOrw"
               target="_blank"
               sx={{
                 backgroundColor: "rgba(53,73,183,0.3)",
@@ -234,7 +210,7 @@ const HighlightCard3 = () => {
                   margin: "0",
                 }}
               >
-                <SportsEsportsIcon sx={{ color: "white" }} />
+                <VideocamIcon sx={{ color: "white" }} />
               </IconButton>
             </Button>
           </Box>

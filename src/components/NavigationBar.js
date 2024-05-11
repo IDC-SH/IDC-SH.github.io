@@ -18,9 +18,9 @@ function LinkItem({ title, destination }) {
             display: { xs: "none", md: "block", xl: "block" },
             "&:hover": {
               backgroundColor: "rgb(237,195,71)",
-              lineHeight: 1,
+              lineHeight: 1.5,
               width: "120%",
-              height: "20px",
+              height: "100%",
             },
             fontWeight: 900,
             fontFamily: "Titillium Web",

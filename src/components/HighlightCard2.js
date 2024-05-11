@@ -22,7 +22,7 @@ const HighlightCard2 = () => {
           backgroundColor: "rgba(53,73,183,0.8)",
           padding: 2,
           borderRadius: 8,
-          width: "90%",
+          width: "100%",
           height: "auto",
           marginX: "2%",
           marginY: "2%",
@@ -52,7 +52,7 @@ const HighlightCard2 = () => {
               Left: "20px",
             }}
           >
-            <MediaQuery maxWidth={500}>Animate Diff</MediaQuery>
+            <MediaQuery maxWidth={500}>AnimateDiff</MediaQuery>
             <MediaQuery minWidth={500}>AnimateDiff</MediaQuery>
           </Typography>
           <Typography
@@ -65,8 +65,7 @@ const HighlightCard2 = () => {
               Top: "5px",
             }}
           >
-            Animate Your Personalized Text-to-Image Diffusion Models without
-            Specific Tuning
+            Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning
           </Typography>
           <Typography
             color="white"
@@ -81,7 +80,7 @@ const HighlightCard2 = () => {
             }}
           >
             <a href="https://github.com/guoyww/animatediff/">
-              [2023/11]:Release the Motion Module (beta version) on SDXL!
+              [12/2023] AnimateDiff v3 and SparseCtrl
             </a>
           </Typography>
           {/*photo Gallery*/}
@@ -98,7 +97,7 @@ const HighlightCard2 = () => {
               <img
                 src={highlightrightphoto1}
                 alt="Zoom In"
-                style={{ width: "90px", height: "90px" }}
+                style={{ width: "200px", height: "200px" }}
               />
             </Grid>
             <Grid
@@ -108,7 +107,7 @@ const HighlightCard2 = () => {
               <img
                 src={highlightrightphoto2}
                 alt="Zoom Out"
-                style={{ width: "90px", height: "90px" }}
+                style={{ width: "200px", height: "200px" }}
               />
             </Grid>
             <Grid
@@ -118,7 +117,7 @@ const HighlightCard2 = () => {
               <img
                 src={highlightrightphoto3}
                 alt="Zoom Pan left"
-                style={{ width: "90px", height: "90px" }}
+                style={{ width: "200px", height: "200px" }}
               />
             </Grid>
             <Grid
@@ -128,7 +127,7 @@ const HighlightCard2 = () => {
               <img
                 src={highlightrightphoto4}
                 alt="Zoom pan right"
-                style={{ width: "90px", height: "90px" }}
+                style={{ width: "200px", height: "200px" }}
               />
             </Grid>
             {/*End of photo Gallery*/}

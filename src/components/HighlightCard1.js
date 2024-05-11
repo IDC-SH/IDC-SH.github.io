@@ -21,7 +21,7 @@ const HighlightCard1 = () => {
             backgroundColor: "rgba(53,73,183,0.8)",
             padding: 2,
             borderRadius: 8,
-            width: "90%",
+            width: "100%",
             height: "auto",
             marginX: "2%",
             marginY: "2%",
@@ -51,7 +51,7 @@ const HighlightCard1 = () => {
                 Left: "30px",
               }}
             >
-              <MediaQuery maxWidth={500}>Land Mark</MediaQuery>
+              <MediaQuery maxWidth={500}>LandMark</MediaQuery>
               <MediaQuery minWidth={500}>LandMark</MediaQuery>
             </Typography>
             <Typography
@@ -97,21 +97,21 @@ const HighlightCard1 = () => {
               <img
                 src={highlightleftphoto1}
                 alt="highlightleftphoto1"
-                style={{ width: "160px", height: "90px" }}
+                style={{ width: "360px", height: "200px" }}
               />
             </Grid>
             <Grid item>
               <img
                 src={highlightleftphoto2}
                 alt="XianAItower"
-                style={{ width: "160px", height: "90px" }}
+                style={{ width: "360px", height: "200px" }}
               />
             </Grid>
             <Grid item>
               <img
                 src={highlightleftphoto3}
                 alt="WukangBuiding"
-                style={{ width: "160px", height: "90px" }}
+                style={{ width: "360px", height: "200px" }}
               />
             </Grid>
             {/*End of photo Gallery*/}

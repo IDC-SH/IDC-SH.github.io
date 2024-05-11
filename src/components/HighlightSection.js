@@ -18,7 +18,7 @@ function HighlightSection() {
     infinite: true,
     speed: 400,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 7000,
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: false,
@@ -40,13 +40,13 @@ function HighlightSection() {
       >
         <Slider ref={sliderRef} {...settings}>
           <div>
+            <HighlightCard3 />
+          </div>
+          <div>
             <HighlightCard1 />
           </div>
           <div>
             <HighlightCard2 />
-          </div>
-          <div>
-            <HighlightCard3 />
           </div>
           <div>
             <HighlightCard4 />
