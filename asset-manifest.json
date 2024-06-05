@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0c1ae41.css",
-    "main.js": "/static/js/main.f176779b.js",
+    "main.js": "/static/js/main.e2d23659.js",
     "static/media/Highlights-LandMark03.gif": "/static/media/Highlights-LandMark03.c9221c87b2c215a4e891.gif",
     "static/media/Highlights-LandMark01.gif": "/static/media/Highlights-LandMark01.070d6b68abaa1d492142.gif",
     "static/media/Highlights-LandMark02.gif": "/static/media/Highlights-LandMark02.b79273de2908599d807c.gif",
@@ -13,6 +13,7 @@
     "static/media/30.jpeg": "/static/media/30.dc0de44713f2415c7c2d.jpeg",
     "static/media/1.jpeg": "/static/media/1.9c7087fc9abba95a4038.jpeg",
     "static/media/19.jpeg": "/static/media/19.fe68a0207589e42059bb.jpeg",
+    "static/media/53.jpeg": "/static/media/53.3cb08ddee8ea8d11a945.jpeg",
     "static/media/41.jpeg": "/static/media/41.40c8a523f3cb37c1fa0d.jpeg",
     "static/media/39.jpeg": "/static/media/39.446b1415da6da57be0f8.jpeg",
     "static/media/27.jpeg": "/static/media/27.92fba30f6cb1c6053008.jpeg",
@@ -71,10 +72,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.c0c1ae41.css.map": "/static/css/main.c0c1ae41.css.map",
-    "main.f176779b.js.map": "/static/js/main.f176779b.js.map"
+    "main.e2d23659.js.map": "/static/js/main.e2d23659.js.map"
   },
   "entrypoints": [
     "static/css/main.c0c1ae41.css",
-    "static/js/main.f176779b.js"
+    "static/js/main.e2d23659.js"
   ]
 }
