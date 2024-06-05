@@ -1,4 +1,24 @@
-[ 
+[{
+    "i": 53,
+    "title": "RoomTex: Texturing Compositional Indoor Scenes via Iterative Inpainting",
+    "publish": "arXiv",
+    "author": "Qi Wang, Ruijie Lu, Xudong Xu, Jingbo Wang, Michael Yu Wang, Bo Dai, Gang Zeng, Dan Xu",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2406.02461"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://qwang666.github.io/RoomTex/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/qwang666/RoomTex-"
+      }
+    ]
+  },  
   {
     "i": 52,
     "title": "MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model",
@@ -827,7 +847,7 @@
   {
     "i": 11,
     "title": "Task-Oriented Human-Object Interactions Generation with Implicit Neural Representations",
-    "publish": "arXiv",
+    "publish": "WACV 2024",
     "author": "Quanzhou Li, Jingbo Wang, Chen Change Loy, Bo Dai",
     "image": "https://cucshot-1300924025.cos.ap-shanghai.myqcloud.com/shlab-web/teasers/task-oriented.png",
     "video_link": "None",
