@@ -80,10 +80,9 @@ const HighlightCard4 = () => {
                 textAlign: "center",
               }}
             >
-              <a href="https://mmlab-ntu.github.io/project/edgesam/">
-                [01/2024] EdgeSAM is intergrated into X-AnyLabeling.
+              <a href="https://apps.apple.com/us/app/cutcha-photo/id6478521132">
+                [06/2024] Check out our iOS App CutCha powered by EdgeSAM.
               </a>
-              <div>[12/2023] We're planning to release the iOS app to the App Store. Stay tuned! </div>
             </Typography>
           </Box>
           <Grid
