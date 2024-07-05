@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0c1ae41.css",
-    "main.js": "/static/js/main.29bc5ce0.js",
+    "main.js": "/static/js/main.e48ef5b8.js",
     "static/media/Highlights-LandMark03.gif": "/static/media/Highlights-LandMark03.c9221c87b2c215a4e891.gif",
     "static/media/Highlights-LandMark01.gif": "/static/media/Highlights-LandMark01.070d6b68abaa1d492142.gif",
     "static/media/Highlights-LandMark02.gif": "/static/media/Highlights-LandMark02.b79273de2908599d807c.gif",
@@ -61,6 +61,7 @@
     "static/media/7.jpeg": "/static/media/7.a300be7a3e301b4d2e4b.jpeg",
     "static/media/44.jpg": "/static/media/44.1b8577715199c24334ac.jpg",
     "static/media/23.jpeg": "/static/media/23.4eadd5eaf5d6711d31d1.jpeg",
+    "static/media/54.jpeg": "/static/media/54.c1ee220afcc8c9a069d5.jpeg",
     "static/media/WechatAccount.jpg": "/static/media/WechatAccount.401f945ffc37c810659b.jpg",
     "static/media/36.jpeg": "/static/media/36.98448cf09222a9f15964.jpeg",
     "static/media/32.jpeg": "/static/media/32.bb551e2616b93399b9d2.jpeg",
@@ -72,10 +73,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.c0c1ae41.css.map": "/static/css/main.c0c1ae41.css.map",
-    "main.29bc5ce0.js.map": "/static/js/main.29bc5ce0.js.map"
+    "main.e48ef5b8.js.map": "/static/js/main.e48ef5b8.js.map"
   },
   "entrypoints": [
     "static/css/main.c0c1ae41.css",
-    "static/js/main.29bc5ce0.js"
+    "static/js/main.e48ef5b8.js"
   ]
 }
