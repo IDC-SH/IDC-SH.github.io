@@ -1,4 +1,25 @@
 [{
+    "i": 54,
+    "title": "Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text",
+    "publish": "arXiv",
+    "author": "Xinyang Li, Zhangyu Lai, Linning Xu, Yansong Qu, Liujuan Cao, Shengchuan Zhang, Bo Dai, Rongrong Ji",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2406.17601"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://imlixinyang.github.io/director3d-page/"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/imlixinyang/Director3D"
+      }
+    ]
+  },  
+  {
     "i": 53,
     "title": "RoomTex: Texturing Compositional Indoor Scenes via Iterative Inpainting",
     "publish": "arXiv",
