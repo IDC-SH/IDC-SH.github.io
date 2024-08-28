@@ -7,9 +7,9 @@ import { Container } from "@mui/system";
 export default function PublicationPage() {
   // derive all tags from json data
   var availableTagsAndCounts = { all: 0 };
-  publicationsData.map((item) => {
+  publicationsData.forEach((item) => {
     availableTagsAndCounts.all += 1;
-    item.tags.map((tag) => {
+    item.tags.forEach((tag) => {
       if (!Object.keys(availableTagsAndCounts).includes(tag)) {
         availableTagsAndCounts[tag] = 1;
       } else {
