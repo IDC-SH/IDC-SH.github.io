@@ -1,23 +1,30 @@
 import { useState } from "react";
-import { Box, Typography, Button, Stack, Grid } from "@mui/material";
+import { Box, Typography, Button, Grid } from "@mui/material";
 import { PublicationList } from "../components/PublicationList";
 import publicationsData from "../data/publications.json";
 import { Container } from "@mui/system";
 
 export default function PublicationPage() {
-  var availableTags = [];
+  // derive all tags from json data
+  var availableTagsAndCounts = { all: 0 };
   publicationsData.map((item) => {
+    availableTagsAndCounts.all += 1;
     item.tags.map((tag) => {
-      if (!availableTags.includes(tag)) {
-        availableTags.push(tag);
+      if (!Object.keys(availableTagsAndCounts).includes(tag)) {
+        availableTagsAndCounts[tag] = 1;
+      } else {
+        availableTagsAndCounts[tag] += 1;
       }
-      return undefined;
     });
   });
-  console.log(availableTags);
+  console.log(availableTagsAndCounts);
 
-  availableTags.unshift("all");
+  // sort
+  availableTagsAndCounts = Object.fromEntries(
+    Object.entries(availableTagsAndCounts).sort(([, a], [, b]) => b - a)
+  );
 
+  // default select all
   const [selectedTag, setSeletectedTag] = useState("all");
 
   return (
@@ -59,7 +66,7 @@ export default function PublicationPage() {
             marginBottom: 2,
           }}
         >
-          {availableTags.map((tag) => {
+          {Object.keys(availableTagsAndCounts).map((tag) => {
             return (
               <Button
                 variant={selectedTag == tag ? "contained" : "outlined"}
@@ -71,7 +78,7 @@ export default function PublicationPage() {
                   setSeletectedTag(tag);
                 }}
               >
-                {tag}
+                {tag} ({availableTagsAndCounts[tag]})
               </Button>
             );
           })}
