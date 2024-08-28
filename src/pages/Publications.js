@@ -1,10 +1,24 @@
 import { useState } from "react";
-import { Box, Typography, Button, Stack } from "@mui/material";
+import { Box, Typography, Button, Stack, Grid } from "@mui/material";
 import { PublicationList } from "../components/PublicationList";
+import publicationsData from "../data/publications.json";
+import { Container } from "@mui/system";
 
 export default function PublicationPage() {
-  const availableTags = ["city-super", "simulation", "digital human"];
-  const [selectedTag, setSeletectedTag] = useState("city-super");
+  var availableTags = [];
+  publicationsData.map((item) => {
+    item.tags.map((tag) => {
+      if (!availableTags.includes(tag)) {
+        availableTags.push(tag);
+      }
+      return undefined;
+    });
+  });
+  console.log(availableTags);
+
+  availableTags.unshift("all");
+
+  const [selectedTag, setSeletectedTag] = useState("all");
 
   return (
     <>
@@ -35,28 +49,34 @@ export default function PublicationPage() {
         </Box>
       </Box>
 
-      <Stack
-        spacing={2}
-        direction="row"
-        alignItems="center"
-        justifyContent="center"
-        sx={{
-          marginBottom: 2,
-        }}
-      >
-        {availableTags.map((tag) => {
-          return (
-            <Button
-              variant={selectedTag == tag ? "contained" : "outlined"}
-              onClick={() => {
-                setSeletectedTag(tag);
-              }}
-            >
-              {tag}
-            </Button>
-          );
-        })}
-      </Stack>
+      <Container maxWidth="lg">
+        <Grid
+          spacing={2}
+          direction="row"
+          alignItems="center"
+          justifyContent="flex-start"
+          sx={{
+            marginBottom: 2,
+          }}
+        >
+          {availableTags.map((tag) => {
+            return (
+              <Button
+                variant={selectedTag == tag ? "contained" : "outlined"}
+                sx={{
+                  marginX: 1,
+                  marginY: 1,
+                }}
+                onClick={() => {
+                  setSeletectedTag(tag);
+                }}
+              >
+                {tag}
+              </Button>
+            );
+          })}
+        </Grid>
+      </Container>
 
       <PublicationList filter_tag={selectedTag} />
     </>

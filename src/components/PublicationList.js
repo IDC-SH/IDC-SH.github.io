@@ -18,16 +18,14 @@ const publicationImages = getFiles(
   require.context("../data/images-publications", false, /\.(png|jpe?g|svg)$/)
 );
 
-export function PublicationList({filter_tag}) {
+export function PublicationList({ filter_tag }) {
   return (
     <Container maxWidth="lg">
       {publicationsData.map((item) => {
-        console.log(item.tags);
-        if (item.tags) {
-          console.log(item.tags[0]);
-        }
-
-        if (filter_tag && item.tags && item.tags.includes(filter_tag)) {
+        if (
+          filter_tag == "all" ||
+          (filter_tag && item.tags && item.tags.includes(filter_tag))
+        ) {
           return (
             <ResponsivePublicationItem
               key={item.i}
@@ -39,11 +37,7 @@ export function PublicationList({filter_tag}) {
             />
           );
         } else {
-          return (
-            <>
-              {/* <Typography>[{item.i}] no content</Typography> */}
-            </>
-          );
+          return <>{/* <Typography>[{item.i}] no content</Typography> */}</>;
         }
       })}
     </Container>

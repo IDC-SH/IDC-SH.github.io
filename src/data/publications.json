@@ -20,7 +20,8 @@
       }
     ],
     "tags": [
-      "city-super"
+      "scene",
+      "generation"
     ]
   },
   {
@@ -43,7 +44,10 @@
         "link": "https://github.com/qwang666/RoomTex-"
       }
     ],
-    "tags": []
+    "tags": [
+      "texture",
+      "indoor"
+    ]
   },
   {
     "i": 52,
@@ -69,7 +73,10 @@
         "link": "https://www.youtube.com/watch?v=BhrGmJYaRE4"
       }
     ],
-    "tags": []
+    "tags": [
+      "motion",
+      "generation"
+    ]
   },
   {
     "i": 51,
@@ -91,7 +98,10 @@
         "link": "https://youtu.be/Pq10Q_ZBOrw"
       }
     ],
-    "tags": []
+    "tags": [
+      "motion",
+      "driving"
+    ]
   },
   {
     "i": 50,
@@ -113,7 +123,11 @@
         "link": "https://youtu.be/gu_5jRskjps"
       }
     ],
-    "tags": []
+    "tags": [
+      "human",
+      "generation",
+      "cloth"
+    ]
   },
   {
     "i": 49,
@@ -131,7 +145,10 @@
         "link": "https://kailinli.github.io/SemGrasp/"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation",
+      "interaction"
+    ]
   },
   {
     "i": 48,
@@ -153,7 +170,10 @@
         "link": "https://github.com/hehao13/CameraCtrl"
       }
     ],
-    "tags": []
+    "tags": [
+      "camera",
+      "generation"
+    ]
   },
   {
     "i": 47,
@@ -176,7 +196,8 @@
       }
     ],
     "tags": [
-      "city-super"
+      "city",
+      "reconstruction"
     ]
   },
   {
@@ -199,7 +220,10 @@
         "link": "https://github.com/ZhaoyangLyu/GetMesh"
       }
     ],
-    "tags": []
+    "tags": [
+      "mesh",
+      "generation"
+    ]
   },
   {
     "i": 45,
@@ -222,7 +246,9 @@
       }
     ],
     "tags": [
-      "city-super"
+      "city",
+      "reconstruction",
+      "mesh"
     ]
   },
   {
@@ -249,7 +275,9 @@
         "link": "https://www.youtube.com/watch?v=jNa0Gia8jVo&feature=youtu.be"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 43,
@@ -271,7 +299,9 @@
         "link": "https://github.com/NIRVANALAN/LN3Diff"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 42,
@@ -285,7 +315,9 @@
         "link": "https://arxiv.org/abs/2403.09630"
       }
     ],
-    "tags": []
+    "tags": [
+      "driving"
+    ]
   },
   {
     "i": 41,
@@ -311,7 +343,9 @@
         "link": "https://www.youtube.com/watch?v=YYsEQ2vleiE"
       }
     ],
-    "tags": []
+    "tags": [
+      "segmentation"
+    ]
   },
   {
     "i": 40,
@@ -337,7 +371,9 @@
         "link": "https://guoyww.github.io/projects/SparseCtrl/assets/video/overview-30.mp4"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 39,
@@ -364,7 +400,8 @@
       }
     ],
     "tags": [
-      "city-super"
+      "city",
+      "reconstruction"
     ]
   },
   {
@@ -383,7 +420,9 @@
         "link": "https://virtualfilmstudio.github.io/projects/cinetransfer"
       }
     ],
-    "tags": []
+    "tags": [
+      "Movie"
+    ]
   },
   {
     "i": 37,
@@ -401,7 +440,10 @@
         "link": "https://github.com/zhenzhiwang/intercontrol"
       }
     ],
-    "tags": []
+    "tags": [
+      "human",
+      "motion"
+    ]
   },
   {
     "i": 36,
@@ -423,7 +465,9 @@
         "link": "https://github.com/zqh0253/BerfScene"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 35,
@@ -437,7 +481,9 @@
         "link": "https://arxiv.org/abs/2311.14960"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 34,
@@ -459,7 +505,9 @@
         "link": "https://github.com/Kevin-thu/DiffMorpher"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 33,
@@ -477,7 +525,9 @@
         "link": "https://huanngzh.github.io/EpiDiff/"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 32,
@@ -513,7 +563,9 @@
         "link": "https://github.com/OpenRobotLab/UniHSI"
       }
     ],
-    "tags": []
+    "tags": [
+      "human"
+    ]
   },
   {
     "i": 30,
@@ -536,7 +588,9 @@
       }
     ],
     "tags": [
-      "city-super"
+      "city",
+      "reconstruction",
+      "dataset"
     ]
   },
   {
@@ -551,7 +605,9 @@
         "link": "https://arxiv.org/abs/2308.15472"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 28,
@@ -573,7 +629,10 @@
         "link": "https://github.com/SheldonTsui/Matlaber"
       }
     ],
-    "tags": []
+    "tags": [
+      "material",
+      "generation"
+    ]
   },
   {
     "i": 27,
@@ -595,7 +654,9 @@
         "link": "https://github.com/XPixelGroup/DiffBIR"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 26,
@@ -613,7 +674,10 @@
         "link": "https://controllablemdm.github.io/"
       }
     ],
-    "tags": []
+    "tags": [
+      "motion",
+      "generation"
+    ]
   },
   {
     "i": 25,
@@ -635,7 +699,10 @@
         "link": "https://github.com/guoyww/animatediff/"
       }
     ],
-    "tags": []
+    "tags": [
+      "video",
+      "generation"
+    ]
   },
   {
     "i": 24,
@@ -654,7 +721,7 @@
       }
     ],
     "tags": [
-      "city-super"
+      "city"
     ]
   },
   {
@@ -677,7 +744,9 @@
         "link": "https://github.com/zhujiapeng/linkgan"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 22,
@@ -699,7 +768,9 @@
         "link": "https://www.youtube.com/embed/hHts2zWEbJ8?autoplay=0"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 21,
@@ -721,7 +792,9 @@
         "link": "https://github.com/DNA-Rendering/DNA-Rendering"
       }
     ],
-    "tags": []
+    "tags": [
+      "human"
+    ]
   },
   {
     "i": 20,
@@ -739,7 +812,10 @@
         "link": "https://mmlab-ntu.github.io/project/layersnet/index.html"
       }
     ],
-    "tags": []
+    "tags": [
+      "simulation",
+      "cloth"
+    ]
   },
   {
     "i": 19,
@@ -761,7 +837,10 @@
         "link": "https://www.youtube.com/watch?v=ogXpRB9zR9A"
       }
     ],
-    "tags": []
+    "tags": [
+      "human",
+      "dataset"
+    ]
   },
   {
     "i": 18,
@@ -787,7 +866,10 @@
         "link": "https://youtu.be/fYgVYGMLpnw"
       }
     ],
-    "tags": []
+    "tags": [
+      "human",
+      "generation"
+    ]
   },
   {
     "i": 17,
@@ -809,7 +891,9 @@
         "link": "https://github.com/wyhsirius/LEO"
       }
     ],
-    "tags": []
+    "tags": [
+      "human"
+    ]
   },
   {
     "i": 16,
@@ -831,7 +915,9 @@
         "link": "https://github.com/NIRVANALAN/E3DGE"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 15,
@@ -845,7 +931,9 @@
         "link": "https://arxiv.org/abs/2304.01999"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 14,
@@ -867,7 +955,9 @@
         "link": "https://github.com/Fayeben/GenerativeDiffusionPrior"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 13,
@@ -898,7 +988,8 @@
       }
     ],
     "tags": [
-      "city-super"
+      "city",
+      "reconstruction"
     ]
   },
   {
@@ -921,7 +1012,10 @@
         "link": "https://github.com/RenderMe-360/RenderMe-360"
       }
     ],
-    "tags": []
+    "tags": [
+      "human",
+      "avatar"
+    ]
   },
   {
     "i": 11,
@@ -936,7 +1030,10 @@
         "link": "https://arxiv.org/abs/2303.13129"
       }
     ],
-    "tags": []
+    "tags": [
+      "human",
+      "interaction"
+    ]
   },
   {
     "i": 10,
@@ -950,7 +1047,9 @@
         "link": "https://arxiv.org/abs/2303.10340"
       }
     ],
-    "tags": []
+    "tags": [
+      "driving"
+    ]
   },
   {
     "i": 9,
@@ -972,7 +1071,10 @@
         "link": "https://github.com/SLIDE-3D/SLIDE"
       }
     ],
-    "tags": []
+    "tags": [
+      "mesh",
+      "generation"
+    ]
   },
   {
     "i": 8,
@@ -990,7 +1092,9 @@
         "link": "https://virtualfilmstudio.github.io/"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 7,
@@ -1008,7 +1112,9 @@
         "link": "https://nirvanalan.github.io/projects/DDF/index.html"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 5,
@@ -1030,7 +1136,9 @@
         "link": "https://github.com/genforce/StyleSV"
       }
     ],
-    "tags": []
+    "tags": [
+      "video"
+    ]
   },
   {
     "i": 4,
@@ -1052,7 +1160,9 @@
         "link": "https://github.com/EzioBy/glead"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 3,
@@ -1075,7 +1185,7 @@
       }
     ],
     "tags": [
-      "city-super"
+      "city"
     ]
   },
   {
@@ -1098,7 +1208,9 @@
         "link": "https://github.com/genforce/dynamicd"
       }
     ],
-    "tags": []
+    "tags": [
+      "generation"
+    ]
   },
   {
     "i": 1,
@@ -1121,7 +1233,8 @@
       }
     ],
     "tags": [
-      "city-super"
+      "city",
+      "reconstruction"
     ]
   }
 ]
