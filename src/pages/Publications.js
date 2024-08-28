@@ -69,7 +69,7 @@ export default function PublicationPage() {
           {Object.keys(availableTagsAndCounts).map((tag) => {
             return (
               <Button
-                variant={selectedTag == tag ? "contained" : "outlined"}
+                variant={selectedTag === tag ? "contained" : "outlined"}
                 sx={{
                   marginX: 1,
                   marginY: 1,

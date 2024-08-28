@@ -1,10 +1,9 @@
-import { Container, Typography } from "@mui/material";
+import { Container } from "@mui/material";
 
 import ResponsivePublicationItem from "./PublicationItem";
 
 import recentPublicationsData from "../data/recent-publications.json";
 import publicationsData from "../data/publications.json";
-import { IndeterminateCheckBox } from "@mui/icons-material";
 
 // https://stackoverflow.com/questions/42118296/dynamically-import-images-from-a-directory-using-webpack
 function getFiles(r) {
@@ -23,7 +22,7 @@ export function PublicationList({ filter_tag }) {
     <Container maxWidth="lg">
       {publicationsData.map((item) => {
         if (
-          filter_tag == "all" ||
+          filter_tag === "all" ||
           (filter_tag && item.tags && item.tags.includes(filter_tag))
         ) {
           return (
