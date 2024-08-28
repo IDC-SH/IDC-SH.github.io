@@ -1,9 +1,10 @@
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 
 import ResponsivePublicationItem from "./PublicationItem";
 
 import recentPublicationsData from "../data/recent-publications.json";
 import publicationsData from "../data/publications.json";
+import { IndeterminateCheckBox } from "@mui/icons-material";
 
 // https://stackoverflow.com/questions/42118296/dynamically-import-images-from-a-directory-using-webpack
 function getFiles(r) {
@@ -17,19 +18,34 @@ const publicationImages = getFiles(
   require.context("../data/images-publications", false, /\.(png|jpe?g|svg)$/)
 );
 
-export function PublicationList() {
+export function PublicationList({filter_tag}) {
   return (
     <Container maxWidth="lg">
-      {publicationsData.map((item) => (
-        <ResponsivePublicationItem
-          key={item.i}
-          image={publicationImages[item.i]}
-          title={item.title}
-          publish={item.publish}
-          author={item.author}
-          links={item.links}
-        />
-      ))}
+      {publicationsData.map((item) => {
+        console.log(item.tags);
+        if (item.tags) {
+          console.log(item.tags[0]);
+        }
+
+        if (filter_tag && item.tags && item.tags.includes(filter_tag)) {
+          return (
+            <ResponsivePublicationItem
+              key={item.i}
+              image={publicationImages[item.i]}
+              title={item.title}
+              publish={item.publish}
+              author={item.author}
+              links={item.links}
+            />
+          );
+        } else {
+          return (
+            <>
+              {/* <Typography>[{item.i}] no content</Typography> */}
+            </>
+          );
+        }
+      })}
     </Container>
   );
 }

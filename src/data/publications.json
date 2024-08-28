@@ -1,4 +1,5 @@
-[{
+[
+  {
     "i": 54,
     "title": "Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text",
     "publish": "arXiv",
@@ -17,8 +18,11 @@
         "name": "Code",
         "link": "https://github.com/imlixinyang/Director3D"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
-  },  
+  },
   {
     "i": 53,
     "title": "RoomTex: Texturing Compositional Indoor Scenes via Iterative Inpainting",
@@ -38,8 +42,9 @@
         "name": "Code",
         "link": "https://github.com/qwang666/RoomTex-"
       }
-    ]
-  },  
+    ],
+    "tags": []
+  },
   {
     "i": 52,
     "title": "MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model",
@@ -63,50 +68,53 @@
         "name": "Video",
         "link": "https://www.youtube.com/watch?v=BhrGmJYaRE4"
       }
-    ]
-  }, 
+    ],
+    "tags": []
+  },
   {
-  "i": 51,
-  "title": "PACER+: On-Demand Pedestrian Animation Controller in Driving Scenarios",
-  "publish": "CVPR 2024",
-  "author": "Jingbo Wang, Zhengyi Luo, Ye Yuan, Yixuan Li, Bo Dai",
-  "image": "",
-  "links": [
-    {
-      "name": "Paper",
-      "link": "https://arxiv.org/abs/2404.19722"
-    },
-    {
-      "name": "Paper Page",
-      "link": "https://wangjingbo1219.github.io/papers/CVPR2024_PACER_PLUS/PACERPLUSPage.html"
-    },
-    {
-      "name": "Video",
-      "link": "https://youtu.be/Pq10Q_ZBOrw"
-    }
-  ]
-  }, 
+    "i": 51,
+    "title": "PACER+: On-Demand Pedestrian Animation Controller in Driving Scenarios",
+    "publish": "CVPR 2024",
+    "author": "Jingbo Wang, Zhengyi Luo, Ye Yuan, Yixuan Li, Bo Dai",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2404.19722"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://wangjingbo1219.github.io/papers/CVPR2024_PACER_PLUS/PACERPLUSPage.html"
+      },
+      {
+        "name": "Video",
+        "link": "https://youtu.be/Pq10Q_ZBOrw"
+      }
+    ],
+    "tags": []
+  },
   {
-  "i": 50,
-  "title": "TELA: Text to Layer-wise 3D Clothed Human Generation",
-  "publish": "arXiv",
-  "author": "Junting Dong, Qi Fang, Zehuan Huang, Xudong Xu, Jingbo Wang, Sida Peng, Bo Dai",
-  "image": "",
-  "links": [
-    {
-      "name": "Paper",
-      "link": "https://arxiv.org/abs/2404.16748"
-    },
-    {
-      "name": "Paper Page",
-      "link": "https://jtdong.com/tela_layer/"
-    },
-    {
-      "name": "Video",
-      "link": "https://youtu.be/gu_5jRskjps"
-    }
-  ]
-  }, 
+    "i": 50,
+    "title": "TELA: Text to Layer-wise 3D Clothed Human Generation",
+    "publish": "arXiv",
+    "author": "Junting Dong, Qi Fang, Zehuan Huang, Xudong Xu, Jingbo Wang, Sida Peng, Bo Dai",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2404.16748"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://jtdong.com/tela_layer/"
+      },
+      {
+        "name": "Video",
+        "link": "https://youtu.be/gu_5jRskjps"
+      }
+    ],
+    "tags": []
+  },
   {
     "i": 49,
     "title": "SemGrasp: Semantic Grasp Generation via Language Aligned Discretization",
@@ -122,8 +130,9 @@
         "name": "Paper Page",
         "link": "https://kailinli.github.io/SemGrasp/"
       }
-    ]
-  },   
+    ],
+    "tags": []
+  },
   {
     "i": 48,
     "title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
@@ -143,8 +152,9 @@
         "name": "Code",
         "link": "https://github.com/hehao13/CameraCtrl"
       }
-    ]
-  },   
+    ],
+    "tags": []
+  },
   {
     "i": 47,
     "title": "Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians",
@@ -164,8 +174,11 @@
         "name": "Code",
         "link": "https://github.com/city-super/Octree-GS"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
-  },   
+  },
   {
     "i": 46,
     "title": "GetMesh: A Controllable Model for High-quality Mesh Generation and Manipulation",
@@ -185,8 +198,9 @@
         "name": "Code",
         "link": "https://github.com/ZhaoyangLyu/GetMesh"
       }
-    ]
-  }, 
+    ],
+    "tags": []
+  },
   {
     "i": 45,
     "title": "GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction",
@@ -206,6 +220,9 @@
         "name": "Code",
         "link": "https://github.com/city-super/GSDF"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
   },
   {
@@ -231,8 +248,9 @@
         "name": "Video",
         "link": "https://www.youtube.com/watch?v=jNa0Gia8jVo&feature=youtu.be"
       }
-    ]
-  },   
+    ],
+    "tags": []
+  },
   {
     "i": 43,
     "title": "LN3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation",
@@ -252,8 +270,9 @@
         "name": "Code",
         "link": "https://github.com/NIRVANALAN/LN3Diff"
       }
-    ]
-  },   
+    ],
+    "tags": []
+  },
   {
     "i": 42,
     "title": "Generalized Predictive Model for Autonomous Driving",
@@ -265,8 +284,9 @@
         "name": "Paper",
         "link": "https://arxiv.org/abs/2403.09630"
       }
-    ]
-  },   
+    ],
+    "tags": []
+  },
   {
     "i": 41,
     "title": "EdgeSAM: Prompt-In-the-Loop Distillation for On-Device Deployment of SAM",
@@ -290,7 +310,8 @@
         "name": "Video",
         "link": "https://www.youtube.com/watch?v=YYsEQ2vleiE"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 40,
@@ -315,7 +336,8 @@
         "name": "Video",
         "link": "https://guoyww.github.io/projects/SparseCtrl/assets/video/overview-30.mp4"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 39,
@@ -340,6 +362,9 @@
         "name": "Video",
         "link": "https://city-super.github.io/scaffold-gs/static/images/output_video_numbered_compressed_two.mp4"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
   },
   {
@@ -357,7 +382,8 @@
         "name": "Paper Page",
         "link": "https://virtualfilmstudio.github.io/projects/cinetransfer"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 37,
@@ -374,7 +400,8 @@
         "name": "Code",
         "link": "https://github.com/zhenzhiwang/intercontrol"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 36,
@@ -395,7 +422,8 @@
         "name": "Code",
         "link": "https://github.com/zqh0253/BerfScene"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 35,
@@ -408,7 +436,8 @@
         "name": "Paper",
         "link": "https://arxiv.org/abs/2311.14960"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 34,
@@ -429,7 +458,8 @@
         "name": "Code",
         "link": "https://github.com/Kevin-thu/DiffMorpher"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 33,
@@ -446,7 +476,8 @@
         "name": "Paper Page",
         "link": "https://huanngzh.github.io/EpiDiff/"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 32,
@@ -459,7 +490,8 @@
         "name": "Paper",
         "link": "https://arxiv.org/abs/2309.10713"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 31,
@@ -480,7 +512,8 @@
         "name": "Code",
         "link": "https://github.com/OpenRobotLab/UniHSI"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 30,
@@ -501,6 +534,9 @@
         "name": "Data",
         "link": "https://openxlab.org.cn/datasets/bdaibdai/MatrixCity"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
   },
   {
@@ -514,7 +550,8 @@
         "name": "Paper",
         "link": "https://arxiv.org/abs/2308.15472"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 28,
@@ -535,7 +572,8 @@
         "name": "Code",
         "link": "https://github.com/SheldonTsui/Matlaber"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 27,
@@ -556,7 +594,8 @@
         "name": "Code",
         "link": "https://github.com/XPixelGroup/DiffBIR"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 26,
@@ -573,7 +612,8 @@
         "name": "Paper Page",
         "link": "https://controllablemdm.github.io/"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 25,
@@ -594,7 +634,8 @@
         "name": "Code",
         "link": "https://github.com/guoyww/animatediff/"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 24,
@@ -611,6 +652,9 @@
         "name": "Paper Page",
         "link": "https://city-super.github.io/assetfield/"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
   },
   {
@@ -632,7 +676,8 @@
         "name": "Code",
         "link": "https://github.com/zhujiapeng/linkgan"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 22,
@@ -653,7 +698,8 @@
         "name": "Video",
         "link": "https://www.youtube.com/embed/hHts2zWEbJ8?autoplay=0"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 21,
@@ -674,7 +720,8 @@
         "name": "Code",
         "link": "https://github.com/DNA-Rendering/DNA-Rendering"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 20,
@@ -691,7 +738,8 @@
         "name": "Paper Page",
         "link": "https://mmlab-ntu.github.io/project/layersnet/index.html"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 19,
@@ -712,7 +760,8 @@
         "name": "Video",
         "link": "https://www.youtube.com/watch?v=ogXpRB9zR9A"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 18,
@@ -737,7 +786,8 @@
         "name": "Video",
         "link": "https://youtu.be/fYgVYGMLpnw"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 17,
@@ -758,7 +808,8 @@
         "name": "Code",
         "link": "https://github.com/wyhsirius/LEO"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 16,
@@ -779,7 +830,8 @@
         "name": "Code",
         "link": "https://github.com/NIRVANALAN/E3DGE"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 15,
@@ -792,7 +844,8 @@
         "name": "Paper",
         "link": "https://arxiv.org/abs/2304.01999"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 14,
@@ -813,7 +866,8 @@
         "name": "Code",
         "link": "https://github.com/Fayeben/GenerativeDiffusionPrior"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 13,
@@ -842,6 +896,9 @@
         "name": "News",
         "link": "https://www.shlab.org.cn/news/5443429"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
   },
   {
@@ -863,7 +920,8 @@
         "name": "Code",
         "link": "https://github.com/RenderMe-360/RenderMe-360"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 11,
@@ -877,7 +935,8 @@
         "name": "Paper",
         "link": "https://arxiv.org/abs/2303.13129"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 10,
@@ -890,7 +949,8 @@
         "name": "Paper",
         "link": "https://arxiv.org/abs/2303.10340"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 9,
@@ -911,7 +971,8 @@
         "name": "Code",
         "link": "https://github.com/SLIDE-3D/SLIDE"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 8,
@@ -928,7 +989,8 @@
         "name": "Paper Page",
         "link": "https://virtualfilmstudio.github.io/"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 7,
@@ -945,7 +1007,8 @@
         "name": "Paper Page",
         "link": "https://nirvanalan.github.io/projects/DDF/index.html"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 5,
@@ -966,7 +1029,8 @@
         "name": "Code",
         "link": "https://github.com/genforce/StyleSV"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 4,
@@ -987,7 +1051,8 @@
         "name": "Code",
         "link": "https://github.com/EzioBy/glead"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 3,
@@ -1008,6 +1073,9 @@
         "name": "Code",
         "link": "https://github.com/sysu-lwj-lab/OmniCity-v1.0"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
   },
   {
@@ -1029,7 +1097,8 @@
         "name": "Code",
         "link": "https://github.com/genforce/dynamicd"
       }
-    ]
+    ],
+    "tags": []
   },
   {
     "i": 1,
@@ -1050,6 +1119,9 @@
         "name": "Code",
         "link": "https://github.com/city-super/BungeeNeRF"
       }
+    ],
+    "tags": [
+      "city-super"
     ]
   }
 ]
