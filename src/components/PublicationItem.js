@@ -17,7 +17,15 @@ import CodeIcon from "@mui/icons-material/Code";
 import VideocamIcon from "@mui/icons-material/Videocam";
 import AdsClickIcon from "@mui/icons-material/AdsClick";
 
-function PublicationItem({ isMobile, image, title, publish, author, links }) {
+function PublicationItem({
+  isMobile,
+  image,
+  title,
+  publish,
+  author,
+  links,
+  tags,
+}) {
   // https://mui.com/material-ui/react-button/#customization
   const ColorButton = styled(Button)(({ theme }) => ({
     color: "white",
@@ -104,6 +112,9 @@ function PublicationItem({ isMobile, image, title, publish, author, links }) {
             </Grid>
           ))}
         </Grid>
+        <Typography variant="caption" sx={{ marginBottom: 1 }}>
+          tags: {tags.join(", ")}
+        </Typography>
       </CardContent>
     </Card>
   );
@@ -115,6 +126,7 @@ export default function ResponsivePublicationItem({
   publish,
   author,
   links,
+  tags,
 }) {
   return (
     <>
@@ -126,6 +138,7 @@ export default function ResponsivePublicationItem({
           publish={publish}
           author={author}
           links={links}
+          tags={tags}
         />
       </MediaQuery>
       <MediaQuery minWidth={1024}>
@@ -136,6 +149,7 @@ export default function ResponsivePublicationItem({
           publish={publish}
           author={author}
           links={links}
+          tags={tags}
         />
       </MediaQuery>
     </>

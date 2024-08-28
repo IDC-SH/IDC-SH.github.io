@@ -33,6 +33,7 @@ export function PublicationList({ filter_tag }) {
               publish={item.publish}
               author={item.author}
               links={item.links}
+              tags={item.tags}
             />
           );
         } else {
@@ -56,6 +57,7 @@ export function RecentPublicationList() {
             publish={item.publish}
             author={item.author}
             links={item.links}
+            tags={item.tags}
           />
         );
       })}
