@@ -1,5 +1,51 @@
 [
   {
+    "i": 56,
+    "title": "FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering",
+    "publish": "arXiv",
+    "author": "Guofeng Feng, Siyan Chen, Rong Fu, Zimu Liao, Yi Wang, Tao Liu, Zhilin Pei, Hengjie Li, Xingcheng Zhang, Bo Dai",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2408.07967"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/InternLandMark/FlashGS"
+      }
+    ],
+    "tags": [
+      "city",
+      "acceleration"
+    ]
+  },
+  {
+    "i": 55,
+    "title": "HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation",
+    "publish": "arXiv",
+    "author": "Zhenzhi Wang, Yixuan Li, Yanhong Zeng, Youqing Fang, Yuwei Guo, Wenran Liu, Jing Tan, Kai Chen, Tianfan Xue, Bo Dai, Dahua Lin",
+    "image": "",
+    "links": [
+      {
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2407.17438"
+      },
+      {
+        "name": "Paper Page",
+        "link": "https://humanvid.github.io"
+      },
+      {
+        "name": "Code",
+        "link": "https://github.com/zhenzhiwang/HumanVid/"
+      }
+    ],
+    "tags": [
+      "human",
+      "camera"
+    ]
+  },
+  {
     "i": 54,
     "title": "Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text",
     "publish": "arXiv",
@@ -21,7 +67,8 @@
     ],
     "tags": [
       "scene",
-      "generation"
+      "generation",
+      "camera"
     ]
   },
   {
@@ -197,7 +244,9 @@
     ],
     "tags": [
       "city",
-      "reconstruction"
+      "reconstruction",
+      "lod",
+      "real-time rendering"
     ]
   },
   {
@@ -248,7 +297,8 @@
     "tags": [
       "city",
       "reconstruction",
-      "mesh"
+      "mesh",
+      "geometry"
     ]
   },
   {
@@ -401,7 +451,9 @@
     ],
     "tags": [
       "city",
-      "reconstruction"
+      "reconstruction",
+      "real-time rendering",
+      "neural "
     ]
   },
   {

@@ -195,6 +195,14 @@ export default function HomePage() {
       <DoubleColorTitle title={"Latest News"} />
 
       <NewsItem
+        time={"08/2024"}
+        title={
+          "LandMark 3.0 is coming! Check the news at https://mp.weixin.qq.com/s/WlLED3Xi8DNr6E1ouE9FZQ."
+        }
+        link={"https://mp.weixin.qq.com/s/WlLED3Xi8DNr6E1ouE9FZQ"}
+      />
+
+      <NewsItem
         time={"04/2024"}
         title={
           "LandMark 2.0 is coming! Check the news at shlab.org.cn/news/5443886."
